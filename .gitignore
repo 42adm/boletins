@@ -1,0 +1,4 @@
+boletins/*/stories/
+boletins/*/previa/
+__pycache__/
+*.part.mp4

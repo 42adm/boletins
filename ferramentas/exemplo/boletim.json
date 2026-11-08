@@ -1,0 +1,74 @@
+{
+  "data_extenso": "Sexta-feira, 6 de novembro de 2026",
+  "saudacao": "Bom dia e boa sexta! ☀️ Fechamos a semana com os juros, os preços do campo e um alerta sobre clientes que atrasam pagamento. Leitura rápida para começar o dia.",
+  "resumo": [
+    "O Banco Central <b>manteve os juros em 13,75% ao ano</b> e parou de cortar. Crédito segue caro até, pelo menos, dezembro.",
+    "O <b>dólar subiu</b> e fechou ontem em <b>R$ 5,48</b>.",
+    "<b>Empresas com contas atrasadas</b> bateram recorde: 9,3 milhões. Hora de cuidar da cobrança antes da Black Friday (27/11).",
+    "No <b>Vale do Araguaia</b>, a soja ficou em <b>R$ 131,25</b> em Canarana, cerca de <b>R$ 27 abaixo do porto</b>. O boi ficou perto de <b>R$ 358/@</b> em Barra do Garças e Vila Rica."
+  ],
+  "secoes": [
+    {
+      "tag": "ECONOMIA",
+      "titulo": "Juros parados, dólar em alta",
+      "cards": [
+        {"rotulo": "Juros básicos (Selic)", "valor": "13,75%", "sub": "ao ano · mantidos em 4/11", "cor": "escuro"},
+        {"rotulo": "Dólar (fechamento 5/11)", "valor": "R$ 5,48", "sub": "subiu 0,67% no dia", "cor": "vermelho"},
+        {"rotulo": "Inflação esperada em 2026", "valor": "5,22%", "sub": "acima do limite de 4,5%", "cor": "vermelho"},
+        {"rotulo": "Próxima decisão dos juros", "valor": "9/12", "sub": "última reunião do ano", "cor": "escuro"}
+      ],
+      "texto": "Depois de cinco cortes seguidos, o Banco Central decidiu, por unanimidade, <b>não mexer na Selic</b> (os juros básicos do país). Ele citou o dólar mais alto e o El Niño, que pode encarecer alimentos. Ontem o dólar subiu e a bolsa caiu 0,82%, puxada pela queda das bolsas nos EUA. Às 6h o mercado ainda não abriu: os números acima são do fechamento de quinta (5/11).",
+      "pratica": "não conte com empréstimo mais barato tão cedo. Se precisar de crédito, compare taxas em mais de um banco e prefira prazos que caibam no caixa. Quem compra insumos ou mercadorias importadas deve negociar preço e prazo agora."
+    },
+    {
+      "tag": "IMPOSTOS",
+      "titulo": "Imposto novo de 2027 vai a debate no Senado",
+      "blocos": [
+        {"titulo": "O que aconteceu", "texto": "A comissão de economia do Senado aprovou uma <b>audiência pública</b> para discutir a CBS, o imposto que substitui o PIS e a Cofins em janeiro de 2027. O TCU (órgão que fiscaliza as contas do governo) calculou a taxa em <b>11,3%</b>. O Senado tem até <b>15/12</b> para decidir (pode ir até 22/12). Se não votar, vale provisoriamente o número do TCU."}
+      ],
+      "pratica": "o número ainda pode mudar, mas o calendário não. Monte os preços e o orçamento de 2027 com 11,3% como referência e ajuste depois."
+    },
+    {
+      "tag": "EMPRESÁRIO",
+      "titulo": "Cliente atrasando? Cuide da cobrança agora",
+      "blocos": [
+        {"titulo": "Recorde de empresas devendo", "texto": "Segundo a Serasa, <b>9,3 milhões de empresas</b> estavam com contas atrasadas em agosto, 14,3% a mais que um ano antes."},
+        {"titulo": "Feirão Limpa Nome até 6/12", "texto": "A Serasa abriu o feirão com descontos de até 99% para quem quer quitar dívidas. É uma boa janela para negociar com os seus clientes que estão devendo."}
+      ],
+      "pratica": "liste hoje quem está devendo e há quanto tempo. Ofereça um acordo simples para receber ainda em novembro e dezembro."
+    },
+    {
+      "tag": "CAMPO",
+      "titulo": "Safra e preços pelo Brasil",
+      "texto": "O plantio de soja em Mato Grosso chegou a <b>89%</b> da área no último boletim do Imea, de 30/10. Veja os preços do fechamento de quinta (5/11):",
+      "tabela": {
+        "colunas": ["Região · praça", "", "Soja (R$/saca)", "Milho (R$/saca)", "Boi (R$/@)"],
+        "linhas": [
+          {"regiao": "REFERÊNCIA", "praca": "Paranaguá (porto) · boi SP", "valores": ["158,53", "69,00*", "390,85*"]},
+          {"regiao": "CENTRO-OESTE", "praca": "Sorriso (MT) · boi Cuiabá", "valores": ["134,55", "42,70*", "362,00"]},
+          {"regiao": "VALE DO ARAGUAIA", "praca": "Canarana (MT)", "valores": ["131,25", "43,70*", "–"], "destaque": true},
+          {"regiao": "VALE DO ARAGUAIA", "praca": "Barra do Garças (MT)", "valores": ["–", "–", "357,92"], "destaque": true}
+        ],
+        "nota": "Saca de 60 kg; @ = arroba (15 kg). Fontes: Cepea/Esalq, Imea, via Notícias Agrícolas. * = preço de 4/11/2026."
+      },
+      "pratica_rotulo": "Para o produtor do Araguaia:",
+      "pratica": "a soja em Canarana vale cerca de <b>R$ 27 a menos por saca</b> que no porto. Antes de fechar venda, peça cotação a mais de um comprador e compare o valor líquido (já descontado o frete)."
+    }
+  ],
+  "prazos": [
+    {"data": "27/11", "texto": "Black Friday"},
+    {"data": "30/11", "texto": "1ª parte do 13º"},
+    {"data": "9/12", "texto": "decisão dos juros"},
+    {"data": "15/12", "texto": "Senado decide a CBS"},
+    {"data": "18/12", "texto": "2ª parte do 13º"}
+  ],
+  "dica": "antes de dar desconto na Black Friday, faça a conta da margem. Se um produto de R$ 100 custa R$ 70, sobram R$ 30. Com 20% de desconto, sobram só R$ 10: você precisa vender <b>3 vezes mais</b> para ganhar o mesmo.",
+  "promo": {"titulo": "Planejamento 2027: comece dezembro com ele pronto", "texto": "Montamos com você o balanço de 2026, as metas, o orçamento mês a mês e o efeito do imposto novo. Condição especial para clientes."},
+  "chamada": "Empresário, venda boa é venda que vira dinheiro no caixa.",
+  "rodape": "Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico. Dólar e preços: fechamento de 5/11/2026 (* = 4/11).",
+  "fontes": [
+    {"titulo": "Sou Brasília: Copom mantém a Selic", "url": "https://example.com/1"},
+    {"titulo": "Metrópoles: dólar e bolsa em 5/11", "url": "https://example.com/2"},
+    {"titulo": "Notícias Agrícolas: soja, milho e boi", "url": "https://example.com/3"}
+  ]
+}

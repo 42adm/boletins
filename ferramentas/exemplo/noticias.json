@@ -1,0 +1,47 @@
+{
+  "date": "06 · 11 · 2026",
+  "data_curta": "06/11",
+  "noticias": [
+    {
+      "id": "01-juros-dolar",
+      "tag": "ECONOMIA",
+      "kicker": "Fechamento de quinta · 5/11",
+      "headline": "Juros parados e <em>dólar em alta</em>",
+      "stats": [
+        {
+          "value": 13.75,
+          "decimals": 2,
+          "suffix": "%",
+          "label": "Selic mantida"
+        },
+        {
+          "value": 5.48,
+          "decimals": 2,
+          "label": "dólar em R$, +0,67% no dia"
+        }
+      ],
+      "note": "Próxima decisão dos juros: 9/12",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Precisa de crédito? Compare taxas em mais de um banco. Compra importados? Negocie preço e prazo agora.",
+      "whatsapp": "*Juros parados e dólar em alta* 📊\n\nO Banco Central manteve a Selic em *13,75% ao ano* e parou os cortes. O dólar fechou quinta (5/11) a *R$ 5,48*, alta de 0,67%. A próxima decisão dos juros é em *9/12*.\n\n👉 *Na prática:* não conte com empréstimo mais barato tão cedo. Compare taxas em mais de um banco e, se compra importados, negocie preço e prazo agora.\n\n_Boletim Matinal 42 ADM · 06/11_"
+    },
+    {
+      "id": "05-araguaia",
+      "tag": "CAMPO",
+      "kicker": "Vale do Araguaia · fechamento 5/11",
+      "headline": "Soja em Canarana segue <em>R$ 27 abaixo</em> do porto",
+      "stats": [
+        {
+          "value": 131.25,
+          "decimals": 2,
+          "prefix": "R$ ",
+          "label": "a saca de 60 kg em Canarana (MT)"
+        }
+      ],
+      "note": "Boi perto de R$ 358/@ no Araguaia",
+      "takeLabel": "PARA O PRODUTOR",
+      "take": "Peça cotação a mais de um comprador, compare o valor líquido (já sem o frete) e venda em lotes.",
+      "whatsapp": "*Soja em Canarana segue R$ 27 abaixo do porto* 🌱\n\nNo fechamento de 5/11, a saca de soja ficou em *R$ 131,25* em Canarana. O boi ficou perto de *R$ 358/@* em Barra do Garças e Vila Rica.\n\n👉 *Para o produtor:* peça cotação a mais de um comprador, compare o valor líquido (já sem o frete) e venda em lotes.\n\n_Boletim Matinal 42 ADM · 06/11_"
+    }
+  ]
+}

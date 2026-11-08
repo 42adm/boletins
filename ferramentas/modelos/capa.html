@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'Inter',sans-serif;color:#fff;position:relative;background:linear-gradient(160deg,#1C3D7A 0%,#132d5f 55%,#0b1c40 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 2px,transparent 2px),linear-gradient(90deg,rgba(255,255,255,.045) 2px,transparent 2px);background-size:90px 90px}
+.blob{position:absolute;width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(153,202,60,.26) 0%,rgba(153,202,60,0) 65%);left:380px;top:-300px}
+.ring{position:absolute;width:1200px;height:1200px;border-radius:50%;border:3px solid rgba(255,255,255,.06);left:-720px;bottom:-760px}
+.top{position:absolute;top:80px;left:90px;right:90px;display:flex;align-items:center;justify-content:space-between}
+.top img{height:120px}
+.ed{text-align:right;font-weight:600;font-size:30px;letter-spacing:.06em;color:rgba(255,255,255,.75);line-height:1.35}
+.ed b{display:block;color:#99CA3C;font-size:34px;letter-spacing:.08em}
+.content{position:absolute;left:90px;right:90px;top:240px;bottom:170px;display:flex;flex-direction:column;justify-content:center}
+.tagrow{display:flex;align-items:center;gap:22px;margin-bottom:34px}
+.tag{background:#99CA3C;color:#0d2149;font-family:'Poppins';font-weight:700;font-size:34px;letter-spacing:.12em;padding:12px 28px 8px;border-radius:12px}
+.kicker{font-size:30px;font-weight:500;color:rgba(255,255,255,.8)}
+h1{font-family:'Poppins';font-weight:700;font-size:100px;line-height:1.08;letter-spacing:-.01em}
+h1 em{font-style:normal;color:#99CA3C}
+.stats{display:flex;gap:44px;margin-top:70px}
+.stat{flex:1;position:relative;padding-left:34px}
+.stat::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:10px;border-radius:5px;background:#99CA3C}
+.num{font-family:'Poppins';font-weight:700;font-size:150px;line-height:1;letter-spacing:-.03em;white-space:nowrap}
+.two .num{font-size:120px}
+.lbl{font-size:34px;font-weight:500;color:rgba(255,255,255,.82);margin-top:8px}
+.foot{position:absolute;left:90px;right:90px;bottom:70px;display:flex;justify-content:space-between;font-size:30px;font-weight:600;color:rgba(255,255,255,.78);border-top:3px solid rgba(255,255,255,.15);padding-top:28px}
+.foot b{color:#99CA3C}
+</style></head><body>
+<div class="grid"></div><div class="blob"></div><div class="ring"></div>
+<div class="top"><img src="logo.png"><div class="ed"><b>BOLETIM MATINAL</b><span id="date"></span></div></div>
+<div class="content">
+  <div class="tagrow"><div class="tag" id="tag"></div><div class="kicker" id="kicker"></div></div>
+  <h1 id="h1"></h1>
+  <div class="stats" id="stats"></div>
+</div>
+<div class="foot"><span>Siga <b>@42_adm</b></span><span>42adm.com</span></div>
+<script>
+const fmt=(x,d)=>x.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
+window.setup=function(c){
+  date.textContent=c.date; tag.textContent=c.tag; kicker.textContent=c.kicker; h1.innerHTML=c.headline;
+  if(c.stats.length>1) stats.classList.add('two');
+  c.stats.forEach(s=>{const d=document.createElement('div');d.className='stat';
+    const v=s.text||((s.prefix||'')+fmt(s.value,s.decimals)+(s.suffix||''));
+    d.innerHTML='<div class="num"></div><div class="lbl"></div>';d.querySelector('.num').textContent=v;d.querySelector('.lbl').textContent=s.label;stats.appendChild(d);});
+};
+</script></body></html>
