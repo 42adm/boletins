@@ -53,7 +53,8 @@ def readme():
         a, m, dd = d.split("-")
         base = f"https://github.com/{REPO}/blob/main/boletins/{d}"
         linhas.append(f"| {dd}/{m}/{a} | [abrir]({SITE}/boletins/{d}/) | [PDF]({base}/boletim-42adm-{d}.pdf) | "
-                      f"[release](https://github.com/{REPO}/releases/tag/{d}) | [textos]({base}/whatsapp/textos.md) |")
+                      + (f"[release](https://github.com/{REPO}/releases/tag/{d}) | [textos]({base}/whatsapp/textos.md) |"
+                         if os.path.exists(os.path.join(RAIZ, "boletins", d, "whatsapp", "textos.md")) else "— | — |"))
     linhas += ["", "_Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico._", ""]
     open(os.path.join(RAIZ, "README.md"), "w", encoding="utf-8").write("\n".join(linhas))
 
