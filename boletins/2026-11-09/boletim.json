@@ -1,0 +1,212 @@
+{
+  "data_extenso": "Segunda-feira, 9 de novembro de 2026",
+  "saudacao": "Bom dia e boa segunda! ☀️ Semana de inflação, imposto novo no Senado e boi em recorde.",
+  "resumo": [
+    "<b>Dólar a R$ 5,51</b> (+0,36%) e bolsa +1,39% na sexta. Selic em <b>13,75%</b> até, pelo menos, <b>9/12</b>.",
+    "Amanhã (10/11) o Senado debate a <b>CBS</b>, o imposto novo de 2027, calculada pelo TCU em <b>11,3%</b>.",
+    "<b>84,2 milhões de brasileiros</b> com contas atrasadas, recorde. Feirão Limpa Nome até <b>6/12</b>.",
+    "Boi em <b>recorde: R$ 392,70/@</b> em SP e <b>R$ 361/@</b> em Barra do Garças. Soja em Canarana: <b>R$ 131,45</b>."
+  ],
+  "secoes": [
+    {
+      "tag": "ECONOMIA",
+      "titulo": "Juros parados, dólar acima de R$ 5,50",
+      "cards": [
+        {
+          "rotulo": "Juros básicos (Selic)",
+          "valor": "13,75%",
+          "sub": "ao ano · mantidos em 4/11",
+          "cor": "escuro"
+        },
+        {
+          "rotulo": "Dólar (fechamento 6/11)",
+          "valor": "R$ 5,51",
+          "sub": "subiu 0,36% no dia",
+          "cor": "vermelho"
+        },
+        {
+          "rotulo": "Inflação esperada em 2026",
+          "valor": "5,22%",
+          "sub": "Focus de 3/11 · teto é 4,5%",
+          "cor": "vermelho"
+        },
+        {
+          "rotulo": "Inflação de outubro (IPCA)",
+          "valor": "12/11",
+          "sub": "sai na quinta-feira",
+          "cor": "azul"
+        }
+      ],
+      "texto": "A bolsa subiu <b>1,39%</b> e teve a primeira semana positiva depois de três quedas. O dólar subiu com o emprego forte nos EUA. No Focus de 3/11, o mercado espera a <b>Selic em 13,50% no fim do ano</b>; hoje sai um Focus novo.",
+      "pratica": "crédito continua caro: troque dívida cara antes de pegar empréstimo novo. Compra em dólar? Feche o preço com o fornecedor antes de repassar."
+    },
+    {
+      "tag": "IMPOSTOS",
+      "titulo": "CBS de 11,3% chega ao Senado amanhã",
+      "blocos": [
+        {
+          "titulo": "O que acontece nesta terça (10/11)",
+          "texto": "O TCU entrega ao Senado o cálculo da <b>CBS</b> (substitui PIS e Cofins em 2027): <b>11,3%</b>, acima dos 9,21% estimados antes. O Senado tem até <b>15/12</b> para decidir; se não votar, vale 11,3%."
+        }
+      ],
+      "pratica": "simule preços e orçamento de 2027 com 11,3% e revise em dezembro."
+    },
+    {
+      "tag": "EMPRESÁRIO",
+      "titulo": "Consumidor endividado antes da Black Friday",
+      "blocos": [
+        {
+          "titulo": "Recorde de inadimplência",
+          "texto": "Segundo a Serasa, <b>84,2 milhões de pessoas</b> (51,1% dos adultos) estavam com contas atrasadas em setembro, somando <b>R$ 597,4 bilhões</b>."
+        },
+        {
+          "titulo": "Feirão Limpa Nome até 6/12",
+          "texto": "Mais de 3.300 empresas dão descontos de até 99%. Boa hora para os seus clientes devedores acertarem as contas."
+        }
+      ],
+      "pratica": "na Black Friday (27/11), cuidado com fiado e parcelado longo para quem já atrasa. Para quem deve, proponha acordo agora."
+    },
+    {
+      "tag": "CAMPO",
+      "titulo": "Plantio quase no fim e boi em recorde",
+      "texto": "Plantio de soja em MT: <b>96%</b> da área até 6/11 (Imea), à frente do ano passado. O boi bateu <b>R$ 392,70/@</b> em SP (Cepea), recorde nominal. Preços de sexta (6/11):",
+      "tabela": {
+        "colunas": [
+          "Região · praça",
+          "",
+          "Soja (R$/saca)",
+          "Milho (R$/saca)",
+          "Boi (R$/@)"
+        ],
+        "linhas": [
+          {
+            "regiao": "REFERÊNCIA",
+            "praca": "Paranaguá (porto) · boi SP",
+            "valores": [
+              "158,52",
+              "–",
+              "392,70"
+            ]
+          },
+          {
+            "regiao": "CENTRO-OESTE",
+            "praca": "Sorriso (MT) · milho Lucas · boi Sinop",
+            "valores": [
+              "134,85",
+              "41,30",
+              "362,22"
+            ]
+          },
+          {
+            "regiao": "VALE DO ARAGUAIA",
+            "praca": "Canarana (MT)",
+            "valores": [
+              "131,45",
+              "42,70",
+              "–"
+            ],
+            "destaque": true
+          },
+          {
+            "regiao": "VALE DO ARAGUAIA",
+            "praca": "Barra do Garças (MT)",
+            "valores": [
+              "–",
+              "–",
+              "361,06"
+            ],
+            "destaque": true
+          },
+          {
+            "regiao": "VALE DO ARAGUAIA",
+            "praca": "Vila Rica (MT)",
+            "valores": [
+              "–",
+              "–",
+              "360,65"
+            ],
+            "destaque": true
+          }
+        ],
+        "nota": "Saca de 60 kg; @ = arroba (15 kg). Fontes: Cepea/Esalq e Imea, via Notícias Agrícolas."
+      },
+      "pratica_rotulo": "Para o produtor do Araguaia:",
+      "pratica": "a soja em Canarana vale <b>R$ 27 a menos por saca</b> que no porto. Boi em recorde: avalie vender os prontos."
+    }
+  ],
+  "prazos": [
+    {
+      "data": "12/11",
+      "texto": "IPCA de outubro"
+    },
+    {
+      "data": "27/11",
+      "texto": "Black Friday"
+    },
+    {
+      "data": "30/11",
+      "texto": "1ª parte do 13º"
+    },
+    {
+      "data": "9/12",
+      "texto": "Copom"
+    },
+    {
+      "data": "15/12",
+      "texto": "CBS no Senado"
+    }
+  ],
+  "dica": "a 1ª parte do 13º (metade do salário) vence em <b>30/11</b>. Folha de R$ 20 mil = <b>R$ 10 mil</b> no fim do mês: guarde R$ 2.500 por semana desde já.",
+  "promo": {
+    "titulo": "Fluxo de caixa de fim de ano sem susto",
+    "texto": "Previsão de dezembro (13º, impostos, Black Friday) e orçamento 2027 com a CBS."
+  },
+  "chamada": "Empresário, dezembro se planeja em novembro.",
+  "rodape": "Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico. Dados: fechamento de 6/11/2026; Focus de 3/11/2026.",
+  "fontes": [
+    {
+      "titulo": "InfoMoney: mercado em 6/11",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/"
+    },
+    {
+      "titulo": "Agência Brasil: Focus",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-para-inflacao-juros-e-dolar-em-2026"
+    },
+    {
+      "titulo": "Rankia: calendário Copom",
+      "url": "https://rankia.com.br/proxima-reuniao-copom/"
+    },
+    {
+      "titulo": "Ativo Virtual: agenda da semana",
+      "url": "https://www.ativovirtual.com.br/avnews/artigos/ipca-de-outubro-e-cpi-dos-eua-lideram-agenda-economica-da-semana"
+    },
+    {
+      "titulo": "Tribuna do Sertão: CBS no Senado",
+      "url": "https://www.tribunadosertao.com.br/politica/2026/11/03/1012382-senado-recebera-calculo-da-cbs-na-proxima-terca-para-definir-aliquota"
+    },
+    {
+      "titulo": "DGABC: Serasa",
+      "url": "https://www.dgabc.com.br/Noticia/4366635/com-recorde-de-inadimplentes-serasa-inicia-maior-feirao-limpa-nome-da-historia"
+    },
+    {
+      "titulo": "Muvuca Popular: plantio (Imea)",
+      "url": "https://www.muvucapopular.com.br/2026/11/08/semeadura-da-soja-alcanca-96-da-area-em-mato-grosso/"
+    },
+    {
+      "titulo": "Farmnews: boi recorde",
+      "url": "https://www.farmnews.com.br/mercado/preco-do-boi-gordo-encerra-1a-semana-de-novembro-com-novo-recorde/"
+    },
+    {
+      "titulo": "N. Agrícolas: soja Cepea",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua"
+    },
+    {
+      "titulo": "N. Agrícolas: soja e milho Imea",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-disponivel-imea"
+    },
+    {
+      "titulo": "N. Agrícolas: boi Imea",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo/boi-a-vista-imea"
+    }
+  ]
+}
