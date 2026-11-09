@@ -1,6 +1,11 @@
 """Gera o PDF do Boletim Matinal 42 ADM a partir de um boletim.json.
 
-Uso: python3 ferramentas/boletim.py boletins/AAAA-MM-DD/boletim.json boletins/AAAA-MM-DD/boletim.pdf
+Uso: python3 ferramentas/boletim.py boletins/AAAA-MM-DD/boletim.json boletins/AAAA-MM-DD/boletim-42adm-AAAA-MM-DD.pdf
+
+Gera duas saídas na pasta do dia:
+- index.html: o boletim como página de internet (publicada no GitHub Pages), com botão "Exportar PDF";
+- o PDF (A4), que é o arquivo baixado pelo botão e usado na release/WhatsApp.
+Use --sem-pdf para gerar só o HTML (o botão então abre a impressão do navegador para salvar em PDF).
 
 Formato do boletim.json (textos podem ter <b>negrito</b>; nada de outras tags):
 {
@@ -66,7 +71,7 @@ def secao(s):
             cls = ' class="dest"' if r.get("destaque") else ""
             rows += (f'<tr{cls}><td class="rg">{t(r.get("regiao", ""))}</td><td>{t(r.get("praca", ""))}</td>'
                      + "".join(f'<td class="n">{t(v)}</td>' for v in r["valores"]) + "</tr>")
-        out.append(f'<table><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table>')
+        out.append(f'<div class="tw"><table><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>')
         if tb.get("nota"):
             out.append(f'<p class="nota">{t(tb["nota"])}</p>')
     if s.get("pratica"):
@@ -92,14 +97,14 @@ if d.get("prazos"):
 dica = f'<div class="dica"><b>Dica financeira do dia:</b> {t(d["dica"])}</div>' if d.get("dica") else ""
 promo = ""
 if d.get("promo"):
-    promo = (f'<div class="promo"><img src="data:image/png;base64,{logo}"><div><h3>{t(d["promo"]["titulo"])}</h3>'
+    promo = (f'<div class="promo"><img src="__LOGO__"><div><h3>{t(d["promo"]["titulo"])}</h3>'
              f'<p>{t(d["promo"]["texto"])}</p></div></div>')
 fontes = ""
 if d.get("fontes"):
     fontes = '<ol class="fontes">' + "".join(
         f'<li><a href="{html.escape(f["url"])}">{t(f["titulo"])}</a></li>' for f in d["fontes"]) + "</ol>"
 
-doc = f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><style>
+CSS = f"""
 @page {{ size: A4; margin: 12mm 10mm 12mm 10mm; }}
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{ font-family: 'Inter', sans-serif; color: #1f2937; font-size: 9.6pt; line-height: 1.38; }}
@@ -159,8 +164,10 @@ tr.dest td {{ background: #f3f7e8; }}
 .rod {{ font-size: 7.8pt; color: #6b7280; margin-top: 10px; border-top: 1px solid #e5e7eb; padding-top: 6px; }}
 .fontes {{ columns: 3; font-size: 7.6pt; color: #4b5563; margin: 4px 0 0 14px; }}
 .fontes a {{ color: #4b5563; }}
-</style></head><body>
-<div class="hero"><div class="top"><img src="data:image/png;base64,{logo}"><div class="tt"><h1>Boletim Matinal</h1><div class="dt">{t(d["data_extenso"])}</div></div></div>
+"""
+
+BODY = f"""
+<div class="hero"><div class="top"><img src="__LOGO__"><div class="tt"><h1>Boletim Matinal</h1><div class="dt">{t(d["data_extenso"])}</div></div></div>
 <p>{t(d.get("saudacao", ""))}</p></div>
 <div class="resumo"><h2>RESUMO RÁPIDO</h2><ul>{"".join(f"<li>{t(r)}</li>" for r in d.get("resumo", []))}</ul></div>
 {corpo}{prazos}{dica}{promo}
@@ -172,13 +179,126 @@ tr.dest td {{ background: #f3f7e8; }}
 <p style="margin-top:6px;color:#4b5563;font-size:9pt">Chame no WhatsApp ou responda esta mensagem para falar com a nossa equipe.</p></div>
 <div class="rod">{t(d.get("rodape", "Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico."))}</div>
 {fontes}
-</body></html>"""
+"""
 
-with sync_playwright() as p:
-    b = p.chromium.launch()
-    pg = b.new_page()
-    pg.set_content(doc, wait_until="load")
-    pg.evaluate("document.fonts.ready")
-    pg.pdf(path=saida, format="A4", print_background=True, prefer_css_page_size=True)
-    b.close()
-print("ok", saida)
+WEB_CSS = """
+@media screen {
+  html { background: #eef1f6; }
+  body { font-size: 16px; line-height: 1.6; }
+  .barra { position: sticky; top: 0; z-index: 10; background: #0b1c40; color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+  .barra .in { max-width: 920px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 12px; }
+  .barra img { height: 34px; }
+  .barra .nm { font-weight: 700; font-size: 15px; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .barra a { color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; }
+  .barra .voltar { opacity: .85; }
+  .barra .voltar:hover { opacity: 1; }
+  .btn-pdf { background: #99CA3C; color: #0b1c40 !important; padding: 8px 16px; border-radius: 999px; border: 0;
+             font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; white-space: nowrap; }
+  .btn-pdf:hover { filter: brightness(1.06); }
+  .folha { max-width: 920px; margin: 24px auto; background: #fff; border-radius: 16px; padding: 28px;
+           box-shadow: 0 4px 24px rgba(11,28,64,.08); }
+  .hero { padding: 26px 28px 22px; border-radius: 14px; }
+  .hero img { height: 72px; }
+  .hero h1 { font-size: 30px; line-height: 1.15; }
+  .hero .dt { font-size: 16px; }
+  .hero p { font-size: 17px; }
+  .resumo { padding: 16px 22px 16px 26px; margin-top: 18px; }
+  .resumo h2 { font-size: 15px; }
+  .resumo li { margin-bottom: 6px; }
+  section { margin-top: 30px; }
+  .sh { margin-bottom: 12px; }
+  .tag { font-size: 12px; padding: 3px 10px; }
+  h2 { font-size: 22px; line-height: 1.25; }
+  .cards { flex-wrap: wrap; gap: 12px; margin-bottom: 14px; }
+  .card { min-width: 180px; padding: 12px 14px; }
+  .cl, .cs { font-size: 13px; }
+  .cv { font-size: 26px; }
+  .tx { margin-bottom: 12px; }
+  .blocos { flex-wrap: wrap; gap: 14px; margin-bottom: 12px; }
+  .bloco { min-width: 260px; padding: 14px 16px; }
+  .bloco h3 { font-size: 17px; }
+  .tw { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px; }
+  table { font-size: 14px; min-width: 560px; }
+  th { padding: 8px 10px; } td { padding: 7px 10px; }
+  td.rg { font-size: 11px; }
+  .nota { font-size: 12.5px; }
+  .pratica { padding: 12px 18px; margin-top: 12px; }
+  .prazos { padding: 12px 16px; gap: 8px 28px; }
+  .dica { padding: 14px 18px; margin-top: 26px; }
+  .promo { padding: 18px 22px; margin-top: 22px; flex-wrap: wrap; }
+  .promo h3 { font-size: 19px; }
+  .cta { padding: 20px 22px; margin-top: 22px; }
+  .cta h3 { font-size: 22px; }
+  .cta > p { max-width: 640px; }
+  .serv div { font-size: 13.5px; padding: 10px 12px; }
+  .serv h4 { font-size: 15px; }
+  .fale { font-size: 13px; margin-top: 18px; }
+  .site { font-size: 26px; }
+  .ctt span { font-size: 13.5px; padding: 5px 14px; }
+  .rod { font-size: 12.5px; margin-top: 22px; }
+  .fontes { font-size: 12px; columns: 2; }
+  .fontes li { margin-bottom: 3px; break-inside: avoid; }
+  .rodape-site { text-align: center; color: #5a6a8a; font-size: 13px; padding: 0 16px 36px; }
+  .rodape-site a { color: #1C3D7A; font-weight: 600; }
+}
+@media screen and (max-width: 640px) {
+  .barra .nm { display: none; }
+  .barra .in { justify-content: space-between; }
+  .folha { margin: 0; border-radius: 0; padding: 16px; box-shadow: none; }
+  .hero { padding: 18px; }
+  .hero .top { flex-direction: column-reverse; gap: 10px; }
+  .hero .tt { text-align: left; }
+  .hero img { height: 54px; }
+  .hero h1 { font-size: 26px; }
+  .hero p { max-width: 100%; font-size: 16px; }
+  .card { min-width: calc(50% - 6px); }
+  .cv { font-size: 22px; }
+  .bloco { min-width: 100%; }
+  .serv { grid-template-columns: 1fr; }
+  .fontes { columns: 1; }
+  .promo img { height: 44px; }
+}
+@media print {
+  .barra, .rodape-site { display: none !important; }
+}
+"""
+
+pdf_nome = os.path.basename(saida)
+pasta = os.path.dirname(os.path.abspath(saida))
+sem_pdf = "--sem-pdf" in sys.argv
+botao = ('<button class="btn-pdf" onclick="window.print()">Exportar PDF</button>' if sem_pdf else
+         f'<a class="btn-pdf" href="{html.escape(pdf_nome)}" download>Exportar PDF</a>')
+titulo = f'Boletim Matinal 42 ADM — {html.escape(d["data_extenso"])}'
+resumo_meta = html.escape(" ".join(html.unescape(r).replace("<b>", "").replace("</b>", "") for r in d.get("resumo", [])[:2]))[:300]
+LOGO_WEB = "../../ferramentas/modelos/logo.png"
+
+web = f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{titulo}</title>
+<meta name="description" content="{resumo_meta}">
+<meta property="og:title" content="{titulo}">
+<meta property="og:description" content="{resumo_meta}">
+<meta property="og:image" content="{LOGO_WEB}">
+<link rel="icon" href="{LOGO_WEB}">
+<style>{CSS}{WEB_CSS}</style></head><body>
+<div class="barra"><div class="in"><img src="{LOGO_WEB}" alt="42 ADM">
+<span class="nm">Boletim Matinal · {html.escape(d["data_extenso"])}</span>
+<a class="voltar" href="../../">← Todos os boletins</a>{botao}</div></div>
+<main class="folha">{BODY.replace("__LOGO__", LOGO_WEB)}</main>
+<p class="rodape-site"><a href="../../">Ver todos os boletins</a> · Preparado pela <a href="https://42adm.com">42 ADM</a></p>
+</body></html>"""
+open(os.path.join(pasta, "index.html"), "w", encoding="utf-8").write(web)
+print("ok", os.path.join(pasta, "index.html"))
+
+if not sem_pdf:
+    doc = f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}</style></head><body>
+{BODY.replace("__LOGO__", "data:image/png;base64," + logo)}
+</body></html>"""
+    with sync_playwright() as p:
+        b = p.chromium.launch()
+        pg = b.new_page()
+        pg.set_content(doc, wait_until="load")
+        pg.evaluate("document.fonts.ready")
+        pg.pdf(path=saida, format="A4", print_background=True, prefer_css_page_size=True)
+        b.close()
+    print("ok", saida)

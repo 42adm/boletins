@@ -6,12 +6,14 @@ Uso: python3 ferramentas/publicar.py AAAA-MM-DD
 - Release com a tag AAAA-MM-DD: PDF, capas e os vídeos dos stories como anexos; textos do WhatsApp na descrição.
   Se a release não puder ser criada, os vídeos são gravados no próprio repositório (boletins/AAAA-MM-DD/stories/).
 - README.md: índice com os links de cada dia (mais novo primeiro).
-- index.html: página pública (GitHub Pages) com todos os boletins.
+- index.html: página pública (GitHub Pages) com todos os boletins; cada dia abre em boletins/AAAA-MM-DD/ (HTML gerado pelo boletim.py).
 Imprime no final os links do dia.
 """
 import json, os, subprocess, sys, glob
 
-REPO = "ferretti641/boletim-42adm"
+REPO = "42adm/boletins"
+# Endereço público (GitHub Pages) onde ficam todos os boletins
+SITE = "https://42adm.github.io/boletins"
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 dia = sys.argv[1]
 pasta = os.path.join(RAIZ, "boletins", dia)
@@ -44,11 +46,12 @@ def readme():
     linhas = ["# Boletim Matinal 42 ADM", "",
               "Notícias e destaques do dia que impactam negócios, mercado e agronegócio, preparados pela "
               "[42 ADM](https://42adm.com) — BPO financeiro, consultoria e planejamento.", "",
-              "| Data | Boletim (PDF) | Stories e capas | Textos WhatsApp |", "|---|---|---|---|"]
+              f"**Todos os boletins em: {SITE}**", "",
+              "| Data | Boletim (página) | PDF | Stories e capas | Textos WhatsApp |", "|---|---|---|---|---|"]
     for d in dias:
         a, m, dd = d.split("-")
         base = f"https://github.com/{REPO}/blob/main/boletins/{d}"
-        linhas.append(f"| {dd}/{m}/{a} | [PDF]({base}/boletim-42adm-{d}.pdf) | "
+        linhas.append(f"| {dd}/{m}/{a} | [abrir]({SITE}/boletins/{d}/) | [PDF]({base}/boletim-42adm-{d}.pdf) | "
                       f"[release](https://github.com/{REPO}/releases/tag/{d}) | [textos]({base}/whatsapp/textos.md) |")
     linhas += ["", "_Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico._", ""]
     open(os.path.join(RAIZ, "README.md"), "w", encoding="utf-8").write("\n".join(linhas))
@@ -63,7 +66,7 @@ def pagina():
     cards, mes_atual = [], None
     for d in dias:
         a, m, dd = d.split("-")
-        if not os.path.exists(os.path.join(RAIZ, "boletins", d, f"boletim-42adm-{d}.pdf")):
+        if not os.path.exists(os.path.join(RAIZ, "boletins", d, "index.html")):
             continue
         mes = f"{MESES[int(m) - 1].capitalize()} de {a}"
         if mes != mes_atual:
@@ -76,11 +79,11 @@ def pagina():
         titulo = H.escape(info.get("data_extenso") or f"{dd}/{m}/{a}")
         temas = "".join(f"<li>{H.escape(s.get('titulo', ''))}</li>" for s in info.get("secoes", []))
         cards.append(
-            f'<a class="card" href="boletins/{d}/boletim-42adm-{d}.pdf" target="_blank" rel="noopener">'
+            f'<a class="card" href="boletins/{d}/">'
             f'<div class="data"><span class="dia">{dd}/{m}</span><span class="ext">{titulo}</span></div>'
-            f'<ul>{temas}</ul><span class="abrir">Abrir PDF →</span></a>')
+            f'<ul>{temas}</ul><span class="abrir">Ler boletim →</span></a>')
     corpo = "\n".join(cards) or '<p class="vazio">Nenhum boletim publicado ainda.</p>'
-    ultimo = f"boletins/{dias[0]}/boletim-42adm-{dias[0]}.pdf" if dias else "#"
+    ultimo = next((f"boletins/{x}/" for x in dias if os.path.exists(os.path.join(RAIZ, "boletins", x, "index.html"))), "#")
     pagina_html = f"""<!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -114,7 +117,7 @@ footer a{{color:#1C3D7A}}
 <img src="ferramentas/modelos/logo.png" alt="42 ADM">
 <h1>Boletim Matinal 42 ADM</h1>
 <p>Notícias do dia que impactam negócios, mercado e agronegócio — todo dia cedo.</p>
-<a class="btn" href="{ultimo}" target="_blank" rel="noopener">Ler o boletim de hoje</a>
+<a class="btn" href="{ultimo}">Ler o boletim mais recente</a>
 </header>
 <main>
 {corpo}
@@ -139,7 +142,7 @@ sh("git", "push", "origin", "HEAD:main")
 # ---------- release com os anexos ----------
 textos = open(os.path.join(pasta, "whatsapp", "textos.md"), encoding="utf-8").read()
 corpo = (f"**Boletim Matinal 42 ADM — {dia}**\n\n"
-         f"📄 PDF: https://github.com/{REPO}/blob/main/boletins/{dia}/{pdf_nome}\n\n"
+         f"🌐 Boletim: {SITE}/boletins/{dia}/\n\n📄 PDF: https://github.com/{REPO}/blob/main/boletins/{dia}/{pdf_nome}\n\n"
          "Abaixo: os clipes dos stories (MP4) e as capas do WhatsApp (JPG) para baixar.\n\n" + textos)
 if len(corpo) > 120000:
     corpo = corpo[:120000]
@@ -177,6 +180,8 @@ if videos_falhos:
 
 base = f"https://github.com/{REPO}/blob/main/boletins/{dia}"
 print("\nLINKS DO DIA")
+print("Boletim (página):", f"{SITE}/boletins/{dia}/")
+print("Todos os boletins:", SITE)
 print("PDF:", f"{base}/{pdf_nome}")
 print("Textos WhatsApp:", f"{base}/whatsapp/textos.md")
 if rel.get("id") and not videos_falhos:

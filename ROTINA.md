@@ -32,7 +32,7 @@ use-o só como conferência dos números — o boletim desta rotina é feito a p
 Fim de semana: no sábado faça o resumo da semana; no domingo, um boletim mais leve com o que vem na semana
 (agenda: Copom, Focus, IPCA, prazos). Use os fechamentos de sexta e diga isso no texto.
 
-## 2. Boletim em PDF (mesmo padrão do boletim do Helio)
+## 2. Boletim em página de internet + PDF (mesmo padrão do boletim do Helio)
 
 Escreva `boletins/DIA/boletim.json` seguindo o formato descrito no topo de `ferramentas/boletim.py`
 (veja o exemplo completo em `ferramentas/exemplo/boletim.json`). Estrutura:
@@ -49,7 +49,8 @@ Escreva `boletins/DIA/boletim.json` seguindo o formato descrito no topo de `ferr
 7. **Chamada** de uma frase forte para o empresário.
 8. Rodapé (aviso de conteúdo informativo + data dos dados) e **fontes** (título curto + URL real de cada fonte usada).
 
-Gere o PDF: `python3 ferramentas/boletim.py boletins/DIA/boletim.json boletins/DIA/boletim-42adm-DIA.pdf`.
+Gere o boletim: `python3 ferramentas/boletim.py boletins/DIA/boletim.json boletins/DIA/boletim-42adm-DIA.pdf`.
+Isso cria `boletins/DIA/index.html` (o boletim como página de internet, com botão "Exportar PDF") e o PDF que o botão baixa.
 Confira com `pdftoppm -r 70 -png` e Read: no máximo 2 páginas, nada cortado nem sobreposto. Se passar de 2 páginas,
 encurte textos.
 
@@ -74,11 +75,11 @@ ou que se sobreponham (encurte a manchete, o label ou o valor). Depois gere tudo
 
 ## 4. Publicar
 
-`python3 ferramentas/publicar.py DIA` — grava no repositório, cria a release do dia com os anexos e atualiza o README.
+`python3 ferramentas/publicar.py DIA` — grava no repositório, cria a release do dia com os anexos e atualiza o README e a página com todos os boletins (index.html).
 Se o push falhar por falta de permissão, não tente outro caminho: avise na mensagem final.
 
 ## 5. Avisar o Juliano
 
-Envie um SendUserMessage curto com: os 2–3 destaques do dia em uma linha cada, o link do PDF, o link da release
+Envie um SendUserMessage curto com: os 2–3 destaques do dia em uma linha cada, o link do boletim (página), o link do PDF, o link da release
 (stories e capas) e o link dos textos do WhatsApp (os três saem impressos pelo publicar.py). Lembre que a publicação
 no Instagram e o envio no WhatsApp são feitos por ele.
