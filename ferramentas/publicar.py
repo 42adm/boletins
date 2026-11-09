@@ -6,6 +6,7 @@ Uso: python3 ferramentas/publicar.py AAAA-MM-DD
 - Release com a tag AAAA-MM-DD: PDF, capas e os vídeos dos stories como anexos; textos do WhatsApp na descrição.
   Se a release não puder ser criada, os vídeos são gravados no próprio repositório (boletins/AAAA-MM-DD/stories/).
 - README.md: índice com os links de cada dia (mais novo primeiro).
+- icones/ e manifest.webmanifest: ícone azul do app (tela de início) e imagem de compartilhamento.
 - index.html: página pública (GitHub Pages) com todos os boletins; cada dia abre em boletins/AAAA-MM-DD/ (HTML gerado pelo boletim.py).
 Imprime no final os links do dia.
 """
@@ -89,7 +90,17 @@ def pagina():
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Boletim Matinal 42 ADM — todos os boletins</title>
 <meta name="description" content="Notícias do dia que impactam negócios, mercado e agronegócio, preparadas pela 42 ADM.">
-<link rel="icon" href="ferramentas/modelos/logo.png">
+<meta property="og:title" content="Boletim Matinal 42 ADM — todos os boletins">
+<meta property="og:description" content="Notícias do dia que impactam negócios, mercado e agronegócio, preparadas pela 42 ADM.">
+<meta property="og:image" content="{SITE}/icones/og.png">
+<meta property="og:url" content="{SITE}/">
+<link rel="icon" type="image/png" href="icones/favicon-64.png">
+<link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1C3D7A">
+<meta name="apple-mobile-web-app-title" content="Boletim 42">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f4f6fa;color:#0b1c40;line-height:1.5}}

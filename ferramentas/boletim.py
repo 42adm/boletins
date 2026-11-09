@@ -271,6 +271,7 @@ botao = ('<button class="btn-pdf" onclick="window.print()">Exportar PDF</button>
 titulo = f'Boletim Matinal 42 ADM — {html.escape(d["data_extenso"])}'
 resumo_meta = html.escape(" ".join(html.unescape(r).replace("<b>", "").replace("</b>", "") for r in d.get("resumo", [])[:2]))[:300]
 LOGO_WEB = "../../ferramentas/modelos/logo.png"
+dia_pasta = os.path.basename(pasta)
 
 web = f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -278,8 +279,15 @@ web = f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="description" content="{resumo_meta}">
 <meta property="og:title" content="{titulo}">
 <meta property="og:description" content="{resumo_meta}">
-<meta property="og:image" content="{LOGO_WEB}">
-<link rel="icon" href="{LOGO_WEB}">
+<meta property="og:image" content="https://42adm.github.io/boletins/icones/og.png">
+<meta property="og:url" content="https://42adm.github.io/boletins/boletins/{dia_pasta}/">
+<link rel="icon" type="image/png" href="../../icones/favicon-64.png">
+<link rel="apple-touch-icon" href="../../icones/apple-touch-icon.png">
+<link rel="manifest" href="../../manifest.webmanifest">
+<meta name="theme-color" content="#1C3D7A">
+<meta name="apple-mobile-web-app-title" content="Boletim 42">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <style>{CSS}{WEB_CSS}</style></head><body>
 <div class="barra"><div class="in"><img src="{LOGO_WEB}" alt="42 ADM">
 <span class="nm">Boletim Matinal · {html.escape(d["data_extenso"])}</span>
