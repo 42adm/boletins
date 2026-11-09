@@ -6,6 +6,7 @@ Uso: python3 ferramentas/publicar.py AAAA-MM-DD
 - Release com a tag AAAA-MM-DD: PDF, capas e os vídeos dos stories como anexos; textos do WhatsApp na descrição.
   Se a release não puder ser criada, os vídeos são gravados no próprio repositório (boletins/AAAA-MM-DD/stories/).
 - README.md: índice com os links de cada dia (mais novo primeiro).
+- index.html: página pública (GitHub Pages) com todos os boletins.
 Imprime no final os links do dia.
 """
 import json, os, subprocess, sys, glob
@@ -53,11 +54,85 @@ def readme():
     open(os.path.join(RAIZ, "README.md"), "w", encoding="utf-8").write("\n".join(linhas))
 
 
+# ---------- página pública (GitHub Pages): index.html com todos os boletins ----------
+def pagina():
+    import html as H
+    MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
+             "setembro", "outubro", "novembro", "dezembro"]
+    dias = sorted((os.path.basename(p) for p in glob.glob(os.path.join(RAIZ, "boletins", "????-??-??"))), reverse=True)
+    cards, mes_atual = [], None
+    for d in dias:
+        a, m, dd = d.split("-")
+        if not os.path.exists(os.path.join(RAIZ, "boletins", d, f"boletim-42adm-{d}.pdf")):
+            continue
+        mes = f"{MESES[int(m) - 1].capitalize()} de {a}"
+        if mes != mes_atual:
+            cards.append(f'<h2 class="mes">{mes}</h2>')
+            mes_atual = mes
+        try:
+            info = json.load(open(os.path.join(RAIZ, "boletins", d, "boletim.json"), encoding="utf-8"))
+        except Exception:
+            info = {}
+        titulo = H.escape(info.get("data_extenso") or f"{dd}/{m}/{a}")
+        temas = "".join(f"<li>{H.escape(s.get('titulo', ''))}</li>" for s in info.get("secoes", []))
+        cards.append(
+            f'<a class="card" href="boletins/{d}/boletim-42adm-{d}.pdf" target="_blank" rel="noopener">'
+            f'<div class="data"><span class="dia">{dd}/{m}</span><span class="ext">{titulo}</span></div>'
+            f'<ul>{temas}</ul><span class="abrir">Abrir PDF →</span></a>')
+    corpo = "\n".join(cards) or '<p class="vazio">Nenhum boletim publicado ainda.</p>'
+    ultimo = f"boletins/{dias[0]}/boletim-42adm-{dias[0]}.pdf" if dias else "#"
+    pagina_html = f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boletim Matinal 42 ADM — todos os boletins</title>
+<meta name="description" content="Notícias do dia que impactam negócios, mercado e agronegócio, preparadas pela 42 ADM.">
+<link rel="icon" href="ferramentas/modelos/logo.png">
+<style>
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f4f6fa;color:#0b1c40;line-height:1.5}}
+header{{background:linear-gradient(135deg,#0b1c40,#1C3D7A);color:#fff;padding:40px 20px 48px;text-align:center}}
+header img{{height:56px;margin-bottom:14px}}
+header h1{{font-size:clamp(1.6rem,4vw,2.3rem);font-weight:800;letter-spacing:-.02em}}
+header p{{opacity:.85;max-width:560px;margin:8px auto 22px}}
+.btn{{display:inline-block;background:#99CA3C;color:#0b1c40;font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none}}
+main{{max-width:760px;margin:-24px auto 40px;padding:0 16px}}
+.mes{{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:#5a6a8a;margin:28px 4px 10px}}
+.card{{display:block;background:#fff;border-radius:14px;padding:18px 20px;margin-bottom:12px;text-decoration:none;color:inherit;
+box-shadow:0 1px 3px rgba(11,28,64,.08);border-left:5px solid #99CA3C;transition:transform .15s,box-shadow .15s}}
+.card:hover{{transform:translateY(-2px);box-shadow:0 6px 18px rgba(11,28,64,.12)}}
+.data{{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}}
+.dia{{font-size:1.4rem;font-weight:800;color:#1C3D7A}}
+.ext{{color:#5a6a8a;font-size:.92rem}}
+.card ul{{list-style:none;margin:8px 0 10px}}
+.card li{{font-size:.95rem;padding:2px 0 2px 14px;position:relative}}
+.card li:before{{content:"";position:absolute;left:0;top:.7em;width:6px;height:6px;border-radius:50%;background:#99CA3C}}
+.abrir{{font-weight:700;color:#1C3D7A;font-size:.9rem}}
+footer{{text-align:center;color:#5a6a8a;font-size:.82rem;padding:0 16px 40px}}
+footer a{{color:#1C3D7A}}
+</style></head><body>
+<header>
+<img src="ferramentas/modelos/logo.png" alt="42 ADM">
+<h1>Boletim Matinal 42 ADM</h1>
+<p>Notícias do dia que impactam negócios, mercado e agronegócio — todo dia cedo.</p>
+<a class="btn" href="{ultimo}" target="_blank" rel="noopener">Ler o boletim de hoje</a>
+</header>
+<main>
+{corpo}
+</main>
+<footer>Preparado pela <a href="https://42adm.com">42 ADM</a> — BPO financeiro, consultoria e planejamento.<br>
+Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico.</footer>
+</body></html>
+"""
+    open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8").write(pagina_html)
+    open(os.path.join(RAIZ, ".nojekyll"), "w").close()
+
+
 # ---------- commit dos arquivos leves ----------
 readme()
+pagina()
 sh("git", "config", "user.name", "Rotina Boletim 42 ADM")
 sh("git", "config", "user.email", "adm@42adm.com")
-sh("git", "add", "README.md", "ferramentas", f"boletins/{dia}")
+sh("git", "add", "README.md", "index.html", ".nojekyll", "ferramentas", f"boletins/{dia}")
 sh("git", "commit", "-m", f"Boletim Matinal {dia}", check=False)
 sh("git", "push", "origin", "HEAD:main")
 
