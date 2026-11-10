@@ -1,0 +1,202 @@
+{
+ "data_extenso": "Terça-feira, 10 de novembro de 2026",
+ "saudacao": "Bom dia e boa terça! ☀️ Bolsa em alta forte, mercado sem esperar corte de juros este ano e a CBS de 11,3% em debate no Senado hoje.",
+ "resumo": [
+  "Bolsa sobe <b>2,22%</b> (172 mil pontos); dólar a <b>R$ 5,50</b>. Focus vê <b>Selic em 13,75% no fim do ano</b>: sem corte em 2026.",
+  "Senado debate hoje a <b>CBS de 11,3%</b>, imposto que substitui PIS e Cofins em 2027. Prazo: <b>15/12</b>.",
+  "Varejo deve faturar <b>2,5% menos</b> em novembro; famílias com <b>50,1%</b> da renda presa em crédito.",
+  "Boi em recorde: <b>R$ 364,41/@</b> em MT (Imea). Soja em Canarana: <b>R$ 131,45</b>."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Bolsa anima, mas juros devem ficar altos",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · próxima decisão 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 9/11)",
+     "valor": "R$ 5,50",
+     "sub": "caiu 0,06% no dia",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Inflação esperada em 2026",
+     "valor": "5,22%",
+     "sub": "Focus de 9/11 · teto é 4,5%",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Ata do Copom",
+     "valor": "Hoje",
+     "sub": "8h · IPCA de outubro sai na quinta (12/11)",
+     "cor": "azul"
+    }
+   ],
+   "texto": "A bolsa teve a maior alta desde outubro com a queda do petróleo, mas segue longe dos 205 mil pontos de antes do 2º turno. No Focus, a Selic esperada para o fim do ano subiu de 13,50% para <b>13,75%</b> e a inflação de 2027 para <b>4,90%</b>.",
+   "pratica": "não conte com juro menor em 2026: planeje dezembro com o crédito no preço de hoje e quite primeiro a dívida mais cara."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "CBS de 11,3% em debate hoje no Senado",
+   "blocos": [
+    {
+     "titulo": "O que acontece nesta terça (10/11)",
+     "texto": "O TCU entrega ao Senado o cálculo da <b>CBS de 11,3%</b> para 2027 (antes se estimava 9,21%), com audiência na Comissão de Assuntos Econômicos. O relator, Eduardo Braga, quer revisar os critérios. Se o Senado não decidir até <b>15/12</b>, vale 11,3%."
+    }
+   ],
+   "pratica": "simule preços e orçamento de 2027 com 11,3% e revise em dezembro."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Novembro mais fraco no varejo",
+   "blocos": [
+    {
+     "titulo": "Vendas menores, internet em alta",
+     "texto": "O varejo deve faturar <b>R$ 296,8 bi</b> em novembro, <b>2,5% menos</b> que em 2025 (IEMI); a internet deve vender <b>R$ 13,3 bi</b> na Black Friday, <b>+20,7%</b> (Confi). As famílias comprometem <b>50,1% da renda</b> com crédito, recorde do BC."
+    }
+   ],
+   "pratica": "na Black Friday (27/11), faça a conta da margem antes do desconto e evite parcelar longo para quem já atrasa."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Boi em recorde e plantio quase no fim",
+   "texto": "Plantio de soja em MT: <b>96%</b>, mais de 10 pontos à frente do ano passado (Imea). Boi em MT bateu <b>R$ 364,41/@</b> em 5/11, recorde (Imea). Últimos preços divulgados (6/11):",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Milho (R$/saca)",
+     "Boi (R$/@)"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · milho Cepea · boi SP",
+      "valores": [
+       "158,52",
+       "66,77",
+       "392,70"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT) · milho Lucas",
+      "valores": [
+       "134,85",
+       "41,30",
+       "–"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "131,45",
+       "42,70",
+       "–"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Alto Araguaia (MT)",
+      "valores": [
+       "141,35",
+       "–",
+       "–"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg; @ = arroba (15 kg). Fontes: Cepea/Esalq, Imea e corretoras, via Notícias Agrícolas."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "soja em Canarana vale <b>R$ 27 a menos</b> que no porto. Boi em recorde: avalie vender os animais prontos."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "12/11",
+   "texto": "IPCA de outubro"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parte do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "15/12",
+   "texto": "Prazo da CBS"
+  }
+ ],
+ "dica": "desconto come margem rápido. Produto de R$ 100 com custo de R$ 70 dá <b>R$ 30</b> de lucro. Com 20% de desconto, sobram <b>R$ 10</b>: você precisa vender <b>3 vezes mais</b> só para empatar.",
+ "promo": {
+  "titulo": "Black Friday com lucro, não só com venda",
+  "texto": "Cálculo de margem, preço mínimo e fluxo de caixa de dezembro com a 42 ADM."
+ },
+ "chamada": "Empresário, desconto sem conta é prejuízo com fila na porta.",
+ "rodape": "Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico. Dados: fechamento de 9/11/2026; Focus de 9/11/2026; preços agrícolas de 6/11/2026.",
+ "fontes": [
+  {
+   "titulo": "Metrópoles: bolsa e dólar 9/11",
+   "url": "https://www.metropoles.com/brasil/ibovespa-sobe-222-dolar-tem-baixa-e-termina-o-dia-cotado-a-r-550"
+  },
+  {
+   "titulo": "InfoMoney: Focus 9/11",
+   "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-09112026/"
+  },
+  {
+   "titulo": "BPMoney: agenda da semana",
+   "url": "https://bpmoney.com.br/economia/agenda-economica-semana-ata-copom-ipca-inflacao-eua/"
+  },
+  {
+   "titulo": "Rankia: próximo Copom",
+   "url": "https://rankia.com.br/proxima-reuniao-copom/"
+  },
+  {
+   "titulo": "Jornal Grande Bahia: CBS no Senado",
+   "url": "https://jornalgrandebahia.com.br/2026/11/tcu-deve-enviar-ao-senado-calculo-da-cbs-de-113-na-terca-feira-10-11-2026/"
+  },
+  {
+   "titulo": "Mirian Gasparin: varejo em novembro",
+   "url": "https://miriangasparin.com.br/2026/11/black-friday-varejo-brasileiro-deve-movimentar-r-2968-bilhoes-em-novembro/"
+  },
+  {
+   "titulo": "TV Sim: endividamento",
+   "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/08/quanto-endividamento-recorde-vai-pesar-black-friday"
+  },
+  {
+   "titulo": "Canal Rural: plantio 96% (Imea)",
+   "url": "https://matogrosso.canalrural.com.br/agricultura/soja/plantio-da-soja-alcanca-96-e-supera-ciclo-25-26-em-mais-de-10-p-p/"
+  },
+  {
+   "titulo": "N. Agrícolas: boi gordo",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo"
+  },
+  {
+   "titulo": "N. Agrícolas: soja",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/soja"
+  },
+  {
+   "titulo": "N. Agrícolas: soja Paranaguá",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua"
+  },
+  {
+   "titulo": "N. Agrícolas: milho Imea",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho/milho-disponivel-imea"
+  }
+ ]
+}

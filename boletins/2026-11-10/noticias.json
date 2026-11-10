@@ -1,0 +1,89 @@
+{
+  "date": "10 · 11 · 2026",
+  "data_curta": "10/11",
+  "noticias": [
+    {
+      "id": "01-bolsa-dolar",
+      "tag": "ECONOMIA",
+      "kicker": "Fechamento de segunda · 9/11",
+      "headline": "Bolsa tem <em>maior alta</em> desde outubro",
+      "stats": [
+        {"value": 2.22, "decimals": 2, "prefix": "+", "suffix": "%", "label": "Ibovespa, 172 mil pontos"},
+        {"value": 5.50, "decimals": 2, "label": "dólar em R$, −0,06%"}
+      ],
+      "note": "Petróleo caiu quase 6% e aliviou o mercado",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Compra em dólar? Aproveite a calmaria para fechar preço com o fornecedor.",
+      "whatsapp": "*Bolsa tem a maior alta desde outubro* 📈\n\nO Ibovespa subiu *2,22%* ontem (9/11), para *172.236 pontos*, com a queda de quase 6% do petróleo. O dólar fechou a *R$ 5,50* (−0,06%). A bolsa ainda está longe dos cerca de 205 mil pontos de antes do 2º turno.\n\n👉 *Na prática:* se você compra em dólar, aproveite a calmaria para fechar o preço com o fornecedor.\n\n_Boletim Matinal 42 ADM · 10/11_"
+    },
+    {
+      "id": "02-focus-selic",
+      "tag": "JUROS",
+      "kicker": "Boletim Focus · 9/11",
+      "headline": "Mercado não espera mais <em>corte de juros</em> em 2026",
+      "stats": [
+        {"value": 13.75, "decimals": 2, "suffix": "%", "label": "Selic esperada no fim do ano"},
+        {"value": 4.90, "decimals": 2, "suffix": "%", "label": "inflação esperada em 2027"}
+      ],
+      "note": "Ata do Copom sai hoje às 8h",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Planeje dezembro com o crédito caro e quite primeiro a dívida mais cara.",
+      "whatsapp": "*Mercado não espera mais corte de juros em 2026* 🏦\n\nNo Boletim Focus de ontem, a Selic esperada para o fim do ano subiu de 13,50% para *13,75%*, o nível de hoje. A inflação esperada para 2027 subiu para *4,90%*. A ata do Copom sai hoje (10/11), às 8h, e o IPCA de outubro na quinta (12/11).\n\n👉 *Na prática:* não conte com juro menor este ano. Planeje dezembro com o crédito no preço de hoje e quite primeiro a dívida mais cara.\n\n_Boletim Matinal 42 ADM · 10/11_"
+    },
+    {
+      "id": "03-cbs",
+      "tag": "IMPOSTOS",
+      "kicker": "Senado · hoje, 10/11",
+      "headline": "<em>CBS de 11,3%</em> em debate no Senado",
+      "stats": [
+        {"value": 11.3, "decimals": 1, "suffix": "%", "label": "taxa calculada pelo TCU"},
+        {"text": "15/12", "label": "prazo do Senado"}
+      ],
+      "note": "Estimativa anterior era de 9,21%",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Simule preços e orçamento de 2027 com 11,3% e revise em dezembro.",
+      "whatsapp": "*CBS de 11,3% em debate hoje no Senado* 🧾\n\nO TCU entrega hoje (10/11) ao Senado o cálculo da *CBS*, o imposto que substitui PIS e Cofins em 2027: *11,3%*, acima dos 9,21% estimados antes. O relator quer revisar os critérios. Se o Senado não decidir até *15/12*, vale 11,3%.\n\n👉 *Na prática:* simule seus preços e o orçamento de 2027 com 11,3% e revise em dezembro.\n\n_Boletim Matinal 42 ADM · 10/11_"
+    },
+    {
+      "id": "04-varejo",
+      "tag": "VENDAS",
+      "kicker": "IEMI e Confi · novembro",
+      "headline": "Varejo deve vender <em>menos</em> em novembro",
+      "stats": [
+        {"value": 2.5, "decimals": 1, "prefix": "−", "suffix": "%", "label": "faturamento ante 2025"},
+        {"value": 20.7, "decimals": 1, "prefix": "+", "suffix": "%", "label": "internet na Black Friday"}
+      ],
+      "note": "Famílias com 50,1% da renda em crédito",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Faça a conta da margem antes do desconto e evite parcelar longo para quem já atrasa.",
+      "whatsapp": "*Varejo deve vender menos em novembro* 🛒\n\nO varejo deve faturar *R$ 296,8 bilhões* em novembro, *2,5% menos* que em 2025 (IEMI). Já a internet deve vender *R$ 13,3 bilhões* na Black Friday, alta de *20,7%* (Confi). As famílias comprometem *50,1% da renda* com crédito, recorde do Banco Central.\n\n👉 *Na prática:* na Black Friday (27/11), faça a conta da margem antes do desconto e evite parcelar longo para quem já atrasa.\n\n_Boletim Matinal 42 ADM · 10/11_"
+    },
+    {
+      "id": "05-campo",
+      "tag": "CAMPO",
+      "kicker": "Imea · Mato Grosso",
+      "headline": "Boi em <em>recorde</em> e plantio quase no fim",
+      "stats": [
+        {"text": "364,41", "label": "R$ por arroba em MT (5/11)"},
+        {"value": 96, "decimals": 0, "suffix": "%", "label": "soja plantada em MT"}
+      ],
+      "note": "Soja em Canarana: R$ 131,45 a saca",
+      "takeLabel": "PARA O PRODUTOR",
+      "take": "Com o boi em recorde, avalie vender os animais prontos em vez de esperar mais alta.",
+      "whatsapp": "*Boi em recorde e plantio quase no fim* 🐂\n\nA arroba do boi chegou a *R$ 364,41* em Mato Grosso em 5/11, recorde (Imea). O plantio de soja em MT chegou a *96%* da área, mais de 10 pontos à frente do ano passado. Em Canarana, a saca de soja ficou em *R$ 131,45* (6/11), *R$ 27 abaixo* do porto.\n\n👉 *Para o produtor:* com o boi em recorde, avalie vender os animais prontos em vez de esperar mais alta.\n\n_Boletim Matinal 42 ADM · 10/11_"
+    },
+    {
+      "id": "06-dica-margem",
+      "tag": "DICA DO DIA",
+      "kicker": "Black Friday · 27/11",
+      "headline": "Desconto de 20% pode <em>triplicar</em> o esforço",
+      "stats": [
+        {"text": "3x", "label": "mais vendas para manter o lucro"}
+      ],
+      "note": "Custo R$ 70, preço R$ 100, desconto 20%",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Antes de anunciar desconto, calcule quanto precisa vender a mais para empatar.",
+      "whatsapp": "*Desconto de 20% pode triplicar o esforço* 🧮\n\nProduto de *R$ 100* com custo de *R$ 70* dá *R$ 30* de lucro. Com 20% de desconto, sobram só *R$ 10*: você precisa vender *3 vezes mais* para ganhar o mesmo.\n\n👉 *Na prática:* antes de anunciar desconto na Black Friday, calcule quanto precisa vender a mais para empatar.\n\n_Boletim Matinal 42 ADM · 10/11_"
+    }
+  ]
+}
