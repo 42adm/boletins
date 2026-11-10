@@ -105,8 +105,21 @@ def pagina():
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f4f6fa;color:#0b1c40;line-height:1.5}}
-header{{background:linear-gradient(135deg,#0b1c40,#1C3D7A);color:#fff;padding:40px 20px 48px;text-align:center}}
-header img{{height:56px;margin-bottom:14px}}
+.topo{{position:sticky;top:0;z-index:10;background:#0b1c40;box-shadow:0 2px 10px rgba(0,0,0,.25)}}
+.topo .in{{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}}
+.topo img{{height:38px;display:block}}
+.topo nav{{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}}
+.topo nav a{{color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;padding:7px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.35);white-space:nowrap}}
+.topo nav a.wa{{background:#99CA3C;color:#0b1c40;border-color:#99CA3C}}
+@media (max-width:480px){{.topo img{{height:30px}} .topo nav a{{font-size:.8rem;padding:6px 10px}} .topo nav a.site{{display:none}}}}
+header{{background:linear-gradient(135deg,#0b1c40,#1C3D7A);color:#fff;padding:36px 20px 48px;text-align:center}}
+.contato{{max-width:760px;margin:0 auto 24px;padding:0 16px}}
+.contato .box{{background:#0b1c40;color:#fff;border-radius:14px;padding:22px 20px;text-align:center}}
+.contato h2{{font-size:1.15rem;margin-bottom:4px}}
+.contato p{{opacity:.85;font-size:.92rem;margin-bottom:14px}}
+.contato .links{{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}}
+.contato .links a{{color:#fff;text-decoration:none;font-size:.9rem;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.1)}}
+.contato .links a.wa{{background:#99CA3C;color:#0b1c40;font-weight:700}}
 header h1{{font-size:clamp(1.6rem,4vw,2.3rem);font-weight:800;letter-spacing:-.02em}}
 header p{{opacity:.85;max-width:560px;margin:8px auto 22px}}
 .btn{{display:inline-block;background:#99CA3C;color:#0b1c40;font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none}}
@@ -125,8 +138,12 @@ box-shadow:0 1px 3px rgba(11,28,64,.08);border-left:5px solid #99CA3C;transition
 footer{{text-align:center;color:#5a6a8a;font-size:.82rem;padding:0 16px 40px}}
 footer a{{color:#1C3D7A}}
 </style></head><body>
+<div class="topo"><div class="in">
+<a href="{SITE}/"><img src="ferramentas/modelos/logo.png" alt="42 ADM"></a>
+<nav><a class="site" href="https://42adm.com" target="_blank" rel="noopener">Nosso site</a>
+<a class="wa" href="https://wa.me/5566981091019" target="_blank" rel="noopener">Comercial (66) 98109-1019</a></nav>
+</div></div>
 <header>
-<img src="ferramentas/modelos/logo.png" alt="42 ADM">
 <h1>Boletim Matinal 42 ADM</h1>
 <p>Notícias do dia que impactam negócios, mercado e agronegócio — todo dia cedo.</p>
 <a class="btn" href="{ultimo}">Ler o boletim mais recente</a>
@@ -134,6 +151,16 @@ footer a{{color:#1C3D7A}}
 <main>
 {corpo}
 </main>
+<section class="contato"><div class="box">
+<h2>Fale com o comercial da 42 ADM</h2>
+<p>BPO financeiro, consultoria, fluxo de caixa e planejamento para a sua empresa.</p>
+<div class="links">
+<a class="wa" href="https://wa.me/5566981091019" target="_blank" rel="noopener">WhatsApp (66) 98109-1019</a>
+<a href="tel:+5566981091019">Ligar</a>
+<a href="https://42adm.com" target="_blank" rel="noopener">42adm.com</a>
+<a href="mailto:adm@42adm.com">adm@42adm.com</a>
+<a href="https://instagram.com/42_adm" target="_blank" rel="noopener">Instagram @42_adm</a>
+</div></div></section>
 <footer>Preparado pela <a href="https://42adm.com">42 ADM</a> — BPO financeiro, consultoria e planejamento.<br>
 Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico.</footer>
 </body></html>
