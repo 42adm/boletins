@@ -1,5 +1,25 @@
 # Textos para WhatsApp — 10/11
 
+## Mensagem do boletim completo (sem imagem)
+
+Cole no WhatsApp como mensagem de texto, antes ou depois das capas.
+
+```
+*Boletim Matinal 42 ADM · 10/11*
+
+Bom dia e boa terça! ☀️ Bolsa em alta forte, mercado sem esperar corte de juros este ano e a CBS de 11,3% em debate no Senado hoje.
+
+• Bolsa sobe *2,22%* (172 mil pontos); dólar a *R$ 5,50*. Focus vê *Selic em 13,75% no fim do ano*: sem corte em 2026.
+• Senado debate hoje a *CBS de 11,3%*, imposto que substitui PIS e Cofins em 2027. Prazo: *15/12*.
+• Varejo deve faturar *2,5% menos* em novembro; famílias com *50,1%* da renda presa em crédito.
+• Boi em recorde: *R$ 364,41/@* em MT (Imea). Soja em Canarana: *R$ 131,45*.
+
+📄 *Boletim completo de hoje:* https://42adm.github.io/boletins/boletins/2026-11-10/
+🔗 *Último boletim publicado (link fixo):* https://42adm.github.io/boletins/ultimo/
+
+_Conteúdo informativo. Não é recomendação de investimento._
+```
+
 Envie cada capa com o texto correspondente na legenda.
 
 ## capa-01-bolsa-dolar.jpg

@@ -140,6 +140,19 @@ Conteúdo informativo. Não é recomendação de investimento nem parecer juríd
 """
     open(os.path.join(RAIZ, "index.html"), "w", encoding="utf-8").write(pagina_html)
     open(os.path.join(RAIZ, ".nojekyll"), "w").close()
+    # link fixo SITE/ultimo/ que sempre abre o boletim mais recente
+    os.makedirs(os.path.join(RAIZ, "ultimo"), exist_ok=True)
+    destino = "../" + ultimo if ultimo != "#" else "../"
+    open(os.path.join(RAIZ, "ultimo", "index.html"), "w", encoding="utf-8").write(
+        f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boletim Matinal 42 ADM — último boletim</title>
+<meta http-equiv="refresh" content="0; url={destino}">
+<link rel="canonical" href="{SITE}/{ultimo if ultimo != '#' else ''}">
+<script>location.replace("{destino}");</script>
+</head><body><p>Abrindo o boletim mais recente… <a href="{destino}">clique aqui</a> se não abrir.</p></body></html>
+""")
 
 
 # ---------- commit dos arquivos leves ----------
@@ -147,7 +160,7 @@ readme()
 pagina()
 sh("git", "config", "user.name", "Rotina Boletim 42 ADM")
 sh("git", "config", "user.email", "adm@42adm.com")
-sh("git", "add", "README.md", "index.html", ".nojekyll", "ferramentas", f"boletins/{dia}")
+sh("git", "add", "README.md", "index.html", ".nojekyll", "ultimo", "ferramentas", f"boletins/{dia}")
 sh("git", "commit", "-m", f"Boletim Matinal {dia}", check=False)
 sh("git", "push", "origin", "HEAD:main")
 
@@ -196,6 +209,7 @@ print("Boletim (página):", f"{SITE}/boletins/{dia}/")
 print("Todos os boletins:", SITE)
 print("PDF:", f"{base}/{pdf_nome}")
 print("Textos WhatsApp:", f"{base}/whatsapp/textos.md")
+print("Último boletim (link fixo):", f"{SITE}/ultimo/")
 if rel.get("id") and not videos_falhos:
     print("Stories e capas (release):", f"https://github.com/{REPO}/releases/tag/{dia}")
 else:

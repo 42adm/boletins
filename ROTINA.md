@@ -68,6 +68,8 @@ for repetida de um dia anterior, pule). Escreva `boletins/DIA/noticias.json` no 
   `👉 *Na prática:* ...` / linha em branco / `_Boletim Matinal 42 ADM · DD/MM_`. Até 900 caracteres.
 - Só use números que estão no boletim do dia.
 
+O `midias.py` também coloca no topo do `whatsapp/textos.md` uma **mensagem do boletim completo**, montada a partir da saudação e do resumo do `boletim.json`, com o link do boletim do dia e o link fixo do último boletim publicado (https://42adm.github.io/boletins/ultimo/, que o `publicar.py` sempre aponta para o mais recente). Por isso o `boletim.json` precisa estar pronto antes de rodar o `midias.py`; o resumo deve funcionar bem também como texto de WhatsApp.
+
 Confira primeiro as prévias: `python3 ferramentas/midias.py boletins/DIA/noticias.json boletins/DIA previa`
 e abra `boletins/DIA/previa/folha.jpg` com Read. Corrija textos que estourem a área, que fiquem colados na borda
 ou que se sobreponham (encurte a manchete, o label ou o valor). Depois gere tudo:

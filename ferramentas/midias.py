@@ -30,6 +30,35 @@ MOD = os.path.join(AQUI, "modelos")
 DUR, FPS = 13.0, 30
 
 
+SITE = "https://42adm.github.io/boletins"
+
+
+def mensagem_boletim(pasta, d):
+    """Texto pronto para o WhatsApp com o resumo do dia, o link do boletim completo e o link fixo
+    do último boletim publicado (SITE/ultimo/, criado pelo publicar.py). Usa o boletim.json da pasta."""
+    import re
+    dia = os.path.basename(os.path.normpath(pasta))
+    arq = os.path.join(pasta, "boletim.json")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", dia) or not os.path.exists(arq):
+        return ""
+    b = json.load(open(arq, encoding="utf-8"))
+
+    def wa(t):
+        t = re.sub(r"</?(b|strong)>", "*", t)
+        t = re.sub(r"</?(em|i)>", "_", t)
+        return re.sub(r"<[^>]+>", "", t).replace("&nbsp;", " ").strip()
+
+    curta = d.get("data_curta") or f"{dia[8:]}/{dia[5:7]}"
+    linhas = [f"*Boletim Matinal 42 ADM · {curta}*", ""]
+    if b.get("saudacao"):
+        linhas += [wa(b["saudacao"]), ""]
+    linhas += [f"• {wa(r)}" for r in b.get("resumo", [])]
+    linhas += ["", f"📄 *Boletim completo de hoje:* {SITE}/boletins/{dia}/",
+               f"🔗 *Último boletim publicado (link fixo):* {SITE}/ultimo/",
+               "", "_Conteúdo informativo. Não é recomendação de investimento._"]
+    return "\n".join(linhas)
+
+
 def _clipe(args):
     n, date, pasta, previa = args
     from playwright.sync_api import sync_playwright
@@ -96,6 +125,11 @@ if __name__ == "__main__":
     else:
         with open(os.path.join(pasta, "whatsapp", "textos.md"), "w", encoding="utf-8") as f:
             f.write(f"# Textos para WhatsApp — {d.get('data_curta', d['date'])}\n\n")
+            msg = mensagem_boletim(pasta, d)
+            if msg:
+                f.write("## Mensagem do boletim completo (sem imagem)\n\n"
+                        "Cole no WhatsApp como mensagem de texto, antes ou depois das capas.\n\n"
+                        f"```\n{msg}\n```\n\n")
             f.write("Envie cada capa com o texto correspondente na legenda.\n\n")
             for n in d["noticias"]:
                 f.write(f"## capa-{n['id']}.jpg\n\n```\n{n['whatsapp']}\n```\n\n")
