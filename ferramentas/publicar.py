@@ -3,8 +3,8 @@
 Uso: python3 ferramentas/publicar.py AAAA-MM-DD
 
 - Repositório: boletins/AAAA-MM-DD/ com o PDF, boletim.json, noticias.json e whatsapp/ (capas + textos.md).
-- Release com a tag AAAA-MM-DD: PDF, capas e os vídeos dos stories como anexos; textos do WhatsApp na descrição.
-  Se a release não puder ser criada, os vídeos são gravados no próprio repositório (boletins/AAAA-MM-DD/stories/).
+- Vídeos dos stories gravados no próprio repositório (boletins/AAAA-MM-DD/stories/).
+  Não usa release: as rotinas agendadas não têm permissão para criar releases no GitHub.
 - README.md: índice com os links de cada dia (mais novo primeiro).
 - icones/ e manifest.webmanifest: ícone azul do app (tela de início) e imagem de compartilhamento.
 - index.html: página pública (GitHub Pages) com todos os boletins; cada dia abre em boletins/AAAA-MM-DD/ (HTML gerado pelo boletim.py).
@@ -53,7 +53,7 @@ def readme():
         a, m, dd = d.split("-")
         base = f"https://github.com/{REPO}/blob/main/boletins/{d}"
         linhas.append(f"| {dd}/{m}/{a} | [abrir]({SITE}/boletins/{d}/) | [PDF]({base}/boletim-42adm-{d}.pdf) | "
-                      + (f"[release](https://github.com/{REPO}/releases/tag/{d}) | [textos]({base}/whatsapp/textos.md) |"
+                      + (f"[stories e capas](https://github.com/{REPO}/tree/main/boletins/{d}) | [textos]({base}/whatsapp/textos.md) |"
                          if os.path.exists(os.path.join(RAIZ, "boletins", d, "whatsapp", "textos.md")) else "— | — |"))
     linhas += ["", "_Conteúdo informativo. Não é recomendação de investimento nem parecer jurídico._", ""]
     open(os.path.join(RAIZ, "README.md"), "w", encoding="utf-8").write("\n".join(linhas))
@@ -182,7 +182,7 @@ Conteúdo informativo. Não é recomendação de investimento nem parecer juríd
 """)
 
 
-# ---------- commit dos arquivos leves ----------
+# ---------- commit (página, PDF, capas, textos e vídeos dos stories) ----------
 readme()
 pagina()
 sh("git", "config", "user.name", "Rotina Boletim 42 ADM")
@@ -191,45 +191,6 @@ sh("git", "add", "README.md", "index.html", ".nojekyll", "ultimo", "ferramentas"
 sh("git", "commit", "-m", f"Boletim Matinal {dia}", check=False)
 sh("git", "push", "origin", "HEAD:main")
 
-# ---------- release com os anexos ----------
-textos = open(os.path.join(pasta, "whatsapp", "textos.md"), encoding="utf-8").read()
-corpo = (f"**Boletim Matinal 42 ADM — {dia}**\n\n"
-         f"🌐 Boletim: {SITE}/boletins/{dia}/\n\n📄 PDF: https://github.com/{REPO}/blob/main/boletins/{dia}/{pdf_nome}\n\n"
-         "Abaixo: os clipes dos stories (MP4) e as capas do WhatsApp (JPG) para baixar.\n\n" + textos)
-if len(corpo) > 120000:
-    corpo = corpo[:120000]
-json.dump({"tag_name": dia, "name": f"Boletim Matinal {dia}", "body": corpo, "target_commitish": "main"},
-          open("/tmp/release.json", "w", encoding="utf-8"), ensure_ascii=False)
-rel = gh_json(f"repos/{REPO}/releases/tags/{dia}", check=False)
-if not rel.get("id"):
-    rel = gh_json("-X", "POST", f"repos/{REPO}/releases", input_path="/tmp/release.json", check=False)
-
-anexos = [pdf] + sorted(glob.glob(os.path.join(pasta, "stories", "*.mp4"))) + \
-    sorted(glob.glob(os.path.join(pasta, "whatsapp", "*.jpg")))
-falhou = []
-if rel.get("id"):
-    ja = {a["name"] for a in rel.get("assets", [])}
-    for f in anexos:
-        nome = os.path.basename(f)
-        if nome in ja:
-            continue
-        tipo = "application/pdf" if f.endswith(".pdf") else "video/mp4" if f.endswith(".mp4") else "image/jpeg"
-        r = sh("gh", "api", "-X", "POST", "-H", f"Content-Type: {tipo}",
-               f"https://uploads.github.com/repos/{REPO}/releases/{rel['id']}/assets?name={nome}",
-               "--input", f, check=False)
-        if r.returncode != 0:
-            falhou.append(nome)
-else:
-    falhou = [os.path.basename(f) for f in anexos]
-    print("Release não criada:", rel)
-
-videos_falhos = [n for n in falhou if n.endswith(".mp4")]
-if videos_falhos:
-    # plano B: grava os vídeos no repositório
-    sh("git", "add", "-f", f"boletins/{dia}/stories")
-    sh("git", "commit", "-m", f"Stories {dia}", check=False)
-    sh("git", "push", "origin", "HEAD:main")
-
 base = f"https://github.com/{REPO}/blob/main/boletins/{dia}"
 print("\nLINKS DO DIA")
 print("Boletim (página):", f"{SITE}/boletins/{dia}/")
@@ -237,9 +198,5 @@ print("Todos os boletins:", SITE)
 print("PDF:", f"{base}/{pdf_nome}")
 print("Textos WhatsApp:", f"{base}/whatsapp/textos.md")
 print("Último boletim (link fixo):", f"{SITE}/ultimo/")
-if rel.get("id") and not videos_falhos:
-    print("Stories e capas (release):", f"https://github.com/{REPO}/releases/tag/{dia}")
-else:
-    print("Stories (no repositório):", f"https://github.com/{REPO}/tree/main/boletins/{dia}/stories")
-if falhou:
-    print("Anexos que falharam na release:", ", ".join(falhou))
+print("Stories e capas (pasta do dia):", f"https://github.com/{REPO}/tree/main/boletins/{dia}")
+print("Vídeos dos stories:", f"https://github.com/{REPO}/tree/main/boletins/{dia}/stories")

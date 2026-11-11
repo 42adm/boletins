@@ -77,11 +77,11 @@ ou que se sobreponham (encurte a manchete, o label ou o valor). Depois gere tudo
 
 ## 4. Publicar
 
-`python3 ferramentas/publicar.py DIA` — grava no repositório, cria a release do dia com os anexos e atualiza o README e a página com todos os boletins (index.html).
-Se o push falhar por falta de permissão, não tente outro caminho: avise na mensagem final.
+`python3 ferramentas/publicar.py DIA` — grava tudo no repositório (página, PDF, capas, textos e os vídeos dos stories na pasta do dia) e atualiza o README e a página com todos os boletins (index.html).
+Não existe mais release: não tente criar uma nem avise sobre isso. Se o push falhar por falta de permissão, não tente outro caminho: avise na mensagem final.
 
 ## 5. Avisar o Juliano
 
-Envie um SendUserMessage curto com: os 2–3 destaques do dia em uma linha cada, o link do boletim (página), o link do PDF, o link da release
+Envie um SendUserMessage curto com: os 2–3 destaques do dia em uma linha cada, o link do boletim (página), o link do PDF, o link da pasta do dia
 (stories e capas) e o link dos textos do WhatsApp (os três saem impressos pelo publicar.py). Lembre que a publicação
 no Instagram e o envio no WhatsApp são feitos por ele.
