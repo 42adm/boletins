@@ -1,0 +1,215 @@
+{
+ "data_extenso": "Quarta-feira, 11 de novembro de 2026",
+ "saudacao": "Bom dia e boa quarta! ☀️ Dólar no maior valor em 15 meses, Banco Central sem pressa para cortar juros e a CBS de 11,3% já nas mãos do Senado.",
+ "resumo": [
+  "Dólar sobe <b>1,46%</b> e fecha a <b>R$ 5,59</b>, maior valor em 15 meses; bolsa cai <b>0,52%</b>.",
+  "Ata do Copom: Selic de <b>13,75%</b> fica alta por mais tempo, sem promessa de corte. IPCA de outubro sai amanhã (12/11).",
+  "Senado recebe do TCU a <b>CBS de 11,3%</b> para 2027; decisão até <b>15/12</b>.",
+  "Recorde de <b>84,2 milhões</b> de inadimplentes (Serasa). Boi a <b>R$ 363,50/@</b> em Barra do Garças."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar dispara e juro fica alto por mais tempo",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · próxima decisão 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 10/11)",
+     "valor": "R$ 5,59",
+     "sub": "subiu 1,46% · maior em 15 meses",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Bolsa (Ibovespa 10/11)",
+     "valor": "171 mil",
+     "sub": "caiu 0,52% no dia",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "IPCA de outubro",
+     "valor": "Amanhã",
+     "sub": "12/11 · projeção perto de 0,25% no mês",
+     "cor": "azul"
+    }
+   ],
+   "texto": "A inflação dos EUA veio acima do esperado e o dólar ganhou força; no mês, já sobe <b>2,60%</b>. A ata do Copom diz que o freio dos juros precisa ficar acionado <b>por mais tempo</b>, citando petróleo, El Niño, fim da escala 6x1 e real fraco.",
+   "pratica": "quem compra insumo ou produto cotado em dólar deve revisar preço de venda agora e não contar com crédito mais barato em 2026."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "CBS de 11,3% no Senado e nota fiscal nacional",
+   "blocos": [
+    {
+     "titulo": "CBS: decisão até 15/12",
+     "texto": "O TCU entregou ontem ao Senado o acórdão que propõe <b>CBS de 11,3%</b> em 2027 (o imposto que substitui PIS e Cofins). O Senado pode manter ou mudar a alíquota até <b>15/12</b>."
+    },
+    {
+     "titulo": "Simples: NFS-e nacional obrigatória",
+     "texto": "Desde <b>1º/11</b>, empresas do Simples que prestam serviço emitem a NFS-e pelo <b>Emissor Nacional</b>. Nota pelo sistema antigo pode ser rejeitada e atrasar o pagamento do cliente."
+    }
+   ],
+   "pratica": "confirme com o contador se suas notas de novembro já saem pelo Emissor Nacional e simule os preços de 2027 com 11,3%."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Inadimplência recorde: cuide do contas a receber",
+   "blocos": [
+    {
+     "titulo": "84,2 milhões com contas em atraso",
+     "texto": "O Brasil tem <b>84,2 milhões</b> de inadimplentes, que devem <b>R$ 597,4 bilhões</b> (Serasa, setembro). O Feirão Limpa Nome, com descontos de até <b>99%</b>, vai até <b>6/12</b>."
+    },
+    {
+     "titulo": "Simples 2027: 305,8 mil pedidos negados",
+     "texto": "A Receita negou <b>305,8 mil</b> pedidos de entrada no Simples por dívidas com União, estados ou municípios (dados até 29/10). Dívida fiscal fecha a porta do regime."
+    }
+   ],
+   "pratica": "venda a prazo só com análise de crédito e ofereça acordo aos clientes atrasados enquanto o Feirão estimula a renegociação."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Boi firme e soja estável",
+   "texto": "Boi em MT firme: <b>R$ 363,50/@</b> em Barra do Garças (Imea, 10/11). Preços de 9/11:",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Milho (R$/saca)",
+     "Boi (R$/@)"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · boi SP",
+      "valores": [
+       "158,62",
+       "–",
+       "393,30"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT) · milho Lucas",
+      "valores": [
+       "135,30",
+       "41,80",
+       "–"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "143,00",
+       "–",
+       "381,00"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "131,65",
+       "43,90",
+       "–"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Barra do Garças (MT)",
+      "valores": [
+       "–",
+       "–",
+       "363,50"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg; @ = 15 kg. Fontes: Cepea, Imea, Granos, Scot (Notícias Agrícolas)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "milho em Canarana subiu <b>2,81%</b> no dia. Dólar alto: acompanhe o porto para travar parte da soja."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "12/11",
+   "texto": "IPCA de outubro"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parte do 13º"
+  },
+  {
+   "data": "6/12",
+   "texto": "Fim do Feirão Limpa Nome"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "15/12",
+   "texto": "Prazo da CBS"
+  }
+ ],
+ "dica": "dar <b>5%</b> de desconto para receber 30 dias antes custa <b>5% ao mês</b>. A Selic dá cerca de <b>1,08% ao mês</b>: compare com o custo do seu crédito antes.",
+ "promo": {
+  "titulo": "Contas a receber em dia",
+  "texto": "Política de crédito, cobrança e fluxo de caixa de dezembro com a 42 ADM."
+ },
+ "chamada": "Empresário, venda que não é recebida é prejuízo com nota fiscal.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Dados: fechamento de 10/11/2026; agro de 9 e 10/11/2026.",
+ "fontes": [
+  {
+   "titulo": "Itabira Online: dólar e bolsa 10/11",
+   "url": "https://itabiraonline.com.br/2026/11/10/dolar-sobe-146-e-fecha-a-r-558-maior-valor-em-mais-de-15-meses-ibovespa-recua/"
+  },
+  {
+   "titulo": "Melhor Investimento: ata do Copom",
+   "url": "https://melhorinvestimento.net/noticias/ata-copom-selic-1375-novembro-2026"
+  },
+  {
+   "titulo": "InfoMoney: projeção do IPCA de outubro",
+   "url": "https://www.infomoney.com.br/mercados/ipca-outubro-projecao-inflacao-desaceleracao/"
+  },
+  {
+   "titulo": "Agência Senado: CBS de 11,3%",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-recebe-acordao-do-tcu-que-propoe-aliquota-de-11-3-para-a-cbs"
+  },
+  {
+   "titulo": "Tribuna do Sertão: barradas no Simples",
+   "url": "https://tribunadosertao.com.br/financas/2026/11/10/1017647-barradas-no-simples-nacional-dividas-deixam-300-mil-empresas-fora-do-regime-tributario-em-2027"
+  },
+  {
+   "titulo": "Jornal Contábil: NFS-e nacional no Simples",
+   "url": "https://jornalcontabil.com.br/noticia/nota-fiscal-nacional-nova-regra-ja-vale-e-empresas-podem-ter-notas-rejeitadas/"
+  },
+  {
+   "titulo": "Serasa: recorde de inadimplentes",
+   "url": "https://www.serasa.com.br/imprensa/recorde-84-2-milhoes-inadimplentes-serasa-feirao-limpa-nome-3-mil-empresas/"
+  },
+  {
+   "titulo": "N. Agrícolas: soja",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/soja"
+  },
+  {
+   "titulo": "N. Agrícolas: boi gordo",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo"
+  },
+  {
+   "titulo": "N. Agrícolas: milho Imea",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho/milho-disponivel-imea"
+  }
+ ]
+}

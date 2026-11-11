@@ -6,6 +6,7 @@ Notícias e destaques do dia que impactam negócios, mercado e agronegócio, pre
 
 | Data | Boletim (página) | PDF | Stories e capas | Textos WhatsApp |
 |---|---|---|---|---|
+| 11/11/2026 | [abrir](https://42adm.github.io/boletins/boletins/2026-11-11/) | [PDF](https://github.com/42adm/boletins/blob/main/boletins/2026-11-11/boletim-42adm-2026-11-11.pdf) | [release](https://github.com/42adm/boletins/releases/tag/2026-11-11) | [textos](https://github.com/42adm/boletins/blob/main/boletins/2026-11-11/whatsapp/textos.md) |
 | 10/11/2026 | [abrir](https://42adm.github.io/boletins/boletins/2026-11-10/) | [PDF](https://github.com/42adm/boletins/blob/main/boletins/2026-11-10/boletim-42adm-2026-11-10.pdf) | [release](https://github.com/42adm/boletins/releases/tag/2026-11-10) | [textos](https://github.com/42adm/boletins/blob/main/boletins/2026-11-10/whatsapp/textos.md) |
 | 09/11/2026 | [abrir](https://42adm.github.io/boletins/boletins/2026-11-09/) | [PDF](https://github.com/42adm/boletins/blob/main/boletins/2026-11-09/boletim-42adm-2026-11-09.pdf) | [release](https://github.com/42adm/boletins/releases/tag/2026-11-09) | [textos](https://github.com/42adm/boletins/blob/main/boletins/2026-11-09/whatsapp/textos.md) |
 | 08/11/2026 | [abrir](https://42adm.github.io/boletins/boletins/2026-11-08/) | [PDF](https://github.com/42adm/boletins/blob/main/boletins/2026-11-08/boletim-42adm-2026-11-08.pdf) | — | — |
