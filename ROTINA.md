@@ -80,8 +80,22 @@ ou que se sobreponham (encurte a manchete, o label ou o valor). Depois gere tudo
 `python3 ferramentas/publicar.py DIA` — grava tudo no repositório (página, PDF, capas, textos e os vídeos dos stories na pasta do dia) e atualiza o README e a página com todos os boletins (index.html).
 Não existe mais release: não tente criar uma nem avise sobre isso. Se o push falhar por falta de permissão, não tente outro caminho: avise na mensagem final.
 
-## 5. Avisar o Juliano
+## 5. Enviar no canal do WhatsApp "42 ADM - Boletim Empresarial"
+
+Só funciona quando a rotina roda com o computador do Juliano (ferramentas do Claude in Chrome disponíveis). Carregue a
+skill `chrome-browser`, abra uma aba nova em https://web.whatsapp.com, vá em **Canais** e abra o canal
+**42 ADM - Boletim Empresarial** (não envie em nenhuma outra conversa). Envie, nesta ordem:
+
+1. A **mensagem do boletim completo** (o primeiro bloco do `whatsapp/textos.md`, com o link do boletim do dia).
+2. Para cada notícia, na ordem do `noticias.json`: a capa `whatsapp/capa-<id>.jpg` com o texto `whatsapp` da notícia
+   como legenda. Para anexar a capa, grave antes as capas em uma pasta do computador (ferramentas de arquivos do
+   computador) e use o botão **+ → Fotos e vídeos** do WhatsApp Web. Se não der para anexar a imagem, envie só o texto.
+
+Confira cada envio na tela antes do próximo e não repita mensagem já enviada. Se o WhatsApp Web pedir QR code, estiver
+desconectado ou o Chrome não estiver disponível, não envie nada e diga isso em uma linha no aviso final.
+
+## 6. Avisar o Juliano
 
 Envie um SendUserMessage curto com: os 2–3 destaques do dia em uma linha cada, o link do boletim (página), o link do PDF, o link da pasta do dia
 (stories e capas) e o link dos textos do WhatsApp (os três saem impressos pelo publicar.py). Lembre que a publicação
-no Instagram e o envio no WhatsApp são feitos por ele.
+no Instagram é feita por ele. Diga se o envio no canal do WhatsApp (passo 5) deu certo.
