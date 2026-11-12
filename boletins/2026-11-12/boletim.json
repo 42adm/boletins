@@ -1,0 +1,225 @@
+{
+ "data_extenso": "Quinta-feira, 12 de novembro de 2026",
+ "saudacao": "Bom dia e boa quinta! ☀️ Receita dá mais prazo na transição da reforma tributária, dólar recua para R$ 5,56 e o IPCA de outubro sai hoje.",
+ "resumo": [
+  "Receita adia para <b>1º/03/2027</b> a nova nota do Simples na venda de mercadorias e quer <b>30 dias a mais</b> para o acerto da CBS.",
+  "Dólar cai <b>0,42%</b>, a <b>R$ 5,56</b>; bolsa sobe <b>0,42%</b>, a <b>172 mil pontos</b>.",
+  "IPCA de outubro sai hoje; mercado vê inflação de <b>5,22%</b> em 2026.",
+  "Cartão com <b>10%</b> de atraso (Abecs). Soja de MT <b>96%</b> plantada; boi a <b>R$ 365,50/@</b> em Barra do Garças."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar dá uma trégua; inflação no radar",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · decisão 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 11/11)",
+     "valor": "R$ 5,56",
+     "sub": "caiu 0,42% no dia",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,22%",
+     "sub": "Focus 9/11 · teto é 4,5%",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "IPCA de outubro",
+     "valor": "Hoje",
+     "sub": "sai 12/11 · prévia 0,32%",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O real se recuperou após a alta de terça e a bolsa subiu com Nova York. O governo diz que o pacote fiscal pode render <b>R$ 50 a 60 bilhões</b> em 2027. A Petrobras caiu mais de <b>3%</b> após o balanço.",
+   "pratica": "a trégua do dólar é chance para quem precisa comprar insumo importado. Não conte com queda de juros neste ano."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Reforma: mais prazo para nota e para a CBS",
+   "blocos": [
+    {
+     "titulo": "Nota do Simples só em março",
+     "texto": "A nova NF-e/NFC-e do Simples na <b>venda de mercadorias</b> fica para <b>1º/03/2027</b> (era janeiro), para mais de <b>1,1 milhão</b> de empresas. Para <b>serviço</b>, a NFS-e nacional já vale."
+    },
+    {
+     "titulo": "CBS: acerto 30 dias depois",
+     "texto": "A Receita vai propor que o pagamento definitivo da CBS possa ficar para o <b>mês seguinte</b>. O 1º recolhimento é no fim de <b>fevereiro</b>. A reforma segue começando em <b>janeiro de 2027</b>."
+    }
+   ],
+   "pratica": "o prazo extra não é motivo para parar: atualize cadastro de produtos e sistema de notas com o contador ainda em 2026."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Cliente apertado antes da Black Friday",
+   "blocos": [
+    {
+     "titulo": "Cartão: 10% em atraso",
+     "texto": "A inadimplência no cartão chegou a <b>10%</b> no 3º trimestre, <b>0,9 ponto</b> acima de um ano antes (Abecs). No cheque especial, <b>16%</b>."
+    },
+    {
+     "titulo": "Black Friday e 13º",
+     "texto": "Black Friday em <b>27/11</b>. A 1ª parte do 13º vence em <b>30/11</b> e a 2ª em <b>18/12</b> (o dia 20 cai num domingo)."
+    }
+   ],
+   "pratica": "prefira Pix e cartão na Black Friday, limite o crediário e separe já o dinheiro do 13º."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Plantio quase no fim; boi firme no Araguaia",
+   "texto": "MT plantou <b>96,07%</b> da soja até 6/11, <b>10,39 pontos</b> à frente de 2025 (Imea). Preços de 10/11 (boi MT: 11/11):",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Milho (R$/saca)",
+     "Boi (R$/@)"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · boi SP",
+      "valores": [
+       "159,87",
+       "–",
+       "393,30"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT) · milho Lucas",
+      "valores": [
+       "135,15",
+       "42,00",
+       "–"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "144,00",
+       "–",
+       "381,00"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "131,30",
+       "43,40",
+       "–"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Barra do Garças (MT)",
+      "valores": [
+       "–",
+       "–",
+       "365,50"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Vila Rica (MT)",
+      "valores": [
+       "–",
+       "–",
+       "366,50"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg; @ = 15 kg. Fontes: Cepea, Imea, Granos, Scot (Notícias Agrícolas)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "soja em Canarana está <b>R$ 28,57</b> abaixo do porto: venda a safra nova em lotes."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parte do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "18/12",
+   "texto": "2ª parte do 13º"
+  },
+  {
+   "data": "1º/3",
+   "texto": "NF-e nova no Simples"
+  }
+ ],
+ "dica": "<b>R$ 30 mil</b> em estoque parado por 3 meses, com a Selic a cerca de <b>1,08% ao mês</b>, deixam de render perto de <b>R$ 970</b>. Use a Black Friday para girar o encalhe.",
+ "promo": {
+  "titulo": "Reforma tributária sem susto",
+  "texto": "Fluxo de caixa de 2027 com CBS e IBS e organização das notas com a 42 ADM."
+ },
+ "chamada": "Empresário, prazo a mais é tempo para se preparar, não para esquecer.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Dados: fechamento de 11/11/2026; agro de 10 e 11/11/2026; Focus de 9/11/2026.",
+ "fontes": [
+  {
+   "titulo": "Hoje Diário: dólar e bolsa 11/11",
+   "url": "https://hojediario.com/2026/11/11/dolar-fecha-em-queda-a-r-556-e-ibovespa-sobe-com-pacote-fiscal-no-radar/"
+  },
+  {
+   "titulo": "A Crítica: Boletim Focus 9/11",
+   "url": "https://acritica.net/economia/focus-9-novembro-selic-13-75-ipca-2027-dolar-5-35-pib/"
+  },
+  {
+   "titulo": "Antena Carioca: IPCA de outubro sai 12/11",
+   "url": "https://www.antenacarioca.com.br/2026/11/ipca-de-outubro-pode-influenciar.html"
+  },
+  {
+   "titulo": "O Tempo: Receita e prazo da CBS",
+   "url": "https://www.otempo.com.br/economia/2026/11/11/reforma-tributaria-receita-federal-quer-ampliar-em-30-dias-prazo-para-pagamento-definitivo-da-cbs"
+  },
+  {
+   "titulo": "Cláudio Dantas: nota do Simples em março",
+   "url": "https://claudiodantas.com.br/receita-adia-para-marco-notas-fiscais-simples/"
+  },
+  {
+   "titulo": "Jornal de Brasília: inadimplência no cartão",
+   "url": "https://jornaldebrasilia.com.br/noticias/economia/inadimplencia-do-cartao-de-credito-chega-a-10-do-terceiro-trimestre-de-2026"
+  },
+  {
+   "titulo": "FDR: 13º e Black Friday",
+   "url": "https://fdr.com.br/2026/11/10/empresa-pode-pagar-a-1a-parcela-do-13o-apos-a-black-friday-entenda-a-data-limite"
+  },
+  {
+   "titulo": "Nativa News: plantio da soja em MT",
+   "url": "https://nativanews.com.br/agronegocios/semeadura-da-soja-alcanca-96-da-area-em-mato-grosso-aponta-imea/"
+  },
+  {
+   "titulo": "N. Agrícolas: soja",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/soja"
+  },
+  {
+   "titulo": "N. Agrícolas: boi gordo",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo"
+  },
+  {
+   "titulo": "N. Agrícolas: milho Imea",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho/milho-disponivel-imea"
+  }
+ ]
+}

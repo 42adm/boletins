@@ -1,0 +1,132 @@
+{
+  "date": "12 · 11 · 2026",
+  "data_curta": "12/11",
+  "noticias": [
+    {
+      "id": "01-nota-simples",
+      "tag": "IMPOSTOS",
+      "kicker": "Receita Federal · 11/11",
+      "headline": "Nova nota do Simples fica para <em>março</em>",
+      "stats": [
+        {
+          "text": "1º/3",
+          "label": "nova NF-e no comércio"
+        },
+        {
+          "text": "1,1 mi",
+          "label": "empresas afetadas"
+        }
+      ],
+      "note": "Serviços: NFS-e nacional já vale",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Use o prazo extra para atualizar cadastro de produtos e o sistema de notas.",
+      "whatsapp": "*Nova nota fiscal do Simples fica para março* 🧾\n\nA Receita adiou para *1º/03/2027* a obrigação da nova NF-e/NFC-e para empresas do Simples que *vendem mercadorias*. São mais de *1,1 milhão* de empresas. Quem presta *serviço* não ganhou prazo: a NFS-e nacional já vale desde novembro.\n\n👉 *Na prática:* não pare a preparação. Atualize o cadastro de produtos e o sistema de notas com o contador ainda em 2026.\n\n_Boletim Matinal 42 ADM · 12/11_"
+    },
+    {
+      "id": "02-cbs-prazo",
+      "tag": "IMPOSTOS",
+      "kicker": "Reforma tributária · 11/11",
+      "headline": "CBS: Receita quer <em>30 dias a mais</em> no acerto",
+      "stats": [
+        {
+          "text": "+30",
+          "label": "dias para o acerto"
+        },
+        {
+          "text": "jan/27",
+          "label": "início da reforma"
+        }
+      ],
+      "note": "1º recolhimento no fim de fevereiro",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Monte desde já o fluxo de caixa de 2027 com a CBS no lugar de PIS e Cofins.",
+      "whatsapp": "*CBS: Receita quer 30 dias a mais para o acerto* 📅\n\nA Receita vai propor ao Congresso que o pagamento definitivo da CBS possa ficar para o *mês seguinte*. O primeiro recolhimento será no fim de *fevereiro*, sobre as vendas de janeiro. A reforma segue começando em *janeiro de 2027*.\n\n👉 *Na prática:* monte desde já o fluxo de caixa de 2027 com a CBS no lugar de PIS e Cofins.\n\n_Boletim Matinal 42 ADM · 12/11_"
+    },
+    {
+      "id": "03-dolar",
+      "tag": "DÓLAR",
+      "kicker": "Fechamento de quarta · 11/11",
+      "headline": "Dólar <em>recua</em> e bolsa sobe",
+      "stats": [
+        {
+          "value": 5.56,
+          "decimals": 2,
+          "label": "R$ por dólar no fechamento"
+        },
+        {
+          "value": 0.42,
+          "decimals": 2,
+          "prefix": "-",
+          "suffix": "%",
+          "label": "queda no dia"
+        }
+      ],
+      "note": "Ibovespa subiu 0,42%, a 172 mil pontos",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Precisa comprar insumo importado? A trégua do dólar é uma chance.",
+      "whatsapp": "*Dólar recua e bolsa sobe* 💵\n\nO dólar caiu *0,42%* ontem (11/11) e fechou a *R$ 5,56*, depois do maior valor em 15 meses na terça. A bolsa subiu *0,42%*, para *172 mil pontos*, com o pacote fiscal no radar. O IPCA de outubro sai hoje.\n\n👉 *Na prática:* se você precisa comprar insumo importado, a trégua do dólar é uma chance.\n\n_Boletim Matinal 42 ADM · 12/11_"
+    },
+    {
+      "id": "04-cartao",
+      "tag": "COBRANÇA",
+      "kicker": "Abecs · 3º trimestre",
+      "headline": "Atraso no cartão chega a <em>10%</em>",
+      "stats": [
+        {
+          "value": 10,
+          "decimals": 0,
+          "suffix": "%",
+          "label": "inadimplência no cartão"
+        },
+        {
+          "text": "27/11",
+          "label": "Black Friday"
+        }
+      ],
+      "note": "Cheque especial: 16% em atraso",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Na Black Friday, prefira Pix e cartão e limite o crediário.",
+      "whatsapp": "*Atraso no cartão chega a 10%* 💳\n\nA inadimplência no cartão de crédito chegou a *10%* no 3º trimestre, *0,9 ponto* acima de um ano antes (Abecs). No cheque especial, o atraso é de *16%*. A Black Friday é em *27/11*.\n\n👉 *Na prática:* na Black Friday, prefira Pix e cartão, limite o crediário e separe já o dinheiro do 13º (1ª parte até 30/11).\n\n_Boletim Matinal 42 ADM · 12/11_"
+    },
+    {
+      "id": "05-araguaia",
+      "tag": "CAMPO",
+      "kicker": "Imea · 10 e 11/11",
+      "headline": "Boi firme no <em>Araguaia</em> e plantio no fim",
+      "stats": [
+        {
+          "text": "365,50",
+          "label": "boi R$/@ Barra do Garças"
+        },
+        {
+          "text": "96%",
+          "label": "soja plantada em MT"
+        }
+      ],
+      "note": "Soja em Canarana a R$ 131,30 a saca",
+      "takeLabel": "PARA O PRODUTOR",
+      "take": "Soja R$ 28,57 abaixo do porto: planeje vender a safra nova em lotes.",
+      "whatsapp": "*Boi firme no Araguaia e plantio no fim* 🌱\n\nO boi fechou a *R$ 365,50/@* em Barra do Garças e *R$ 366,50/@* em Vila Rica (Imea, 11/11). Mato Grosso já plantou *96,07%* da soja, à frente da safra passada. A saca em Canarana ficou em *R$ 131,30* (10/11), *R$ 28,57* abaixo do porto.\n\n👉 *Para o produtor:* com o plantio adiantado, planeje vender a safra nova em lotes.\n\n_Boletim Matinal 42 ADM · 12/11_"
+    },
+    {
+      "id": "06-dica",
+      "tag": "DICA DO DIA",
+      "kicker": "Conta simples · Selic 13,75%",
+      "headline": "Estoque parado <em>custa dinheiro</em>",
+      "stats": [
+        {
+          "text": "R$ 970",
+          "label": "deixam de render"
+        },
+        {
+          "text": "3",
+          "label": "meses com R$ 30 mil parados"
+        }
+      ],
+      "note": "Selic rende cerca de 1,08% ao mês",
+      "takeLabel": "NA PRÁTICA",
+      "take": "Use a Black Friday para girar o que está encalhado.",
+      "whatsapp": "*Estoque parado custa dinheiro* 📦\n\n*R$ 30 mil* em mercadoria parada por *3 meses*, com a Selic rendendo cerca de *1,08% ao mês*, deixam de render perto de *R$ 970*.\n\n👉 *Na prática:* use a Black Friday para girar o que está encalhado.\n\n_Boletim Matinal 42 ADM · 12/11_"
+    }
+  ]
+}
