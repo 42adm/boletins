@@ -7,7 +7,7 @@ Cole no WhatsApp como mensagem de texto, antes ou depois das capas.
 ```
 *Boletim Matinal 42 ADM · 13/11*
 
-Bom dia e boa sexta! ☀️ Dólar volta a subir e bate R$ 5,65, a inflação de outubro desacelera e o calote no agro derruba o lucro do Banco do Brasil.
+Bom dia e boa sexta! ☀️ Dólar volta a subir e bate R$ 5,65, a inflação de outubro desacelera e a inadimplência no agro derruba o lucro do Banco do Brasil.
 
 • Dólar sobe *1,61%*, a *R$ 5,65*, maior valor em 17 meses; bolsa cai *0,80%*, a *170,7 mil pontos*.
 • IPCA de outubro fica em *0,14%*, mas soma *4,63%* em 12 meses, acima do teto de *4,5%*. Alimentos sobem *1,04%*.
@@ -61,7 +61,7 @@ _Boletim Matinal 42 ADM · 13/11_
 ## capa-04-bb-agro.jpg
 
 ```
-*Calote no agro derruba o lucro do Banco do Brasil* 🚜
+*Inadimplência no agro derruba o lucro do Banco do Brasil* 🚜
 
 O lucro do BB caiu *66,5%* no 3º trimestre. O atraso acima de 90 dias no agro chegou a *6,92%* em setembro (era *4,84%* um ano antes), concentrado em médios e grandes produtores do Centro-Oeste. O banco agora prevê carteira de crédito estável ou em queda.
 

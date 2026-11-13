@@ -1,6 +1,6 @@
 {
  "data_extenso": "Sexta-feira, 13 de novembro de 2026",
- "saudacao": "Bom dia e boa sexta! ☀️ Dólar volta a subir e bate R$ 5,65, a inflação de outubro desacelera e o calote no agro derruba o lucro do Banco do Brasil.",
+ "saudacao": "Bom dia e boa sexta! ☀️ Dólar volta a subir e bate R$ 5,65, a inflação de outubro desacelera e a inadimplência no agro derruba o lucro do Banco do Brasil.",
  "resumo": [
   "Dólar sobe <b>1,61%</b>, a <b>R$ 5,65</b>, maior valor em 17 meses; bolsa cai <b>0,80%</b>, a <b>170,7 mil pontos</b>.",
   "IPCA de outubro fica em <b>0,14%</b>, mas soma <b>4,63%</b> em 12 meses, acima do teto de <b>4,5%</b>. Alimentos sobem <b>1,04%</b>.",
@@ -72,7 +72,7 @@
   },
   {
    "tag": "CAMPO",
-   "titulo": "Calote no agro e crédito mais curto",
+   "titulo": "Inadimplência no agro e crédito mais curto",
    "texto": "Atraso no agro do BB chegou a <b>6,92%</b> (era <b>4,84%</b>), com foco no Centro-Oeste. Preços de 11/11:",
    "tabela": {
     "colunas": [
