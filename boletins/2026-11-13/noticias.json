@@ -1,0 +1,134 @@
+{
+ "date": "13 · 11 · 2026",
+ "data_curta": "13/11",
+ "noticias": [
+  {
+   "id": "01-dolar",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de quinta · 12/11",
+   "headline": "Dólar no maior valor em <em>17 meses</em>",
+   "stats": [
+    {
+     "value": 5.65,
+     "decimals": 2,
+     "label": "R$ por dólar no fechamento"
+    },
+    {
+     "value": 1.61,
+     "decimals": 2,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "alta no dia"
+    }
+   ],
+   "note": "Ibovespa caiu 0,80%, a 170,7 mil pontos",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Feche já o preço das compras em dólar que não podem esperar.",
+   "whatsapp": "*Dólar bate R$ 5,65, maior valor em 17 meses* 💵\n\nO dólar subiu *1,61%* ontem (12/11) e fechou a *R$ 5,65*. A bolsa caiu *0,80%*, para *170,7 mil pontos*, com dúvidas sobre o pacote fiscal e a inflação ainda acima da meta.\n\n👉 *Na prática:* feche já o preço das compras em dólar que não podem esperar e revise a tabela de produtos importados.\n\n_Boletim Matinal 42 ADM · 13/11_"
+  },
+  {
+   "id": "02-ipca",
+   "tag": "INFLAÇÃO",
+   "kicker": "IBGE · IPCA de outubro",
+   "headline": "Inflação desacelera, mas <em>comida sobe</em>",
+   "stats": [
+    {
+     "value": 0.14,
+     "decimals": 2,
+     "suffix": "%",
+     "label": "IPCA de outubro"
+    },
+    {
+     "value": 1.04,
+     "decimals": 2,
+     "suffix": "%",
+     "label": "alta dos alimentos"
+    }
+   ],
+   "note": "Em 12 meses: 4,63%, acima do teto",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Restaurante e mercado: revise preços com tomate, arroz e carne.",
+   "whatsapp": "*Inflação desacelera, mas a comida sobe* 🍅\n\nO IPCA de outubro ficou em *0,14%* (setembro foi 0,82%), mas soma *4,63%* em 12 meses, acima do teto de *4,5%*. Os alimentos subiram *1,04%*: tomate *+19,57%*, arroz *+4,81%* e carnes *+2,27%*.\n\n👉 *Na prática:* restaurante e mercado, revise já os preços dos itens com tomate, arroz e carne para não perder margem.\n\n_Boletim Matinal 42 ADM · 13/11_"
+  },
+  {
+   "id": "03-reforma",
+   "tag": "IMPOSTOS",
+   "kicker": "Receita Federal · 12/11",
+   "headline": "Reforma: mais prazo e <em>menos multa</em>",
+   "stats": [
+    {
+     "text": "1º/3",
+     "label": "nova data de 7 documentos"
+    },
+    {
+     "text": "jan/27",
+     "label": "início da CBS"
+    }
+   ],
+   "note": "Erro de boa-fé não será punido",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Teste a emissão das notas novas com o contador ainda em 2026.",
+   "whatsapp": "*Reforma tributária: mais prazo e menos multa* 🧾\n\nAlém da nova nota do Simples, mais *6 documentos fiscais* ficaram para *1º/03/2027*. A Receita também anunciou um programa para *não punir quem errar de boa-fé* na transição. A CBS começa em *janeiro de 2027* e a NFS-e nacional de serviço segue valendo.\n\n👉 *Na prática:* teste a emissão das notas novas com o contador ainda em 2026.\n\n_Boletim Matinal 42 ADM · 13/11_"
+  },
+  {
+   "id": "04-bb-agro",
+   "tag": "ALERTA",
+   "kicker": "Banco do Brasil · 3º trimestre",
+   "headline": "Calote no agro derruba <em>lucro do BB</em>",
+   "stats": [
+    {
+     "text": "6,92%",
+     "label": "atraso no agro (set)"
+    },
+    {
+     "text": "66,5%",
+     "label": "queda do lucro no 3º tri"
+    }
+   ],
+   "note": "Um ano antes, o atraso era 4,84%",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Crédito vai ficar mais seletivo: organize as dívidas antes de pedir.",
+   "whatsapp": "*Calote no agro derruba o lucro do Banco do Brasil* 🚜\n\nO lucro do BB caiu *66,5%* no 3º trimestre. O atraso acima de 90 dias no agro chegou a *6,92%* em setembro (era *4,84%* um ano antes), concentrado em médios e grandes produtores do Centro-Oeste. O banco agora prevê carteira de crédito estável ou em queda.\n\n👉 *Para o produtor:* o crédito vai ficar mais seletivo. Organize e renegocie as dívidas antes de pedir dinheiro novo.\n\n_Boletim Matinal 42 ADM · 13/11_"
+  },
+  {
+   "id": "05-araguaia",
+   "tag": "CAMPO",
+   "kicker": "Imea · 11/11",
+   "headline": "Boi firme no <em>Araguaia</em>",
+   "stats": [
+    {
+     "text": "365,50",
+     "label": "boi R$/@ Barra do Garças"
+    },
+    {
+     "text": "131,00",
+     "label": "soja R$/sc Canarana"
+    }
+   ],
+   "note": "Vila Rica: boi a R$ 366,50/@",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Soja R$ 29 abaixo do porto: venda a safra nova em lotes.",
+   "whatsapp": "*Boi firme no Araguaia* 🐂\n\nO boi fechou a *R$ 365,50/@* em Barra do Garças e *R$ 366,50/@* em Vila Rica (Imea, 11/11). A soja em Canarana ficou em *R$ 131,00* a saca, *R$ 29,00* abaixo de Paranaguá. O milho em Canarana subiu para *R$ 43,90*.\n\n👉 *Para o produtor:* com a soja bem abaixo do porto, planeje vender a safra nova em lotes.\n\n_Boletim Matinal 42 ADM · 13/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Conta simples · dólar R$ 5,65",
+   "headline": "Um dia de dólar <em>custa caro</em>",
+   "stats": [
+    {
+     "text": "R$ 900",
+     "label": "a mais em um dia"
+    },
+    {
+     "text": "10 mil",
+     "label": "US$ em insumo importado"
+    }
+   ],
+   "note": "De R$ 55.615 para R$ 56.510",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Compra certa? Trave o preço com o fornecedor.",
+   "whatsapp": "*Um dia de dólar custa caro* 💡\n\nUm insumo de *US$ 10 mil* passou de cerca de *R$ 55.615* para *R$ 56.510* com a alta de ontem: quase *R$ 900* a mais em um só dia.\n\n👉 *Na prática:* se a compra é certa, trave o preço ou o câmbio com o fornecedor.\n\n_Boletim Matinal 42 ADM · 13/11_"
+  }
+ ]
+}

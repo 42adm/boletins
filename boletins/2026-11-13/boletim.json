@@ -1,0 +1,217 @@
+{
+ "data_extenso": "Sexta-feira, 13 de novembro de 2026",
+ "saudacao": "Bom dia e boa sexta! ☀️ Dólar volta a subir e bate R$ 5,65, a inflação de outubro desacelera e o calote no agro derruba o lucro do Banco do Brasil.",
+ "resumo": [
+  "Dólar sobe <b>1,61%</b>, a <b>R$ 5,65</b>, maior valor em 17 meses; bolsa cai <b>0,80%</b>, a <b>170,7 mil pontos</b>.",
+  "IPCA de outubro fica em <b>0,14%</b>, mas soma <b>4,63%</b> em 12 meses, acima do teto de <b>4,5%</b>. Alimentos sobem <b>1,04%</b>.",
+  "Receita adia mais <b>6 documentos fiscais</b> para <b>1º/03/2027</b> e promete transição sem punir quem erra de boa-fé.",
+  "Lucro do BB cai <b>66,5%</b>: atraso no agro chega a <b>6,92%</b>. Boi a <b>R$ 365,50/@</b> em Barra do Garças."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar no maior valor em 17 meses",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · decisão 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 12/11)",
+     "valor": "R$ 5,65",
+     "sub": "subiu 1,61% no dia",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "IPCA em 12 meses",
+     "valor": "4,63%",
+     "sub": "outubro · teto é 4,5%",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "IPCA de outubro",
+     "valor": "0,14%",
+     "sub": "setembro foi 0,82%",
+     "cor": "verde"
+    }
+   ],
+   "texto": "A inflação veio menor que o esperado, mas segue acima da meta em 12 meses, o que tira espaço para corte de juros. Pacote fiscal e o tombo de <b>9%</b> do BB pesaram.",
+   "pratica": "feche já o preço das compras em dólar que não podem esperar."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Reforma: mais prazo e menos multa",
+   "blocos": [
+    {
+     "titulo": "Mais 6 documentos para março",
+     "texto": "Além da NF-e/NFC-e do Simples (<b>1,1 milhão</b> de empresas), mais <b>6 documentos</b> ficam para <b>1º/03/2027</b>. A NFS-e nacional de serviço segue valendo."
+    },
+    {
+     "titulo": "Erro de boa-fé sem punição",
+     "texto": "Programa de conformidade para não punir quem errar de boa-fé. A CBS começa em <b>janeiro de 2027</b>; quem não optou até <b>30/10</b> segue com IBS e CBS no DAS."
+    }
+   ],
+   "pratica": "teste a emissão das notas novas com o contador ainda em 2026."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Comida mais cara e Black Friday chegando",
+   "blocos": [
+    {
+     "titulo": "Alimentos sobem 1,04%",
+     "texto": "Comer em casa ficou <b>1,31%</b> mais caro. Tomate <b>+19,57%</b>, arroz <b>+4,81%</b>, carnes <b>+2,27%</b>."
+    },
+    {
+     "titulo": "Black Friday e 13º",
+     "texto": "Black Friday em <b>27/11</b>; 13º: 1ª parte até <b>30/11</b>, 2ª até <b>18/12</b>."
+    }
+   ],
+   "pratica": "restaurante e mercado: revise já os preços com tomate, arroz e carne."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Calote no agro e crédito mais curto",
+   "texto": "Atraso no agro do BB chegou a <b>6,92%</b> (era <b>4,84%</b>), com foco no Centro-Oeste. Preços de 11/11:",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Milho (R$/saca)",
+     "Boi (R$/@)"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · boi SP",
+      "valores": [
+       "160,00",
+       "–",
+       "394,15"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT) · milho Lucas",
+      "valores": [
+       "134,85",
+       "43,00",
+       "–"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "145,00",
+       "–",
+       "381,00"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "131,00",
+       "43,90",
+       "–"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Barra do Garças (MT)",
+      "valores": [
+       "–",
+       "–",
+       "365,50"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Vila Rica (MT)",
+      "valores": [
+       "–",
+       "–",
+       "366,50"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg; @ = 15 kg. Fontes: Cepea, Imea, Insoy, Granos, Scot (Notícias Agrícolas)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "com banco mais seletivo, organize as dívidas antes de pedir crédito. Soja em Canarana: <b>R$ 29,00</b> abaixo do porto."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parte do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "18/12",
+   "texto": "2ª parte do 13º"
+  }
+ ],
+ "dica": "insumo de <b>US$ 10 mil</b> ficou quase <b>R$ 900</b> mais caro em um dia (de <b>R$ 55.615</b> para <b>R$ 56.510</b>). Compra certa? Trave o preço.",
+ "promo": {
+  "titulo": "Dívida rural em ordem",
+  "texto": "Renegociação de dívidas, fluxo de caixa da safra e planejamento 2027 com a 42 ADM."
+ },
+ "chamada": "Empresário, crédito some para quem não tem contas organizadas.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Dados de 12/11/2026 (agro: 10 e 11/11).",
+ "fontes": [
+  {
+   "titulo": "O Repórter: dólar e Ibovespa 12/11",
+   "url": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+  },
+  {
+   "titulo": "CNN Brasil: IPCA de outubro",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/inflacao-ipca-12-novembro-2026/"
+  },
+  {
+   "titulo": "Revista Empreende: alimentos no IPCA",
+   "url": "https://revistaempreende.com.br/ipca-outubro-2026-desacelera-alimentos/"
+  },
+  {
+   "titulo": "O Brasilianista: Receita amplia adaptação",
+   "url": "https://obrasilianista.com.br/2026/11/12/economia/receita-aumenta-tempo-adaptacao-reforma-tributaria"
+  },
+  {
+   "titulo": "InfoMoney: Simples adiado para 2027",
+   "url": "https://www.infomoney.com.br/brasil/reforma-tributaria-exigencia-as-empresas-do-simples-nacional-e-adiada-para-2027/"
+  },
+  {
+   "titulo": "InfoMoney: lucro do BB no 3º tri",
+   "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-resultados-terceiro-trimestre-2026/"
+  },
+  {
+   "titulo": "Tribuna do Sertão: BB e inadimplência do agro",
+   "url": "https://www.tribunadosertao.com.br/financas/2026/11/12/1020072-lucro-do-bb-cai-665-no-3o-trimestre-com-inadimplencia-do-agro"
+  },
+  {
+   "titulo": "N. Agrícolas: soja",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/soja"
+  },
+  {
+   "titulo": "N. Agrícolas: boi gordo",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo"
+  },
+  {
+   "titulo": "N. Agrícolas: milho Imea",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho/milho-disponivel-imea"
+  }
+ ]
+}
