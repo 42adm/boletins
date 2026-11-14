@@ -1,0 +1,200 @@
+{
+ "data_extenso": "Sábado, 14 de novembro de 2026",
+ "saudacao": "Bom dia e bom sábado! ☀️ Resumo da semana: dólar no maior valor do ano, bolsa em alta, pacote fiscal no Senado, varejo parado e soja de MT quase toda plantada.",
+ "resumo": [
+  "Dólar fecha a semana a <b>R$ 5,65</b> (<b>+2,63%</b>), maior valor do ano. Bolsa sobe <b>2,35%</b>, a <b>172,4 mil pontos</b>.",
+  "Senado aprova o <b>pacote fiscal</b> (até <b>R$ 60 bi</b> em 2027); destaques na <b>terça (17/11)</b>.",
+  "Varejo sobe só <b>0,2%</b> em setembro; móveis e eletro caem <b>2,6%</b>.",
+  "Soja de MT <b>98,3% plantada</b> (Araguaia: <b>94,9%</b>). Canarana: <b>R$ 132,00</b> a saca."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Semana de dólar caro e bolsa em alta",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 13/11)",
+     "valor": "R$ 5,65",
+     "sub": "+2,63% na semana",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,22%",
+     "sub": "Focus de 9/11",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Ibovespa (13/11)",
+     "valor": "172,4 mil",
+     "sub": "+2,35% na semana",
+     "cor": "verde"
+    }
+   ],
+   "texto": "Na sexta, o dólar ficou estável (<b>+0,11%</b>) e a bolsa subiu <b>0,66%</b>. A dúvida sobre o pacote fiscal pesa no câmbio. O Focus vê Selic de <b>13,75%</b> no fim do ano e <b>12,5%</b> em 2027.",
+   "pratica": "planeje o caixa contando com juro alto até o fim do ano e evite dívida nova cara."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Pacote fiscal e nota de serviço nacional",
+   "blocos": [
+    {
+     "titulo": "Pacote fiscal no Senado",
+     "texto": "Texto principal aprovado em 12/11, com medidas de até <b>R$ 60 bilhões</b> em 2027. Destaques em <b>17/11</b>; depois, Câmara."
+    },
+    {
+     "titulo": "NFS-e nacional no Simples",
+     "texto": "Desde <b>1º/11</b>, ME e EPP do Simples emitem nota de serviço no emissor nacional (nfse.gov.br). CBS e IBS valem a partir de <b>1º/01/2027</b>."
+    }
+   ],
+   "pratica": "confira com o contador se as notas de serviço de novembro já saem pelo sistema nacional."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Varejo de lado antes da Black Friday",
+   "blocos": [
+    {
+     "titulo": "Setembro quase parado",
+     "texto": "Vendas <b>+0,2%</b> no mês e <b>+1,7%</b> em 12 meses. Vestuário <b>+2,5%</b>; móveis e eletro <b>-2,6%</b>; supermercados <b>-0,5%</b>."
+    },
+    {
+     "titulo": "Indústria e serviços",
+     "texto": "Indústria <b>-0,8%</b> e serviços <b>-0,1%</b> em setembro. Black Friday em <b>27/11</b>."
+    }
+   ],
+   "pratica": "com consumo fraco, faça promoção só onde a margem aguenta e o estoque está parado."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Plantio na reta final e boi firme",
+   "texto": "Imea: soja de MT <b>98,3%</b> plantada; no Nordeste do estado (Araguaia), <b>94,9%</b>. Boi em MT a <b>R$ 371,00/@</b> (Scot, Sudeste). Preços de 12/11:",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Boi (R$/@)"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · boi SP",
+      "valores": [
+       "162,00",
+       "394,30"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "135,00",
+       "–"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "143,00",
+       "–"
+      ]
+     },
+     {
+      "regiao": "NORDESTE",
+      "praca": "Luís Eduardo Magalhães (BA)",
+      "valores": [
+       "145,00",
+       "–"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "132,00",
+       "–"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg; @ = 15 kg. Soja: AgRural (Scot); boi SP: Cepea."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "soja em Canarana está <b>R$ 30,00</b> abaixo do porto; venda a safra nova em lotes."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "17/11",
+   "texto": "Senado vota destaques do pacote fiscal"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parte do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "com margem de <b>30%</b>, um desconto de <b>10%</b> faz o lucro cair de <b>R$ 30</b> para <b>R$ 20</b> a cada R$ 100. Para lucrar o mesmo, é preciso vender <b>50% a mais</b>.",
+ "promo": {
+  "titulo": "Black Friday com lucro",
+  "texto": "Planejamento de preços, fluxo de caixa e controle de margem com a 42 ADM."
+ },
+ "chamada": "Empresário, desconto sem conta é prejuízo com fila no caixa.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Mercado: fechamentos de sexta (13/11/2026). Agro: 12 e 13/11.",
+ "fontes": [
+  {
+   "titulo": "O Povo: dólar sobe 2,63% na semana",
+   "url": "https://www.opovo.com.br/noticias/economia/2026/11/13/dolar-fecha-estavel-a-rs-565-mas-sobe-263-na-semana.html"
+  },
+  {
+   "titulo": "O Tempo: bolsa fecha 2ª semana no azul",
+   "url": "https://www.otempo.com.br/economia/2026/11/13/bolsa-de-valores-encerra-segunda-semana-seguida-no-azul"
+  },
+  {
+   "titulo": "Sou Brasília: Focus de 9/11",
+   "url": "https://soubrasilia.com/boletim-focus-9-novembro-2026-selic-13-75-ipca-4-90-2027-pib-1-75-dolar-5-35/"
+  },
+  {
+   "titulo": "Diário de Suzano: varejo de setembro (IBGE)",
+   "url": "https://www.diariodesuzano.com.br/nacional/2026/11/13/vendas-no-comercio-variam-02-em-setembro-ibge-mostra-estabilidade.html"
+  },
+  {
+   "titulo": "Hora Brasil: NFS-e nacional no Simples",
+   "url": "https://www.horabrasil.com.br/2026/11/13/nota-fiscal-nacional-simples"
+  },
+  {
+   "titulo": "Só Notícias: plantio de soja em MT (Imea)",
+   "url": "https://www.sonoticias.com.br/agronoticias/plantio-da-soja-chega-a-983-da-area-prevista-em-mato-grosso-e-entra-na-reta-final/"
+  },
+  {
+   "titulo": "Brasil 61: soja Cepea",
+   "url": "https://brasil61.com/n/soja-sobe-no-interior-do-parana-e-em-paranagua-nesta-sexta-feira-13-pagr266646"
+  },
+  {
+   "titulo": "Brasil 61: boi gordo Cepea",
+   "url": "https://brasil61.com/n/boi-gordo-registra-leve-alta-e-arroba-chega-a-r-394-30-em-sao-paulo-pagr266647"
+  },
+  {
+   "titulo": "Scot Consultoria: soja",
+   "url": "https://www.scotconsultoria.com.br/cotacoes/soja/"
+  },
+  {
+   "titulo": "Scot Consultoria: boi gordo",
+   "url": "https://www.scotconsultoria.com.br/cotacoes/boi-gordo/"
+  }
+ ]
+}

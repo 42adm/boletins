@@ -1,0 +1,90 @@
+{
+ "date": "14 · 11 · 2026",
+ "data_curta": "14/11",
+ "noticias": [
+  {
+   "id": "01-dolar-semana",
+   "tag": "DÓLAR",
+   "kicker": "Resumo da semana · fechamento 13/11",
+   "headline": "Dólar no <em>maior valor do ano</em>",
+   "stats": [
+    {"value": 5.65, "decimals": 2, "label": "R$ por dólar na sexta"},
+    {"value": 2.63, "decimals": 2, "prefix": "+", "suffix": "%", "label": "alta na semana"}
+   ],
+   "note": "Bolsa subiu 2,35%, a 172,4 mil pontos",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Compra em dólar certa? Negocie preço travado com o fornecedor.",
+   "whatsapp": "*Dólar fecha a semana no maior valor do ano* 💵\n\nO dólar terminou a sexta (13/11) a *R$ 5,65* e acumulou alta de *2,63%* na semana, pressionado pela dúvida sobre o pacote fiscal. A bolsa foi no sentido contrário: subiu *2,35%* na semana, para *172,4 mil pontos*.\n\n👉 *Na prática:* se a compra em dólar é certa, negocie preço travado com o fornecedor.\n\n_Boletim Matinal 42 ADM · 14/11_"
+  },
+  {
+   "id": "02-pacote-fiscal",
+   "tag": "ECONOMIA",
+   "kicker": "Senado · 12/11",
+   "headline": "Pacote fiscal passa no <em>Senado</em>",
+   "stats": [
+    {"text": "R$ 60 bi", "label": "medidas em 2027"},
+    {"text": "17/11", "label": "votação dos destaques"}
+   ],
+   "note": "Depois, o texto segue para a Câmara",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Juro alto até o fim do ano: evite dívida nova cara.",
+   "whatsapp": "*Pacote fiscal passa no Senado* 🏛️\n\nO Senado aprovou na quinta (12/11) a parte principal do pacote fiscal, com medidas de até *R$ 60 bilhões* em 2027. Os destaques serão votados na *terça (17/11)* e depois o texto vai à Câmara. O mercado prevê Selic de *13,75%* até o fim do ano (Focus).\n\n👉 *Na prática:* planeje o caixa contando com juro alto e evite dívida nova cara.\n\n_Boletim Matinal 42 ADM · 14/11_"
+  },
+  {
+   "id": "03-varejo",
+   "tag": "VENDAS",
+   "kicker": "IBGE · varejo de setembro",
+   "headline": "Varejo <em>de lado</em> antes da Black Friday",
+   "stats": [
+    {"text": "0,2%", "label": "alta das vendas no mês"},
+    {"text": "-2,6%", "label": "móveis e eletro"}
+   ],
+   "note": "No trimestre, vendas caíram 0,3%",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Promoção só onde a margem aguenta e o estoque está parado.",
+   "whatsapp": "*Varejo anda de lado antes da Black Friday* 🛒\n\nAs vendas do comércio subiram só *0,2%* em setembro e caíram *0,3%* no 3º trimestre (IBGE). Vestuário cresceu *2,5%*, mas móveis e eletro caíram *2,6%* e supermercados *0,5%*.\n\n👉 *Na prática:* com consumo fraco, faça promoção só onde a margem aguenta e o estoque está parado.\n\n_Boletim Matinal 42 ADM · 14/11_"
+  },
+  {
+   "id": "04-nfse",
+   "tag": "IMPOSTOS",
+   "kicker": "Simples Nacional · desde 1º/11",
+   "headline": "Nota de serviço agora é <em>nacional</em>",
+   "stats": [
+    {"text": "1º/11", "label": "NFS-e nacional para ME e EPP"},
+    {"text": "jan/27", "label": "início de CBS e IBS"}
+   ],
+   "note": "Emissor: nfse.gov.br",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Confira se as notas de novembro já saem pelo sistema nacional.",
+   "whatsapp": "*Nota de serviço do Simples agora é nacional* 🧾\n\nDesde *1º/11*, ME e EPP do Simples Nacional emitem nota de serviço (NFS-e) pelo emissor nacional (nfse.gov.br), e não mais pelo da prefeitura. Notas de competência anterior podem seguir no sistema municipal. CBS e IBS começam em *1º/01/2027*.\n\n👉 *Na prática:* confira com o contador se as notas de novembro já saem pelo sistema nacional.\n\n_Boletim Matinal 42 ADM · 14/11_"
+  },
+  {
+   "id": "05-soja-mt",
+   "tag": "CAMPO",
+   "kicker": "Imea · 13/11",
+   "headline": "Soja de MT na <em>reta final</em>",
+   "stats": [
+    {"text": "98,3%", "label": "área plantada em MT"},
+    {"text": "94,9%", "label": "Nordeste de MT (Araguaia)"}
+   ],
+   "note": "Canarana: R$ 132,00; porto: R$ 162,00",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Soja R$ 30 abaixo do porto: venda a safra nova em lotes.",
+   "whatsapp": "*Soja de MT na reta final do plantio* 🌱\n\nMato Grosso já plantou *98,3%* da área de soja (Imea), à frente do ano passado. No Nordeste do estado, região do Araguaia, são *94,9%*. Em Canarana a saca saiu a *R$ 132,00*, *R$ 30,00* abaixo de Paranaguá (12/11). O boi segue firme: *R$ 394,30/@* em SP.\n\n👉 *Para o produtor:* com essa diferença para o porto, venda a safra nova em lotes.\n\n_Boletim Matinal 42 ADM · 14/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Conta simples · Black Friday 27/11",
+   "headline": "Desconto de 10% <em>custa caro</em>",
+   "stats": [
+    {"text": "R$ 20", "label": "lucro a cada R$ 100"},
+    {"text": "+50%", "label": "vendas para lucrar igual"}
+   ],
+   "note": "Exemplo com margem de 30%",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Faça a conta da margem antes de anunciar o desconto.",
+   "whatsapp": "*Desconto de 10% custa mais do que parece* 💡\n\nCom margem de *30%*, um desconto de *10%* faz o lucro cair de *R$ 30* para *R$ 20* a cada R$ 100 vendidos. Para lucrar o mesmo, você precisa vender *50% a mais*.\n\n👉 *Na prática:* antes da Black Friday (27/11), faça essa conta produto a produto.\n\n_Boletim Matinal 42 ADM · 14/11_"
+  }
+ ]
+}
