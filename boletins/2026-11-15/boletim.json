@@ -1,0 +1,200 @@
+{
+ "data_extenso": "Domingo, 15 de novembro de 2026",
+ "saudacao": "Bom dia e bom domingo! ☀️ Boletim leve com o que vem na semana: Focus e IBC-Br na segunda, pacote fiscal no Senado na terça, feriado nacional na sexta (20/11) e Black Friday chegando.",
+ "resumo": [
+  "Mercado volta amanhã com o dólar a <b>R$ 5,65</b>, maior valor desde junho de 2025, e a bolsa a <b>172,4 mil pontos</b> (fechamentos de sexta).",
+  "Na <b>terça (17/11)</b> o Senado vota os destaques do <b>pacote fiscal</b> (até <b>R$ 60 bi</b> em 2027).",
+  "<b>Sexta (20/11) é feriado nacional</b> (Consciência Negra). Planeje escala, entregas e pagamentos.",
+  "Inadimplência bate recorde: <b>9,4 milhões de empresas</b> negativadas (Serasa). Soja em Canarana: <b>R$ 134,00</b>."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Semana começa com dólar caro",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 13/11)",
+     "valor": "R$ 5,65",
+     "sub": "+2,66% na semana",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Ibovespa (13/11)",
+     "valor": "172,4 mil",
+     "sub": "+0,66% na sexta",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Segunda (16/11)",
+     "valor": "Focus",
+     "sub": "e IBC-Br de setembro",
+     "cor": "azul"
+    }
+   ],
+   "texto": "A dúvida sobre o tamanho do pacote fiscal segurou o dólar no maior valor desde junho de 2025. Na agenda: <b>Focus</b> e prévia do PIB (<b>IBC-Br</b>) na segunda, ata do Fed (EUA) na quarta e reunião do <b>CMN</b> na quinta.",
+   "pratica": "com câmbio e juros altos, segure compras grandes em dólar até ver como o mercado reage ao pacote fiscal."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Pacote fiscal na reta final do Senado",
+   "blocos": [
+    {
+     "titulo": "Destaques na terça (17/11)",
+     "texto": "O texto principal passou em 12/11, com medidas de até <b>R$ 60 bilhões</b> em 2027 para cumprir a meta fiscal. Depois dos destaques, segue para a Câmara."
+    },
+    {
+     "titulo": "CBS e IBS em janeiro",
+     "texto": "Os novos impostos da reforma começam em <b>1º/01/2027</b>. Faltam pouco mais de 6 semanas."
+    }
+   ],
+   "pratica": "marque com o contador uma conversa ainda em novembro sobre o que muda nas notas e nos preços em janeiro."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday e calote recorde",
+   "blocos": [
+    {
+     "titulo": "Black Friday (27/11)",
+     "texto": "A CNC prevê <b>R$ 11,52 bilhões</b> em vendas, alta de <b>1,8%</b> (em 2025 foi <b>3,2%</b>). Juro alto freia o consumo."
+    },
+    {
+     "titulo": "Inadimplência de empresas",
+     "texto": "Serasa: <b>9,4 milhões</b> de CNPJs negativados em setembro, recorde, com <b>R$ 247,8 bi</b> em dívidas. Micro e pequenas são <b>95,2%</b>."
+    }
+   ],
+   "pratica": "venda a prazo só com análise de crédito do cliente e acompanhe os recebíveis toda semana."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja sobe no porto; boi firme",
+   "texto": "Soja sobe <b>R$ 5,00</b> em Paranaguá na sexta. Boi em SP a <b>R$ 395,40/@</b> (Cepea). Preços de 13/11:",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Milho (R$/saca)"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "168,00",
+       "66,00"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "139,00",
+       "44,00"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rio Verde (GO)",
+      "valores": [
+       "145,00",
+       "53,00"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "147,50",
+       "53,00"
+      ]
+     },
+     {
+      "regiao": "NORDESTE",
+      "praca": "Luís Eduardo Magalhães (BA)",
+      "valores": [
+       "147,50",
+       "60,00"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "134,00",
+       "–"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Fonte: AgRural (13/11); boi SP: Cepea/Esalq."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "a soja em Canarana está <b>R$ 34,00</b> abaixo do porto; venda a safra nova em lotes."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "16/11",
+   "texto": "Focus, IBC-Br e custos do Imea"
+  },
+  {
+   "data": "17/11",
+   "texto": "Senado vota destaques do pacote fiscal"
+  },
+  {
+   "data": "20/11",
+   "texto": "Feriado nacional (Consciência Negra)"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parte do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "trabalho no feriado (20/11) sem folga compensatória é pago em dobro. Salário de <b>R$ 2.200</b> = <b>R$ 10</b>/hora: 8 horas custam <b>R$ 160</b> a mais por pessoa.",
+ "promo": {
+  "titulo": "Fim de ano sem susto no caixa",
+  "texto": "Fluxo de caixa com feriado, 13º e Black Friday no calendário, com a 42 ADM."
+ },
+ "chamada": "Empresário, semana curta pede caixa planejado desde segunda.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Mercado: fechamentos de sexta (13/11/2026). Agro: 13/11.",
+ "fontes": [
+  {
+   "titulo": "Metrópoles: dólar a R$ 5,65 e bolsa em alta (13/11)",
+   "url": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-13-novembro"
+  },
+  {
+   "titulo": "Safras & Mercado: agenda de 16 a 20/11",
+   "url": "https://safras.com.br/confira-a-agenda-do-agronegocio-de-16-a-20-de-novembro"
+  },
+  {
+   "titulo": "InfoMoney: Black Friday 2026 (CNC)",
+   "url": "https://www.infomoney.com.br/economia/vendas-black-friday-2026-juros-inflacao-cnc/"
+  },
+  {
+   "titulo": "Let's Money: inadimplência de empresas (Serasa)",
+   "url": "https://www.letsmoney.com.br/credito/serasa-inadimplencia-empresas-setembro-2026/"
+  },
+  {
+   "titulo": "AgRural: preços de soja e milho",
+   "url": "https://agrural.com.br/precossojaemilho/"
+  },
+  {
+   "titulo": "Daily Journal: boi gordo Cepea (13/11)",
+   "url": "https://dailyjournal.news/news/2026-11-14/preco-da-arroba-do-boi-gordo-mantem-tendencia-de-alta-no-brasil"
+  }
+ ]
+}
