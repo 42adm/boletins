@@ -1,0 +1,208 @@
+{
+ "data_extenso": "Segunda-feira, 16 de novembro de 2026",
+ "saudacao": "Bom dia e boa semana! ☀️ Hoje tem Focus e prévia do PIB, dólar no maior valor do ano, nota fiscal com CBS/IBS e soja 98% plantada em MT.",
+ "resumo": [
+  "Dólar a <b>R$ 5,65</b>, maior valor desde junho de 2025; Ibovespa em <b>172,4 mil pontos</b> (sexta, 13/11).",
+  "Focus de 9/11: Selic de <b>13,75%</b> no fim do ano e IPCA de <b>5,22%</b>. Novo Focus sai hoje.",
+  "13º deve injetar <b>R$ 399 bilhões</b> na economia (Dieese). 1ª parcela até <b>30/11</b>.",
+  "Soja <b>98%</b> plantada em MT (Imea). Canarana: <b>R$ 134,00</b> a saca."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar no maior valor do ano",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 13/11)",
+     "valor": "R$ 5,65",
+     "sub": "+2,66% na semana",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,22%",
+     "sub": "Focus 9/11 · meta 4,50%",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Hoje (16/11)",
+     "valor": "IBC-Br",
+     "sub": "prévia do PIB · 9h",
+     "cor": "azul"
+    }
+   ],
+   "texto": "A dúvida sobre o pacote fiscal levou o dólar a <b>R$ 5,6549</b>. O Senado aprovou o texto-base e vota <b>4 destaques</b> na terça. O Focus subiu a Selic de fim de ano para <b>13,75%</b>.",
+   "pratica": "juro alto por mais tempo: evite dívida nova de curto prazo e negocie prazo com fornecedores."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Nota fiscal com CBS e IBS",
+   "blocos": [
+    {
+     "titulo": "Campos novos na nota",
+     "texto": "NF-e e NFS-e já devem trazer CBS, IBS, CST e cClassTrib. A nota em branco ainda não é rejeitada, mas a <b>obrigação vale</b>."
+    },
+    {
+     "titulo": "Próximas datas",
+     "texto": "<b>1º/12</b>: locações, água, gás e operações imobiliárias. <b>1º/01/2027</b>: empresas do <b>Simples Nacional</b>."
+    }
+   ],
+   "pratica": "peça ao sistema emissor e ao contador um teste de nota com os campos novos ainda em novembro."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "13º aquece o fim de ano",
+   "blocos": [
+    {
+     "titulo": "R$ 399 bi na economia",
+     "texto": "Dieese: <b>99,7 milhões</b> de pessoas recebem 13º, em média <b>R$ 3.720</b>. 1ª parcela até <b>30/11</b>; 2ª até <b>18/12</b>."
+    },
+    {
+     "titulo": "Feirão Limpa Nome",
+     "texto": "Serasa: <b>84,2 milhões</b> de pessoas negativadas. O feirão vai até <b>6/12</b>, com descontos de até <b>99%</b>."
+    }
+   ],
+   "pratica": "reserve já o caixa do 13º e use o dinheiro extra do cliente para cobrar atrasados com acordo."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja 98% plantada em MT",
+   "texto": "Imea: plantio em <b>98%</b> da área (96,36% em 2025). Boi em SP a <b>R$ 394,30/@</b> (Cepea, 12/11). Preços de 13/11:",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Milho (R$/saca)"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "168,00",
+       "66,00"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "139,00",
+       "44,00"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rio Verde (GO)",
+      "valores": [
+       "145,00",
+       "53,00"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "147,50",
+       "53,00"
+      ]
+     },
+     {
+      "regiao": "NORDESTE",
+      "praca": "Luís Eduardo Magalhães (BA)",
+      "valores": [
+       "147,50",
+       "60,00"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "134,00",
+       "–"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Fonte: AgRural (13/11); boi SP: Cepea/Esalq (12/11)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "foque no custo da safra nova: Canarana segue <b>R$ 34,00</b> abaixo do porto."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "17/11",
+   "texto": "Senado: destaques do pacote fiscal"
+  },
+  {
+   "data": "20/11",
+   "texto": "Feriado nacional"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parcela do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "1ª parcela do 13º = meio salário. 5 funcionários de <b>R$ 2.200</b>: <b>R$ 5.500</b> até 30/11 (<b>R$ 2.750</b>/semana).",
+ "promo": {
+  "titulo": "13º e impostos novos sem aperto",
+  "texto": "Fluxo de caixa de dezembro e virada da CBS/IBS organizados com a 42 ADM."
+ },
+ "chamada": "Empresário, separe o dinheiro do 13º antes de 30/11.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Mercado: fechamentos de sexta (13/11/2026); Focus de 9/11. Agro: 13/11.",
+ "fontes": [
+  {
+   "titulo": "Campo Grande News: dólar e Ibovespa (13/11)",
+   "url": "https://www.campograndenews.com.br/economia/dolar-fecha-a-r-5-65-e-acumula-alta-de-2-66-na-semana"
+  },
+  {
+   "titulo": "A Crítica: Focus de 9/11",
+   "url": "https://acritica.net/economia/focus-9-novembro-selic-13-75-ipca-2027-dolar-5-35-pib/"
+  },
+  {
+   "titulo": "Valor Final: calendário do Copom",
+   "url": "https://valorfinal.com.br/copom"
+  },
+  {
+   "titulo": "InfoMoney: agenda de 16/11",
+   "url": "https://www.infomoney.com.br/mercados/previa-pib-focus-falas-fed-agenda-segunda-feira-16112026/"
+  },
+  {
+   "titulo": "Mix Vale: CBS e IBS na nota",
+   "url": "https://www.mixvale.com.br/2026/11/15/reforma-tributaria-exige-novos-campos-de-ibs-e-cbs-na-nota-fiscal-eletronica-em-cronograma-ate-janeiro-de-2027/"
+  },
+  {
+   "titulo": "Times Brasil: 13º (Dieese)",
+   "url": "https://timesbrasil.com.br/brasil/13o-salario-deve-injetar-r-399-bilhoes-na-economia-em-2026/"
+  },
+  {
+   "titulo": "Brasil Inovador: Feirão Serasa",
+   "url": "https://brasilinovador.com.br/serasa-inicia-feirao-limpa-nome-com-33-mil-empresas-diante-de-volume-recorde-de-inadimplencia-no-pais/"
+  },
+  {
+   "titulo": "CNN Brasil: plantio de soja em MT (Imea)",
+   "url": "https://www.cnnbrasil.com.br/agro/plantio-de-soja-atinge-3/"
+  },
+  {
+   "titulo": "AgRural: preços de soja e milho",
+   "url": "https://agrural.com.br/precossojaemilho/"
+  },
+  {
+   "titulo": "Brasil 61: boi gordo Cepea",
+   "url": "https://brasil61.com/n/boi-gordo-registra-leve-alta-e-arroba-chega-a-r-394-30-em-sao-paulo-pagr266647"
+  }
+ ]
+}

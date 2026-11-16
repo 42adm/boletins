@@ -1,0 +1,127 @@
+{
+ "date": "16 · 11 · 2026",
+ "data_curta": "16/11",
+ "noticias": [
+  {
+   "id": "01-dolar-focus",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de sexta · 13/11",
+   "headline": "Dólar no <em>maior valor</em> do ano",
+   "stats": [
+    {
+     "value": 5.65,
+     "decimals": 2,
+     "label": "R$ por dólar"
+    },
+    {
+     "text": "13,75%",
+     "label": "Selic no fim do ano (Focus)"
+    }
+   ],
+   "note": "Senado vota destaques do pacote na terça",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Juro alto por mais tempo: evite dívida nova de curto prazo.",
+   "whatsapp": "*Dólar começa a semana no maior valor do ano* 💵\n\nO dólar fechou a sexta (13/11) a *R$ 5,65*, maior valor desde junho de 2025, com alta de *2,66%* na semana. A dúvida é o pacote fiscal: o Senado aprovou o texto-base e vota *4 destaques* na terça. No último Focus (9/11), o mercado subiu a Selic de fim de ano para *13,75%* e espera IPCA de *5,22%* em 2026. Hoje saem o novo Focus e a prévia do PIB (IBC-Br).\n\n👉 *Na prática:* juro alto por mais tempo. Evite dívida nova de curto prazo e negocie prazo com fornecedores.\n\n_Boletim Matinal 42 ADM · 16/11_"
+  },
+  {
+   "id": "02-nota-cbs-ibs",
+   "tag": "IMPOSTOS",
+   "kicker": "Reforma tributária · notas fiscais",
+   "headline": "Nota fiscal já pede <em>CBS e IBS</em>",
+   "stats": [
+    {
+     "text": "1º/12",
+     "label": "locações, água e gás"
+    },
+    {
+     "text": "1º/01",
+     "label": "Simples Nacional"
+    }
+   ],
+   "note": "Nota em branco ainda passa, mas é obrigação",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Peça ao sistema emissor e ao contador um teste de nota ainda em novembro.",
+   "whatsapp": "*Nota fiscal já precisa ter CBS e IBS* 🧾\n\nNF-e e NFS-e já devem trazer os campos de *CBS, IBS, CST e cClassTrib*. A nota em branco ainda não é rejeitada, mas a obrigação vale. Em *1º/12* entram locações, água, gás e operações imobiliárias; em *1º/01/2027*, as empresas do *Simples Nacional*.\n\n👉 *Na prática:* peça ao fornecedor do sistema emissor e ao contador um teste de nota com os campos novos ainda em novembro.\n\n_Boletim Matinal 42 ADM · 16/11_"
+  },
+  {
+   "id": "03-13-salario",
+   "tag": "EMPRESÁRIO",
+   "kicker": "Dieese · 13º salário 2026",
+   "headline": "13º injeta <em>R$ 399 bilhões</em>",
+   "stats": [
+    {
+     "text": "30/11",
+     "label": "prazo da 1ª parcela"
+    },
+    {
+     "text": "18/12",
+     "label": "prazo da 2ª parcela"
+    }
+   ],
+   "note": "99,7 milhões recebem; média de R$ 3.720",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Separe já o caixa do 13º e prepare o estoque para o consumo de dezembro.",
+   "whatsapp": "*13º deve injetar R$ 399 bilhões na economia* 💰\n\nSegundo o Dieese, *99,7 milhões* de pessoas recebem o 13º este ano, em média *R$ 3.720*. A 1ª parcela vence em *30/11* (sem INSS e IR) e a 2ª em *18/12*, porque o dia 20 cai num domingo.\n\n👉 *Na prática:* separe já o caixa do 13º da sua equipe e prepare estoque e vendas para o dinheiro extra do cliente.\n\n_Boletim Matinal 42 ADM · 16/11_"
+  },
+  {
+   "id": "04-feirao",
+   "tag": "COBRANÇA",
+   "kicker": "Serasa · Feirão Limpa Nome",
+   "headline": "Feirão vai até <em>6 de dezembro</em>",
+   "stats": [
+    {
+     "text": "84,2",
+     "label": "milhões de negativados"
+    },
+    {
+     "text": "99%",
+     "label": "desconto máximo"
+    }
+   ],
+   "note": "Hora boa para cobrar clientes atrasados",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Ofereça acordo aos clientes atrasados enquanto entra o 13º.",
+   "whatsapp": "*Feirão Limpa Nome vai até 6 de dezembro* 📞\n\nO Brasil tem *84,2 milhões* de pessoas negativadas (Serasa). O Feirão Limpa Nome, com descontos de até *99%*, segue até *6/12*. Com o 13º entrando, muita gente vai procurar quitar dívidas.\n\n👉 *Na prática:* aproveite o momento para oferecer acordo aos seus clientes atrasados, com desconto à vista ou parcelas que caibam no bolso.\n\n_Boletim Matinal 42 ADM · 16/11_"
+  },
+  {
+   "id": "05-soja",
+   "tag": "CAMPO",
+   "kicker": "Imea · AgRural 13/11",
+   "headline": "Soja <em>98% plantada</em> em MT",
+   "stats": [
+    {
+     "text": "98%",
+     "label": "da área plantada"
+    },
+    {
+     "text": "R$ 134",
+     "label": "saca em Canarana"
+    }
+   ],
+   "note": "Paranaguá: R$ 168,00 · boi SP: R$ 394,30/@",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Plantio no fim: foque no custo da safra nova.",
+   "whatsapp": "*Soja chega a 98% plantada em Mato Grosso* 🌱\n\nO plantio chegou a *98%* da área, à frente dos *96,36%* de 2025 (Imea). Na sexta (13/11), a saca fechou a *R$ 134,00* em Canarana, *R$ 34,00* abaixo de Paranaguá (*R$ 168,00*). O boi segue firme: *R$ 394,30/@* em SP (Cepea, 12/11).\n\n👉 *Para o produtor:* com o plantio no fim, foque no custo da safra nova e venda em lotes.\n\n_Boletim Matinal 42 ADM · 16/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "13º salário · 1ª parcela",
+   "headline": "Quanto guardar <em>para o 13º</em>",
+   "stats": [
+    {
+     "text": "5.500",
+     "label": "R$ para 5 funcionários"
+    },
+    {
+     "text": "2.750",
+     "label": "R$ por semana"
+    }
+   ],
+   "note": "Exemplo: salário de R$ 2.200",
+   "takeLabel": "NA PRÁTICA",
+   "take": "1ª parcela = meio salário, sem INSS e IR, até 30/11.",
+   "whatsapp": "*Quanto guardar para o 13º* 🧮\n\nA 1ª parcela do 13º é metade do salário, sem desconto de INSS e IR, e vence em *30/11*. Com 5 funcionários de *R$ 2.200*, são *R$ 5.500*. Faltam 2 semanas: guarde *R$ 2.750* por semana.\n\n👉 *Na prática:* abra uma reserva separada hoje e não use esse dinheiro em outra conta.\n\n_Boletim Matinal 42 ADM · 16/11_"
+  }
+ ]
+}
