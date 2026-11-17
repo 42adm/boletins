@@ -1,0 +1,208 @@
+{
+ "data_extenso": "Terça-feira, 17 de novembro de 2026",
+ "saudacao": "Bom dia e boa terça! ☀️ Hoje: dólar a R$ 5,78, Senado vota o ajuste fiscal, jornada de 42 horas chegando e soja perto de R$ 170 no porto.",
+ "resumo": [
+  "Dólar subiu <b>2,2%</b>, a <b>R$ 5,78</b>, maior valor desde abril de 2025; Ibovespa caiu <b>1,83%</b> (<b>169,3 mil</b>).",
+  "Senado vota hoje os <b>4 destaques</b> do ajuste fiscal (até <b>R$ 56,1 bi</b> em 2027).",
+  "Jornada máxima cai para <b>42 horas</b> a partir de <b>16/12</b>, sem corte de salário.",
+  "Soja a <b>R$ 169,00</b> em Paranaguá, puxada pelo dólar. Plantio em MT em <b>98,3%</b>."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar dispara e economia esfria",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 16/11)",
+     "valor": "R$ 5,78",
+     "sub": "+2,2% no dia",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,11%",
+     "sub": "Focus 16/11 · era 5,22%",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Hoje (17/11)",
+     "valor": "Senado",
+     "sub": "destaques do ajuste fiscal",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O medo com as contas do governo levou o dólar a <b>R$ 5,78</b>. O Focus manteve a Selic de fim de ano em <b>13,75%</b>, mas subiu a de 2027 para <b>12,75%</b>. O IBC-Br caiu <b>0,2%</b> em setembro: indústria <b>-0,4%</b>, serviços <b>-0,1%</b>, agro <b>+1,2%</b>.",
+   "pratica": "juro alto por mais tempo e vendas mais fracas: segure gasto não essencial e reforce o caixa."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste fiscal e CBS por estimativa",
+   "blocos": [
+    {
+     "titulo": "Senado vota hoje",
+     "texto": "Um dos destaques impede a Receita de limitar a <b>compensação de créditos</b> entre tributos. CNI, Fiesp e mais <b>119 entidades</b> pedem mudança. Depois, o texto vai à Câmara."
+    },
+    {
+     "titulo": "CBS por estimativa",
+     "texto": "A Receita quer deixar a empresa calcular a CBS com uma <b>estimativa dos créditos</b> na 1ª apuração (<b>fev/2027</b>) e acertar a diferença depois. Ainda depende do Congresso."
+    }
+   ],
+   "pratica": "se a empresa compensa créditos de tributos, veja com o contador o resultado de hoje."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Jornada de 42 horas e Black Friday",
+   "blocos": [
+    {
+     "titulo": "Fim da escala 6x1",
+     "texto": "Pela EC 141/2026, o limite cai para <b>42 horas</b> semanais a partir de <b>16/12</b> e para <b>40 horas</b> em dez/2027, com <b>2 folgas</b> e sem reduzir salário."
+    },
+    {
+     "titulo": "Black Friday (27/11)",
+     "texto": "A CNC prevê <b>R$ 11,52 bilhões</b> em vendas, só <b>+1,8%</b> sobre 2025. Juro do crédito pessoal: <b>61,7%</b> ao ano; <b>29,6%</b> das famílias têm contas em atraso."
+    }
+   ],
+   "pratica": "monte já as escalas de dezembro com 42 horas e cuidado com o parcelado longo."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Dólar leva soja ao maior preço desde 2023",
+   "texto": "Com o dólar, a soja chegou a <b>R$ 169,00</b> em Paranaguá e destravou vendas. Imea: plantio em <b>98,3%</b> de MT (Nordeste do estado: <b>94,9%</b>). Boi em MT a <b>R$ 376,01/@</b> (Safras).",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "169,00",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rondonópolis (MT)",
+      "valores": [
+       "143,00",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rio Verde (GO)",
+      "valores": [
+       "146,00",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "148,00",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "134,00",
+       "13/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Fontes: Safras & Mercado (16/11) e AgRural (13/11)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "dólar alto é chance de travar parte da safra nova; confira o preço do dia."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parcela do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "16/12",
+   "texto": "Jornada máxima de 42 horas"
+  }
+ ],
+ "dica": "salário de <b>R$ 2.200</b> com 44h/semana = <b>R$ 10,00</b>/hora. Com 42h, vira <b>R$ 10,48</b>/hora: <b>+4,8%</b>.",
+ "promo": {
+  "titulo": "Folha de 42 horas sem susto",
+  "texto": "Custo da nova jornada, escalas e fluxo de caixa de dezembro com a 42 ADM."
+ },
+ "chamada": "Empresário, refaça a conta da folha antes de 16/12.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Mercado e Focus: 16/11/2026. Agro: 13 e 16/11.",
+ "fontes": [
+  {
+   "titulo": "Mix Vale: dólar e Ibovespa (16/11)",
+   "url": "https://www.mixvale.com.br/2026/11/16/dolar-fecha-em-alta-de-215-a-r-57767-e-ibovespa-cai-183/"
+  },
+  {
+   "titulo": "Floresta: Ibovespa (16/11)",
+   "url": "https://www.florestanoticias.com/2026/11/16/ibovespa-cai-183-e-dolar-comercial-sobe-para-r-57777-no-fechamento/"
+  },
+  {
+   "titulo": "Paraíba Business: Focus de 16/11",
+   "url": "https://paraibabusiness.com.br/focus-reduz-ipca-de-2026-para-511-e-eleva-o-de-2027-para-5/"
+  },
+  {
+   "titulo": "Metrópoles: IBC-Br de setembro",
+   "url": "https://www.metropoles.com/brasil/ibc-br-previa-do-pib-recua-02-em-setembro-diz-banco-central"
+  },
+  {
+   "titulo": "TV Sim: ajuste fiscal",
+   "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/17/senado-vota-destaques-ajuste-fiscal-56-bi"
+  },
+  {
+   "titulo": "CPG: CBS por estimativa",
+   "url": "https://clickpetroleoegas.com.br/reforma-tributaria-2027-regra-cbs-empresas-rss94"
+  },
+  {
+   "titulo": "Barbieri: fim da escala 6x1",
+   "url": "https://www.barbieriadvogados.com/escala-6x1/"
+  },
+  {
+   "titulo": "CNC: Black Friday",
+   "url": "https://portaldocomercio.org.br/acoes-institucionais/black-friday-comercio-projeta-r-115-bilhoes-em-vendas-mas-inseguranca-juridica-e-custos-elevados-limitam-contratacoes/"
+  },
+  {
+   "titulo": "Floresta: soja (Safras, 16/11)",
+   "url": "https://www.florestanoticias.com/2026/11/16/soja-abre-a-semana-no-brasil-em-alta-significativa-mesmo-com-baixa-em-chicago/"
+  },
+  {
+   "titulo": "Só Notícias: plantio (Imea)",
+   "url": "https://www.sonoticias.com.br/agronoticias/plantio-da-soja-chega-a-983-da-area-prevista-em-mato-grosso-e-entra-na-reta-final/"
+  },
+  {
+   "titulo": "AgRural: preços de soja e milho",
+   "url": "https://agrural.com.br/precossojaemilho/"
+  },
+  {
+   "titulo": "Canal Rural: boi gordo (16/11)",
+   "url": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-estreia-a-semana-com-altas-mais-comedidas/"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "date": "17 · 11 · 2026",
+ "data_curta": "17/11",
+ "noticias": [
+  {
+   "id": "01-dolar",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de segunda · 16/11",
+   "headline": "Dólar no <em>maior valor</em> desde abril de 2025",
+   "stats": [
+    {"value": 5.78, "decimals": 2, "label": "R$ por dólar"},
+    {"text": "+2,2%", "label": "alta no dia"}
+   ],
+   "note": "Ibovespa caiu 1,83%, a 169,3 mil pontos",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Compra em dólar? Feche o câmbio aos poucos e revise o preço de importados.",
+   "whatsapp": "*Dólar dispara e chega a R$ 5,78* 💵\n\nO dólar subiu *2,2%* na segunda (16/11) e fechou a *R$ 5,78*, maior valor desde abril de 2025. O Ibovespa caiu *1,83%*, a *169,3 mil pontos*. O motivo é a dúvida sobre o ajuste fiscal: o Senado vota hoje os *4 destaques* do projeto, que prevê até *R$ 56,1 bilhões* a mais no resultado de 2027.\n\n👉 *Na prática:* se tem compra ou dívida em dólar, feche o câmbio aos poucos e revise o preço de produtos importados.\n\n_Boletim Matinal 42 ADM · 17/11_"
+  },
+  {
+   "id": "02-focus-pib",
+   "tag": "ECONOMIA",
+   "kicker": "Focus e IBC-Br · 16/11",
+   "headline": "Economia <em>esfria</em> e juro segue alto",
+   "stats": [
+    {"text": "-0,9%", "label": "IBC-Br no 3º trimestre"},
+    {"text": "13,75%", "label": "Selic no fim do ano"}
+   ],
+   "note": "Focus vê IPCA de 5,11% em 2026",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Segure gastos não essenciais e reforce o caixa antes de dezembro.",
+   "whatsapp": "*Economia esfria e juro segue alto* 📉\n\nA prévia do PIB (IBC-Br) caiu *0,2%* em setembro e *0,9%* no 3º trimestre. Indústria (*-0,4%*) e serviços (*-0,1%*) recuaram; o agro subiu *1,2%*. No Focus de ontem, o mercado manteve a Selic de fim de ano em *13,75%*, subiu a de 2027 para *12,75%* e baixou o IPCA de 2026 para *5,11%*.\n\n👉 *Na prática:* juro alto por mais tempo e vendas mais fracas. Segure gastos não essenciais e reforce o caixa antes de dezembro.\n\n_Boletim Matinal 42 ADM · 17/11_"
+  },
+  {
+   "id": "03-jornada-42h",
+   "tag": "ALERTA",
+   "kicker": "EC 141/2026 · fim da escala 6x1",
+   "headline": "Jornada cai para <em>42 horas</em> em dezembro",
+   "stats": [
+    {"text": "16/12", "label": "começa a valer"},
+    {"text": "40h", "label": "em dezembro de 2027"}
+   ],
+   "note": "Duas folgas e sem reduzir salário",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Refaça escalas e o custo da folha de dezembro antes de 16/12.",
+   "whatsapp": "*Jornada máxima cai para 42 horas em dezembro* ⏰\n\nPela Emenda Constitucional 141/2026, o limite semanal cai de 44 para *42 horas* a partir de *16/12* e para *40 horas* em dezembro de 2027. A semana passa a ter *2 dias de descanso* e o salário *não pode ser reduzido*.\n\n👉 *Na prática:* mapeie as escalas, simule o custo de horas extras e contratações e ajuste os turnos de dezembro com o contador.\n\n_Boletim Matinal 42 ADM · 17/11_"
+  },
+  {
+   "id": "04-black-friday",
+   "tag": "VENDAS",
+   "kicker": "CNC · Black Friday 27/11",
+   "headline": "Black Friday deve <em>crescer pouco</em>",
+   "stats": [
+    {"text": "11,52", "label": "R$ bilhões em vendas"},
+    {"text": "+1,8%", "label": "sobre 2025"}
+   ],
+   "note": "Juro do crédito pessoal: 61,7% ao ano",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Prefira venda à vista ou no Pix e cuidado com o parcelado longo.",
+   "whatsapp": "*Black Friday deve crescer pouco este ano* 🛍️\n\nA CNC prevê *R$ 11,52 bilhões* em vendas na Black Friday (27/11), só *1,8%* acima de 2025. O juro do crédito pessoal chegou a *61,7% ao ano* e *29,6%* das famílias têm contas em atraso.\n\n👉 *Na prática:* faça promoção com margem calculada, incentive pagamento à vista ou no Pix e tome cuidado com o parcelado longo.\n\n_Boletim Matinal 42 ADM · 17/11_"
+  },
+  {
+   "id": "05-soja",
+   "tag": "CAMPO",
+   "kicker": "Safras & Mercado · Imea",
+   "headline": "Dólar leva soja ao <em>maior preço</em> desde 2023",
+   "stats": [
+    {"text": "R$ 169", "label": "saca em Paranaguá"},
+    {"text": "98,3%", "label": "plantio em MT"}
+   ],
+   "note": "Canarana: R$ 134,00 a saca (13/11)",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Dólar alto é chance de travar parte da safra nova.",
+   "whatsapp": "*Dólar leva soja ao maior preço desde 2023* 🌱\n\nCom o dólar em alta, a soja chegou a *R$ 169,00* em Paranaguá e *R$ 143,00* em Rondonópolis na segunda (16/11), e as vendas da safra nova destravaram. Em Canarana, a saca estava a *R$ 134,00* (13/11). O plantio em MT chegou a *98,3%* da área (Imea).\n\n👉 *Na prática:* dólar alto é chance de travar parte da safra nova. Confira o preço do dia com a sua trading antes de fechar.\n\n_Boletim Matinal 42 ADM · 17/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Jornada de 42 horas",
+   "headline": "Quanto fica a <em>hora</em> com 42h",
+   "stats": [
+    {"text": "10,48", "label": "R$ por hora (era R$ 10)"},
+    {"text": "+4,8%", "label": "no custo da hora"}
+   ],
+   "note": "Exemplo: salário de R$ 2.200",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Refaça a conta da folha e do preço de venda antes de 16/12.",
+   "whatsapp": "*Dica do dia: quanto fica a hora com 42 horas* 🧮\n\nSalário de *R$ 2.200* com 44 horas semanais dá *R$ 10,00* a hora. Com 42 horas e o mesmo salário, a hora passa a custar *R$ 10,48*: *4,8% a mais* em cada hora trabalhada.\n\n👉 *Na prática:* refaça a conta da folha e do preço de venda antes de 16/12.\n\n_Boletim Matinal 42 ADM · 17/11_"
+  }
+ ]
+}
