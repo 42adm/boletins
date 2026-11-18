@@ -1,0 +1,127 @@
+{
+ "date": "18 · 11 · 2026",
+ "data_curta": "18/11",
+ "noticias": [
+  {
+   "id": "01-dolar",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de terça · 17/11",
+   "headline": "Dólar renova o <em>maior valor</em> desde 2025",
+   "stats": [
+    {
+     "value": 5.78,
+     "decimals": 2,
+     "label": "R$ por dólar"
+    },
+    {
+     "text": "+0,31%",
+     "label": "Ibovespa no dia"
+    }
+   ],
+   "note": "Medo das contas do governo e juro alto nos EUA",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Revise preços de importados e compre dólar aos poucos.",
+   "whatsapp": "*Dólar fecha a R$ 5,78 de novo* 💵\n\nO dólar subiu *0,10%* na terça (17/11) e fechou a *R$ 5,782*, o maior valor desde abril de 2025. O Ibovespa subiu *0,31%*. Pesam o medo com as contas do governo e a expectativa de juro alto nos EUA.\n\n👉 *Na prática:* dólar alto encarece insumos e importados. Revise preços e não deixe compra em dólar para a última hora.\n\n_Boletim Matinal 42 ADM · 18/11_"
+  },
+  {
+   "id": "02-ajuste-fiscal",
+   "tag": "ALERTA",
+   "kicker": "Senado · votação hoje às 16h",
+   "headline": "Ajuste fiscal: Senado <em>decide hoje</em>",
+   "stats": [
+    {
+     "text": "16h",
+     "label": "votação dos destaques"
+    },
+    {
+     "text": "R$ 18,3 bi",
+     "label": "trava em créditos"
+    }
+   ],
+   "note": "Economia prevista de R$ 50 a 60 bi em 2027",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Compensa créditos de tributos? Fale com o contador hoje.",
+   "whatsapp": "*Ajuste fiscal: Senado decide hoje* 🏛️\n\nO Senado adiou para hoje (18/11), às *16h*, a votação dos destaques do ajuste fiscal, que prevê economia de *R$ 50 a 60 bilhões* em 2027. Um destaque tira do governo o poder de limitar a *compensação de créditos* entre tributos federais, medida que renderia até *R$ 18,3 bilhões*.\n\n👉 *Na prática:* se a sua empresa usa créditos para pagar outros tributos, acompanhe o resultado com o contador.\n\n_Boletim Matinal 42 ADM · 18/11_"
+  },
+  {
+   "id": "03-reforma",
+   "tag": "IMPOSTOS",
+   "kicker": "Receita Federal · CAE do Senado",
+   "headline": "Reforma: <em>sem multa</em> para erro de boa-fé",
+   "stats": [
+    {
+     "text": "11,3%",
+     "label": "CBS de referência"
+    },
+    {
+     "text": "Dez",
+     "label": "piloto da correção"
+    }
+   ],
+   "note": "Apuração virá pré-preenchida pela Receita",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Veja se o seu emissor de nota já destaca CBS e IBS.",
+   "whatsapp": "*Reforma: Receita não vai multar erro de boa-fé* 🧾\n\nA Receita disse no Senado (17/11) que quem errar de *boa-fé* na transição da reforma não será multado. A apuração virá *pré-preenchida*: a empresa só confere e corrige. O piloto do módulo de correção sai em *dezembro*, e a CBS de referência está em *11,3%*.\n\n👉 *Na prática:* confira com o contador se o seu emissor de nota já destaca CBS e IBS.\n\n_Boletim Matinal 42 ADM · 18/11_"
+  },
+  {
+   "id": "04-inadimplencia",
+   "tag": "COBRANÇA",
+   "kicker": "Serasa Experian · setembro",
+   "headline": "Calote de empresas bate <em>recorde</em>",
+   "stats": [
+    {
+     "text": "9,4 mi",
+     "label": "CNPJs inadimplentes"
+    },
+    {
+     "text": "247,8",
+     "label": "R$ bilhões em dívidas"
+    }
+   ],
+   "note": "Micro e pequenas são 95,2% do total",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Consulte o CNPJ antes de vender a prazo e peça entrada.",
+   "whatsapp": "*Inadimplência de empresas bate recorde* ⚠️\n\nSegundo a Serasa, *9,4 milhões* de empresas estavam inadimplentes em setembro, *12%* a mais que em 2025, com *R$ 247,8 bilhões* em dívidas. Micro e pequenas são *95,2%* do total; serviços (*56,1%*) e comércio (*31,9%*) lideram.\n\n👉 *Na prática:* consulte o CNPJ do cliente antes de vender a prazo, peça entrada e cobre logo no primeiro dia de atraso.\n\n_Boletim Matinal 42 ADM · 18/11_"
+  },
+  {
+   "id": "05-soja",
+   "tag": "CAMPO",
+   "kicker": "Agrolink · Imea · 16/11",
+   "headline": "Soja sobe no porto com <em>dólar alto</em>",
+   "stats": [
+    {
+     "text": "R$ 164",
+     "label": "saca em Paranaguá"
+    },
+    {
+     "text": "R$ 376",
+     "label": "arroba do boi em MT"
+    }
+   ],
+   "note": "Barra do Garças: R$ 133,69 a saca (16/11)",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Compare preço local e frete; trave a safra aos poucos.",
+   "whatsapp": "*Soja sobe no porto com dólar alto* 🌱\n\nA soja subiu *1,86%* e chegou a *R$ 164,00* em Paranaguá na segunda (16/11). No interior a alta foi menor: *R$ 141,00* em Rondonópolis e *R$ 133,69* em Barra do Garças. A arroba do boi em MT ficou estável em *R$ 376,09* (17/11).\n\n👉 *Na prática:* compare o preço local com o frete antes de vender e trave a safra nova aos poucos.\n\n_Boletim Matinal 42 ADM · 18/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Quanto custa um calote",
+   "headline": "O calote come <em>5 vezes</em> mais",
+   "stats": [
+    {
+     "text": "1.000",
+     "label": "R$ que o cliente não pagou"
+    },
+    {
+     "text": "5.000",
+     "label": "R$ a vender para repor"
+    }
+   ],
+   "note": "Exemplo com margem de 20%",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Vender a prazo só para cliente consultado e com entrada.",
+   "whatsapp": "*Dica do dia: quanto custa um calote* 🧮\n\nCom margem de *20%*, cada *R$ 1.000* que um cliente deixa de pagar exige vender *R$ 5.000* a mais só para repor o lucro perdido.\n\n👉 *Na prática:* venda a prazo só para cliente consultado e, se puder, com entrada.\n\n_Boletim Matinal 42 ADM · 18/11_"
+  }
+ ]
+}

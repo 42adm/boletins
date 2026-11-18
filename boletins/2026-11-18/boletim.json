@@ -1,0 +1,200 @@
+{
+ "data_extenso": "Quarta-feira, 18 de novembro de 2026",
+ "saudacao": "Bom dia e boa quarta! ☀️ Hoje: dólar a R$ 5,78, Senado decide o ajuste fiscal às 16h, Receita promete não multar erro de boa-fé na reforma e inadimplência de empresas em recorde.",
+ "resumo": [
+  "Dólar subiu <b>0,10%</b>, a <b>R$ 5,78</b>, maior valor desde abril de 2025; Ibovespa subiu <b>0,31%</b>.",
+  "Senado adiou para hoje (<b>16h</b>) os destaques do ajuste fiscal; um deles mexe na <b>compensação de créditos</b>.",
+  "Receita: erro de <b>boa-fé</b> na transição da reforma não vai gerar multa; CBS de referência em <b>11,3%</b>.",
+  "Recorde: <b>9,4 milhões</b> de empresas inadimplentes, com <b>R$ 247,8 bi</b> em dívidas (Serasa)."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar no topo e ajuste fiscal em jogo",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 17/11)",
+     "valor": "R$ 5,78",
+     "sub": "+0,10% no dia",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,11%",
+     "sub": "Focus 16/11 · era 5,22%",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Hoje (18/11)",
+     "valor": "16h",
+     "sub": "Senado vota os destaques",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O dólar fechou a <b>R$ 5,782</b>, maior valor desde abril de 2025, com medo das contas do governo e juro alto nos EUA. O Senado adiou para hoje os destaques do ajuste fiscal, que prevê economia de <b>R$ 50 a 60 bi</b> em 2027.",
+   "pratica": "dólar alto encarece insumos e importados: revise preços e não deixe compra em dólar para a última hora."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Reforma: sem multa para erro de boa-fé",
+   "blocos": [
+    {
+     "titulo": "Receita no Senado (17/11)",
+     "texto": "Quem errar de <b>boa-fé</b> na transição não será multado. A Receita vai entregar a apuração <b>pré-preenchida</b>: a empresa só confere. Piloto do módulo de correção em <b>dezembro</b>; CBS de referência em <b>11,3%</b>."
+    },
+    {
+     "titulo": "Créditos de tributos",
+     "texto": "Um dos destaques de hoje tira do governo o poder de limitar a <b>compensação de créditos</b> entre tributos federais, medida que renderia até <b>R$ 18,3 bi</b> em 2027."
+    }
+   ],
+   "pratica": "confira com o contador se o seu emissor de nota já destaca CBS e IBS e acompanhe o resultado de hoje no Senado."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Inadimplência de empresas bate recorde",
+   "blocos": [
+    {
+     "titulo": "Serasa (setembro)",
+     "texto": "<b>9,4 milhões</b> de CNPJs inadimplentes, <b>12%</b> a mais que em 2025, com <b>R$ 247,8 bi</b> em dívidas. Micro e pequenas são <b>95,2%</b>. Serviços (<b>56,1%</b>) e comércio (<b>31,9%</b>) lideram."
+    },
+    {
+     "titulo": "Fim de mês pesado",
+     "texto": "Feriado na sexta (<b>20/11</b>), Black Friday no dia <b>27</b> e 1ª parcela do 13º até <b>30/11</b>: o caixa de novembro precisa de folga."
+    }
+   ],
+   "pratica": "consulte o CNPJ do cliente antes de vender a prazo, peça entrada e cobre logo no primeiro dia de atraso."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja firme no porto, boi estável em MT",
+   "texto": "Com o dólar alto, a soja subiu para <b>R$ 164,00</b> em Paranaguá (+<b>1,86%</b>). Em MT, a média do Imea foi <b>R$ 135,46</b> (13/11). Boi em MT a <b>R$ 376,09/@</b> (17/11).",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$/saca)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "164,00",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rondonópolis (MT)",
+      "valores": [
+       "141,00",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "135,40",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "144,00",
+       "16/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Barra do Garças (MT)",
+      "valores": [
+       "133,69",
+       "16/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Fontes: TF Agroeconômica/Imea via Agrolink (16/11) e Grão Direto (16/11)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "o porto subiu mais que o interior: compare o preço local com o frete antes de vender e trave aos poucos."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "18/11",
+   "texto": "Senado vota destaques (16h)"
+  },
+  {
+   "data": "20/11",
+   "texto": "Feriado nacional"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parcela do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "com margem de <b>20%</b>, cada <b>R$ 1.000</b> que um cliente deixa de pagar exige vender <b>R$ 5.000</b> a mais só para repor o lucro perdido.",
+ "promo": {
+  "titulo": "Cobrança em dia, caixa no azul",
+  "texto": "Contas a receber, régua de cobrança e fluxo de caixa de fim de ano com a 42 ADM."
+ },
+ "chamada": "Empresário, venda a prazo só para quem você consultou.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Mercado: 17/11/2026. Focus: 16/11. Agro: 13, 16 e 17/11. Serasa: setembro/2026.",
+ "fontes": [
+  {
+   "titulo": "Metrópoles: dólar (17/11)",
+   "url": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-17-novembro"
+  },
+  {
+   "titulo": "A Crítica: Focus de 16/11",
+   "url": "https://acritica.net/economia/focus-16-novembro-selic-13-75-pib-1-72-dolar-5-40-ipca/"
+  },
+  {
+   "titulo": "Agência Brasil: Senado adia destaques",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-adia-votacao-de-destaques-do-projeto-de-ajuste-fiscal"
+  },
+  {
+   "titulo": "Agência Brasil: Receita e erros de boa-fé",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe"
+  },
+  {
+   "titulo": "Serasa Experian: inadimplência de empresas",
+   "url": "https://www.serasaexperian.com.br/sala-de-imprensa/indicadores/novo-recorde-inadimplencia-das-empresas-chegou-a-94-milhoes-em-setembro-revela-serasa-experian/"
+  },
+  {
+   "titulo": "Agrolink: soja por praça (16/11)",
+   "url": "https://www.agrolink.com.br/noticias/dolar-em-alta-leva-soja-a-r--166-no-porto-de-rio-grande_521129.html"
+  },
+  {
+   "titulo": "Só Notícias: soja disponível MT (Imea)",
+   "url": "https://www.sonoticias.com.br/agronoticias/soja-disponivel-em-mato-grosso-tem-alta-7/"
+  },
+  {
+   "titulo": "Grão Direto: soja em Barra do Garças",
+   "url": "https://www.graodireto.com.br/ofertas/soja/mt/barra-do-garcas/"
+  },
+  {
+   "titulo": "Canal Rural: boi gordo (17/11)",
+   "url": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-comeca-a-dar-sinais-de-desaceleracao-confira-as-cotacoes/"
+  }
+ ]
+}
