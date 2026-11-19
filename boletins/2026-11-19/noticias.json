@@ -1,0 +1,127 @@
+{
+ "date": "19 · 11 · 2026",
+ "data_curta": "19/11",
+ "noticias": [
+  {
+   "id": "01-dolar",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de quarta · 18/11",
+   "headline": "Dólar <em>dispara</em> e vai a R$ 5,87",
+   "stats": [
+    {
+     "value": 5.87,
+     "decimals": 2,
+     "label": "R$ por dólar"
+    },
+    {
+     "text": "-1,34%",
+     "label": "Ibovespa no dia"
+    }
+   ],
+   "note": "Maior valor desde abril de 2025",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Feche o preço de insumos e importados antes de repassar.",
+   "whatsapp": "*Dólar dispara e vai a R$ 5,87* 💵\n\nO dólar subiu *1,45%* na quarta (18/11) e fechou a *R$ 5,87*, o maior valor desde abril de 2025, mesmo com o Banco Central vendendo *US$ 1 bilhão* em leilões. O Ibovespa caiu *1,34%*, a *167.538 pontos*. Pesaram as contas do governo e o juro alto nos EUA.\n\n👉 *Na prática:* com o dólar subindo rápido, feche o preço de insumos e importados antes de repassar ao cliente.\n\n_Boletim Matinal 42 ADM · 19/11_"
+  },
+  {
+   "id": "02-ajuste-fiscal",
+   "tag": "IMPOSTOS",
+   "kicker": "Senado · votação de 18/11",
+   "headline": "Senado aprova o <em>ajuste fiscal</em>",
+   "stats": [
+    {
+     "text": "69 a 2",
+     "label": "texto-base"
+    },
+    {
+     "text": "23/11",
+     "label": "votação na Câmara"
+    }
+   ],
+   "note": "Trava na compensação de créditos mantida",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Usa créditos para pagar tributos? Revise o caixa com o contador.",
+   "whatsapp": "*Senado aprova o ajuste fiscal* 🏛️\n\nO Senado aprovou o ajuste fiscal (texto-base por *69 a 2*) e manteve a trava na *compensação cruzada* de créditos tributários. Créditos de PIS/Cofins não usados poderão abater a *CBS*. O texto vai à Câmara, que vota na *segunda (23/11)*.\n\n👉 *Na prática:* se a empresa usa créditos para pagar outros tributos, revise o plano de caixa com o contador.\n\n_Boletim Matinal 42 ADM · 19/11_"
+  },
+  {
+   "id": "03-reforma",
+   "tag": "IMPOSTOS",
+   "kicker": "Receita Federal · reforma tributária",
+   "headline": "Apuração <em>pré-preenchida</em> para todos",
+   "stats": [
+    {
+     "text": "70%",
+     "label": "notas já com CBS/IBS"
+    },
+    {
+     "text": "Dez",
+     "label": "capacitação"
+    }
+   ],
+   "note": "Abertura prevista, ainda sem data exata",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Entre na apuração assistida assim que abrir e confira os dados.",
+   "whatsapp": "*Reforma: apuração pré-preenchida para todas as empresas* 🧾\n\nA Receita prevê abrir a todas as empresas a *apuração assistida* da reforma: os tributos e créditos vêm *pré-preenchidos* e a empresa só confere e corrige. Ainda não há data exata. Mais de *70%* das notas emitidas no teste já destacam CBS e IBS.\n\n👉 *Na prática:* entre na apuração assistida assim que ela abrir e confira os dados com o contador.\n\n_Boletim Matinal 42 ADM · 19/11_"
+  },
+  {
+   "id": "04-black-friday",
+   "tag": "VENDAS",
+   "kicker": "Reclame Aqui · 18/11",
+   "headline": "Black Friday: mais gente <em>decidida</em>",
+   "stats": [
+    {
+     "text": "32,3%",
+     "label": "decididos a comprar"
+    },
+    {
+     "text": "76,1%",
+     "label": "vão checar a loja"
+    }
+   ],
+   "note": "Eram 19% decididos em agosto",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Promoção com margem calculada e resposta rápida às reclamações.",
+   "whatsapp": "*Black Friday: mais gente decidida a comprar* 🛍️\n\nPesquisa do Reclame Aqui mostra *32,3%* dos consumidores decididos a comprar (eram *19%* em agosto). Mas *34,9%* dizem que o orçamento não permite gastos extras e *76,1%* vão checar a reputação da loja. A Black Friday é no dia *27/11*.\n\n👉 *Na prática:* faça promoção com margem calculada, não só com desconto, e responda rápido às reclamações.\n\n_Boletim Matinal 42 ADM · 19/11_"
+  },
+  {
+   "id": "05-soja",
+   "tag": "CAMPO",
+   "kicker": "Imea · Agrolink · 18/11",
+   "headline": "Soja sobe em MT e plantio <em>na reta final</em>",
+   "stats": [
+    {
+     "text": "98,3%",
+     "label": "soja plantada em MT"
+    },
+    {
+     "text": "136,30",
+     "label": "R$/saca em Sorriso"
+    }
+   ],
+   "note": "Boi em Barra do Garças: R$ 375/@ (17/11)",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Com o dólar alto, trave parte da safra nova nas altas.",
+   "whatsapp": "*Soja sobe em MT e plantio entra na reta final* 🌱\n\nO Imea aponta *98,3%* da soja 2026/27 plantada em MT; o Nordeste do estado (Araguaia) está em *94,92%*. Na quarta (18/11) a saca subiu para *R$ 136,30* em Sorriso e *R$ 142,00* em Rondonópolis; Paranaguá ficou em *R$ 164,00*. Boi em Barra do Garças a *R$ 375/@* (17/11).\n\n👉 *Na prática:* com o dólar alto, trave parte da safra nova e do custo de insumos nas altas.\n\n_Boletim Matinal 42 ADM · 19/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Quanto o dólar pesa no custo",
+   "headline": "Dólar alto: <em>R$ 900</em> a mais em um dia",
+   "stats": [
+    {
+     "text": "57,8",
+     "label": "R$ mil · dólar a 5,78"
+    },
+    {
+     "text": "58,7",
+     "label": "R$ mil · dólar a 5,87"
+    }
+   ],
+   "note": "Exemplo: compra de US$ 10.000 em insumos",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Atualize o custo antes de dar preço e compre dólar aos poucos.",
+   "whatsapp": "*Dica do dia: quanto o dólar pesa no custo* 🧮\n\nUma compra de *US$ 10.000* em insumos custava *R$ 57.800* com o dólar a R$ 5,78. Com o dólar a *R$ 5,87*, custa *R$ 58.700*: são *R$ 900* a mais em um dia.\n\n👉 *Na prática:* atualize o custo antes de dar preço ao cliente e compre dólar aos poucos.\n\n_Boletim Matinal 42 ADM · 19/11_"
+  }
+ ]
+}

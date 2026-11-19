@@ -1,0 +1,200 @@
+{
+ "data_extenso": "Quinta-feira, 19 de novembro de 2026",
+ "saudacao": "Bom dia e boa quinta! ☀️ Hoje: dólar a R$ 5,87, ajuste fiscal aprovado no Senado, apuração assistida da reforma e soja quase toda plantada em MT.",
+ "resumo": [
+  "Dólar subiu <b>1,45%</b>, a <b>R$ 5,87</b>, maior valor desde abril de 2025; Ibovespa caiu <b>1,34%</b>.",
+  "Senado aprovou o ajuste fiscal e manteve a trava na <b>compensação de créditos</b>; Câmara vota na <b>segunda (23/11)</b>.",
+  "Receita prevê abrir a <b>apuração assistida</b> da reforma a todas as empresas ainda esta semana.",
+  "Soja: <b>98,3%</b> plantada em MT; Sorriso subiu para <b>R$ 136,30</b> e Rondonópolis para <b>R$ 142,00</b>."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar dispara com o ajuste fiscal em votação",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 18/11)",
+     "valor": "R$ 5,87",
+     "sub": "+1,45% no dia",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,11%",
+     "sub": "Focus 16/11",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Próximo passo",
+     "valor": "23/11",
+     "sub": "Câmara vota o ajuste",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O dólar fechou a <b>R$ 5,8667</b>, maior valor desde abril de 2025, mesmo com o BC vendendo <b>US$ 1 bilhão</b> em leilões. Ibovespa: <b>167.538 pontos</b>. Pesaram as contas do governo e o juro alto nos EUA.",
+   "pratica": "com o dólar subindo rápido, feche o preço de insumos e importados antes de repassar ao cliente."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste aprovado no Senado e reforma em teste",
+   "blocos": [
+    {
+     "titulo": "Senado (18/11)",
+     "texto": "Texto-base aprovado por <b>69 a 2</b>. Mantida a trava na <b>compensação cruzada</b> de créditos tributários. Créditos de PIS/Cofins não usados poderão abater a <b>CBS</b>."
+    },
+    {
+     "titulo": "Apuração assistida",
+     "texto": "A Receita prevê abrir a todas as empresas a apuração <b>pré-preenchida</b>, sem data exata. Mais de <b>70%</b> das notas do teste já destacam CBS e IBS."
+    }
+   ],
+   "pratica": "usa créditos para pagar outros tributos? Revise o caixa com o contador e entre na apuração assistida assim que abrir."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday: mais gente decidida a comprar",
+   "blocos": [
+    {
+     "titulo": "Reclame Aqui (18/11)",
+     "texto": "<b>32,3%</b> já decidiram comprar (eram <b>19%</b> em agosto), mas <b>34,9%</b> dizem que o orçamento não deixa e <b>76,1%</b> vão checar a reputação da loja."
+    },
+    {
+     "titulo": "Agenda apertada",
+     "texto": "Feriado amanhã (<b>20/11</b>), Black Friday no dia <b>27</b> e 1ª parcela do 13º até <b>30/11</b>."
+    }
+   ],
+   "pratica": "faça promoção com margem calculada e responda rápido às reclamações."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja sobe em MT e plantio na reta final",
+   "texto": "Imea: <b>98,30%</b> da soja 2026/27 plantada em MT (13/11); o Nordeste do estado (Araguaia) está em <b>94,92%</b>, à frente de 2025. Paranaguá estável em <b>R$ 164,00</b>.",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Preço (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "164,00 /sc",
+       "18/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rondonópolis (MT)",
+      "valores": [
+       "142,00 /sc",
+       "18/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "136,30 /sc",
+       "18/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "144,00 /sc",
+       "18/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Barra do Garças (MT) · boi",
+      "valores": [
+       "375,00 /@",
+       "17/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Soja: saca de 60 kg, TF Agroeconômica/Imea via Agrolink (18/11). Boi: Canal Rural (17/11)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "com o dólar alto, trave parte da safra nova e do custo de insumos nas altas."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "20/11",
+   "texto": "Feriado nacional"
+  },
+  {
+   "data": "23/11",
+   "texto": "Câmara vota o ajuste fiscal"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "1ª parcela do 13º"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "compra de <b>US$ 10.000</b> em insumos: com o dólar a R$ 5,78 custava <b>R$ 57.800</b>; a <b>R$ 5,87</b> custa <b>R$ 58.700</b>. <b>R$ 900</b> a mais em um dia.",
+ "promo": {
+  "titulo": "Fluxo de caixa que aguenta o dólar",
+  "texto": "Planejamento de compras, custos e fluxo de caixa de fim de ano com a 42 ADM."
+ },
+ "chamada": "Empresário, preço bom é preço que acompanha o custo.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Mercado: 18/11/2026. Focus: 16/11. Agro: 13, 17 e 18/11. Pesquisa Reclame Aqui: 18/11.",
+ "fontes": [
+  {
+   "titulo": "Agência Brasil: dólar a R$ 5,87",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-587-com-expectativa-sobre-votacao-de-ajuste-fiscal"
+  },
+  {
+   "titulo": "Quenty: dólar e Ibovespa (18/11)",
+   "url": "https://quenty.com.br/resumo/18-novembro-2026/dolar-a-r-587-e-ibovespa-em-queda-expoem-disputa-sobre-ajuste-fiscal"
+  },
+  {
+   "titulo": "Correio Braziliense: Senado aprova ajuste",
+   "url": "https://correiobraziliense.com.br/politica/2026/11/7540920-ajuste-fiscal-apos-aval-do-senado-projeto-vai-a-camara-na-segunda.html"
+  },
+  {
+   "titulo": "Mix Vale: apuração assistida",
+   "url": "https://www.mixvale.com.br/2026/11/18/receita-preve-abrir-apuracao-assistida-da-reforma-tributaria-a-todas-as-empresas/"
+  },
+  {
+   "titulo": "Mercado&Consumo: Black Friday (Reclame Aqui)",
+   "url": "https://mercadoeconsumo.com.br/18/11/2026/ecommerce/black-friday-2026-fatia-de-consumidores-decididos-a-comprar-salta-para-323/"
+  },
+  {
+   "titulo": "Agrolink: soja por praça (18/11)",
+   "url": "https://www.agrolink.com.br/noticias/soja-mantem-precos-no-sul-e-sobe-em-mato-grosso_521199.html"
+  },
+  {
+   "titulo": "Só Notícias: plantio da soja (Imea)",
+   "url": "https://www.sonoticias.com.br/agronoticias/plantio-da-soja-chega-a-983-da-area-prevista-em-mato-grosso-e-entra-na-reta-final/"
+  },
+  {
+   "titulo": "Canal Rural: cotação do boi",
+   "url": "https://www.canalrural.com.br/cotacoes/boi/"
+  },
+  {
+   "titulo": "A Crítica: Focus de 16/11",
+   "url": "https://acritica.net/economia/focus-16-novembro-selic-13-75-pib-1-72-dolar-5-40-ipca/"
+  }
+ ]
+}
