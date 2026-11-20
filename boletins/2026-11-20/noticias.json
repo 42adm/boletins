@@ -1,0 +1,46 @@
+{
+ "date": "20 · 11 · 2026",
+ "data_curta": "20/11",
+ "noticias": [
+  {
+   "id": "01-dolar", "tag": "DÓLAR", "kicker": "Fechamento de quinta · 19/11",
+   "headline": "Dólar sobe pela <em>sexta vez</em> e vai a R$ 5,93",
+   "stats": [{"value": 5.93, "decimals": 2, "label": "R$ por dólar"}, {"text": "+4,95%", "label": "alta na semana"}],
+   "note": "Maior valor desde abril de 2025",
+   "takeLabel": "NA PRÁTICA", "take": "Atualize preços com insumo importado e use cláusula de reajuste.",
+   "whatsapp": "*Dólar sobe pela sexta vez e vai a R$ 5,93* 💵\n\nO dólar subiu *1,15%* na quinta (19/11) e fechou a *R$ 5,93*, maior valor desde abril de 2025, mesmo com o Banco Central vendendo *US$ 1 bilhão*. Na semana, a alta é de cerca de *4,95%*. O Ibovespa caiu *0,69%*, a *166.376 pontos*. O mercado acha o ajuste fiscal fraco.\n\n👉 *Na prática:* atualize a tabela de preços de produtos com insumo importado e evite contrato longo sem cláusula de reajuste.\n\n_Boletim Matinal 42 ADM · 20/11_"
+  },
+  {
+   "id": "02-ajuste-fiscal", "tag": "IMPOSTOS", "kicker": "Câmara · parecer de 19/11",
+   "headline": "Ajuste fiscal vai à <em>Câmara</em> sem mudança",
+   "stats": [{"text": "20%", "label": "corte nos benefícios"}, {"text": "23/11", "label": "votação na Câmara"}],
+   "note": "Fim da compensação cruzada de créditos",
+   "takeLabel": "NA PRÁTICA", "take": "Tem isenção? Peça ao contador a simulação do imposto de 2027.",
+   "whatsapp": "*Ajuste fiscal vai à Câmara sem mudanças* 🏛️\n\nO relator na Câmara, Mauro Benevides Filho, manteve o texto aprovado pelo Senado, e a votação é na *segunda (23/11)*. O texto corta cerca de *20%* dos benefícios fiscais e proíbe a *compensação cruzada* de créditos (ex.: usar PIS/Cofins para pagar IRPJ). A desoneração da folha fica de fora.\n\n👉 *Na prática:* se a empresa tem isenção ou usa créditos para pagar outros tributos, peça ao contador uma simulação do imposto de 2027.\n\n_Boletim Matinal 42 ADM · 20/11_"
+  },
+  {
+   "id": "03-black-friday", "tag": "VENDAS", "kicker": "Confi/Neotrust · 26 a 29/11",
+   "headline": "Black Friday pode passar de <em>R$ 13 bi</em> online",
+   "stats": [{"text": "13,7", "label": "R$ bi no e-commerce"}, {"text": "29,4%", "label": "vão pagar no Pix"}],
+   "note": "Vendas online +24,8% até 11/11",
+   "takeLabel": "NA PRÁTICA", "take": "Desconto no Pix e parcelamento longo só com margem.",
+   "whatsapp": "*Black Friday pode passar de R$ 13 bi na internet* 🛍️\n\nO e-commerce deve vender *R$ 13,3 bi* de 26 a 29/11, podendo chegar a *R$ 13,7 bi* (Confi/Neotrust). Até 11/11, as vendas online subiram *24,8%*. O Pix (*29,4%*) já supera o cartão parcelado (*24,1%*), e as famílias com contas em atraso caíram para *29,3%* em outubro (CNC).\n\n👉 *Na prática:* ofereça desconto no Pix, que entra na hora, e limite o parcelamento longo sem juros.\n\n_Boletim Matinal 42 ADM · 20/11_"
+  },
+  {
+   "id": "04-soja", "tag": "CAMPO", "kicker": "Canal Rural · 19/11",
+   "headline": "Dólar puxa a <em>soja</em> para cima",
+   "stats": [{"text": "147", "label": "R$/saca Rondonópolis"}, {"text": "11,2", "label": "R$ bi em créditos"}],
+   "note": "Créditos de PIS/Cofins de soja e frigoríficos",
+   "takeLabel": "PARA O PRODUTOR", "take": "Trave parte da safra nova e confira créditos a receber.",
+   "whatsapp": "*Dólar puxa a soja para cima* 🌱\n\nNa quinta (19/11) a saca subiu para *R$ 147* em Rondonópolis e Rio Verde, *R$ 152* em Dourados e *R$ 170* em Paranaguá. No ajuste fiscal, o Senado protegeu *R$ 11,2 bi* em créditos de PIS/Cofins de soja e frigoríficos. O Imea aponta *98%* da soja plantada em MT. Boi em Barra do Garças: *R$ 375/@* (17/11).\n\n👉 *Na prática:* aproveite a alta para travar parte da safra nova e confira com o contador os créditos de PIS/Cofins a receber.\n\n_Boletim Matinal 42 ADM · 20/11_"
+  },
+  {
+   "id": "05-dica", "tag": "DICA DO DIA", "kicker": "Conta antes da promoção",
+   "headline": "Desconto de 20% pode <em>cortar metade</em> do lucro",
+   "stats": [{"text": "R$ 40", "label": "margem sem desconto"}, {"text": "R$ 20", "label": "margem com 20% off"}],
+   "note": "Exemplo: custo R$ 60, preço R$ 100",
+   "takeLabel": "NA PRÁTICA", "take": "Calcule a margem antes de anunciar o desconto.",
+   "whatsapp": "*Dica do dia: quanto o desconto come do lucro* 🧮\n\nUm produto que custa *R$ 60* e sai por *R$ 100* dá *R$ 40* de margem. Com *20%* de desconto, sai por R$ 80 e a margem cai para *R$ 20*: é preciso vender o *dobro* para lucrar o mesmo.\n\n👉 *Na prática:* calcule a margem de cada item antes de anunciar o desconto da Black Friday.\n\n_Boletim Matinal 42 ADM · 20/11_"
+  }
+ ]
+}

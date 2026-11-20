@@ -1,0 +1,196 @@
+{
+ "data_extenso": "Sexta-feira, 20 de novembro de 2026",
+ "saudacao": "Bom dia e boa sexta de feriado! ☀️ Hoje: dólar a R$ 5,93, ajuste fiscal na Câmara na segunda, Black Friday de até R$ 13,7 bi na internet e soja em alta nas praças.",
+ "resumo": [
+  "Dólar subiu <b>1,15%</b>, a <b>R$ 5,93</b>, sexta alta seguida e maior valor desde abril de 2025; Ibovespa caiu <b>0,69%</b>.",
+  "Relator manteve o ajuste fiscal do Senado; Câmara vota na <b>segunda (23/11)</b>, com corte de <b>20%</b> nos benefícios fiscais.",
+  "Black Friday pode movimentar até <b>R$ 13,7 bi</b> no e-commerce; famílias com contas em atraso caíram para <b>29,3%</b>.",
+  "Soja subiu: Rondonópolis a <b>R$ 147</b>, Rio Verde a <b>R$ 147</b> e Paranaguá a <b>R$ 170</b> a saca."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar sobe pelo sexto dia seguido",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 19/11)",
+     "valor": "R$ 5,93",
+     "sub": "+1,15% no dia",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,11%",
+     "sub": "Focus 16/11",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Próximo passo",
+     "valor": "23/11",
+     "sub": "Focus e voto na Câmara",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O dólar fechou a <b>R$ 5,9344</b>, com alta de cerca de <b>4,95%</b> na semana, mesmo com o BC vendendo <b>US$ 1 bilhão</b>. Ibovespa: <b>166.376 pontos</b>. O mercado acha o ajuste fiscal fraco. Hoje é feriado nacional.",
+   "pratica": "atualize a tabela de preços de produtos com insumo importado e evite fechar contrato longo sem cláusula de reajuste."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste fiscal vai à Câmara sem mudanças",
+   "blocos": [
+    {
+     "titulo": "Relator (19/11)",
+     "texto": "Mauro Benevides Filho manteve o texto do Senado. Votação na <b>segunda (23/11)</b>; sem mudanças, vai à sanção."
+    },
+    {
+     "titulo": "O que pesa na empresa",
+     "texto": "Corte de cerca de <b>20%</b> nos benefícios fiscais e fim da <b>compensação cruzada</b> (ex.: PIS/Cofins para pagar IRPJ). Desoneração da folha fica de fora."
+    }
+   ],
+   "pratica": "tem isenção ou usa créditos para pagar outros tributos? Peça ao contador uma simulação do imposto de 2027."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday forte e menos contas atrasadas",
+   "blocos": [
+    {
+     "titulo": "Confi/Neotrust",
+     "texto": "E-commerce deve vender <b>R$ 13,3 bi</b> de 26 a 29/11, podendo chegar a <b>R$ 13,7 bi</b>. Até 11/11, as vendas online subiram <b>24,8%</b>."
+    },
+    {
+     "titulo": "Crédito e pagamento",
+     "texto": "Famílias com contas em atraso: <b>29,3%</b> em outubro (CNC), menor do ano. Pix (<b>29,4%</b>) já supera o cartão parcelado (<b>24,1%</b>)."
+    }
+   ],
+   "pratica": "ofereça desconto no Pix, que entra na hora, e limite o parcelamento longo sem juros."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Dólar puxa a soja e crédito do agro protegido",
+   "texto": "Soja subiu de novo em 19/11. O Senado protegeu <b>R$ 11,2 bi</b> em créditos de PIS/Cofins de soja e frigoríficos. Imea: <b>98%</b> plantada em MT.",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Preço (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "170,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rondonópolis (MT)",
+      "valores": [
+       "147,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rio Verde (GO)",
+      "valores": [
+       "147,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "152,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Barra do Garças (MT) · boi",
+      "valores": [
+       "375,00 /@",
+       "17/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Soja: saca de 60 kg, Canal Rural (19/11). Boi: Canal Rural/CMA (17/11). Plantio: Imea (13/11)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "aproveite a alta para travar parte da safra nova e confira com o contador os créditos de PIS/Cofins a receber."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "20/11",
+   "texto": "Feriado"
+  },
+  {
+   "data": "23/11",
+   "texto": "Câmara vota"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º (1ª parc.)"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "produto que custa <b>R$ 60</b> e sai por <b>R$ 100</b> dá <b>R$ 40</b> de margem. Com <b>20%</b> de desconto, sai por R$ 80 e a margem cai para <b>R$ 20</b>: é preciso vender o <b>dobro</b> para lucrar o mesmo.",
+ "promo": {
+  "titulo": "Black Friday com lucro de verdade",
+  "texto": "Precificação, margem e fluxo de caixa de fim de ano com a 42 ADM."
+ },
+ "chamada": "Empresário, desconto sem conta é prejuízo com fila.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Mercado: 19/11/2026. Focus: 16/11. Agro: 13, 17 e 19/11. Varejo: Confi/Neotrust e CNC.",
+ "fontes": [
+  {
+   "titulo": "GCMais: dólar a R$ 5,93 (19/11)",
+   "url": "https://gcmais.com.br/noticias/2026/11/19/dolar-fecha-em-r-5-93-e-ibovespa-cai-quase-0-7-nesta-quinta-feira-19"
+  },
+  {
+   "titulo": "ac24horas: relator mantém texto do Senado",
+   "url": "https://ac24horas.com/2026/11/19/relator-do-ajuste-fiscal-na-camara-mantem-texto-aprovado-pelo-senado/"
+  },
+  {
+   "titulo": "A Crítica: ajuste fiscal na Câmara",
+   "url": "https://acritica.net/economia/ajuste-fiscal-camara-votacao-segunda-relator-sem-mudancas-lei-kandir-ms/"
+  },
+  {
+   "titulo": "Forbes: Black Friday R$ 13,7 bi",
+   "url": "https://forbes.com.br/forbes-money/2026/11/black-friday-2026-deve-movimentar-13-bilhoes-ecommerce-queda-inadimplencia/"
+  },
+  {
+   "titulo": "Canal Rural: soja sobe (19/11)",
+   "url": "https://www.canalrural.com.br/agricultura/precos-da-soja-tem-mais-um-dia-de-alta-com-dolar-e-chicago-em-direcoes-opostas/"
+  },
+  {
+   "titulo": "Reuters/Investing: plantio Imea",
+   "url": "https://br.investing.com/news/commodities-news/plantio-de-soja-atinge-98-da-area-de-mt-medionorte-encerra-trabalhos-diz-imea-2127026"
+  },
+  {
+   "titulo": "Canal Rural: cotação do boi",
+   "url": "https://www.canalrural.com.br/cotacoes/boi/"
+  },
+  {
+   "titulo": "A Crítica: Focus de 16/11",
+   "url": "https://acritica.net/economia/focus-16-novembro-selic-13-75-pib-1-72-dolar-5-40-ipca/"
+  }
+ ]
+}
