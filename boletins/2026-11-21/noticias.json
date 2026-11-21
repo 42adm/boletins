@@ -1,0 +1,54 @@
+{
+ "date": "21 · 11 · 2026",
+ "data_curta": "21/11",
+ "noticias": [
+  {
+   "id": "01-dolar-semana", "tag": "DÓLAR", "kicker": "Resumo da semana · fechamento 19/11",
+   "headline": "Dólar sobe <em>4,87%</em> em uma semana",
+   "stats": [{"value": 5.93, "decimals": 2, "label": "R$ por dólar"}, {"text": "-3,53%", "label": "Ibovespa na semana"}],
+   "note": "Maior valor em 19 meses",
+   "takeLabel": "NA PRÁTICA", "take": "Revise preços com insumo importado e use cláusula de reajuste.",
+   "whatsapp": "*Dólar sobe 4,87% na semana e vai a R$ 5,93* 💵\n\nO dólar subiu seis pregões seguidos e fechou a quinta (19/11) a *R$ 5,93*, maior valor em 19 meses, mesmo com o Banco Central vendendo *US$ 1 bilhão*. O Ibovespa caiu *3,53%* na semana. Juros futuros longos passaram de *15% ao ano*. A B3 volta na segunda (20/11 foi feriado).\n\n👉 *Na prática:* revise preços de itens com insumo importado e evite contrato longo sem cláusula de reajuste.\n\n_Boletim Matinal 42 ADM · 21/11_"
+  },
+  {
+   "id": "02-ajuste-fiscal", "tag": "IMPOSTOS", "kicker": "Câmara · votação em 23/11",
+   "headline": "Ajuste fiscal vai a voto na <em>Câmara</em> segunda",
+   "stats": [{"text": "R$ 50", "label": "bi de economia em 2027"}, {"text": "20%", "label": "corte nos benefícios"}],
+   "note": "Senado aprovou em 18/11, por 69 a 2",
+   "takeLabel": "NA PRÁTICA", "take": "Tem isenção? Peça ao contador a simulação do imposto de 2027.",
+   "whatsapp": "*Ajuste fiscal vai a voto na Câmara na segunda* 🏛️\n\nO Senado aprovou o pacote em *18/11* (69 a 2), com economia de cerca de *R$ 50 bi* em 2027. A Câmara vota na *segunda (23/11)* sem mudanças: corte de cerca de *20%* nos benefícios fiscais e fim da *compensação cruzada* de créditos.\n\n👉 *Na prática:* se a empresa tem isenção ou usa créditos para pagar outros tributos, peça ao contador uma simulação do imposto de 2027.\n\n_Boletim Matinal 42 ADM · 21/11_"
+  },
+  {
+   "id": "03-notas-cbs", "tag": "ALERTA", "kicker": "Receita Federal · 19/11",
+   "headline": "Receita acha <em>72 mil empresas</em> sem CBS/IBS na nota",
+   "stats": [{"text": "72 mil", "label": "empresas na lista"}, {"text": "86%", "label": "mínimo de notas ok"}],
+   "note": "CFC vai orientar os contadores",
+   "takeLabel": "NA PRÁTICA", "take": "Confira se o emissor preenche CBS e IBS em todas as notas.",
+   "whatsapp": "*Receita acha 72 mil empresas sem CBS/IBS nas notas* ⚠️\n\nA Receita listou cerca de *72 mil empresas* que emitiram mais de 150 notas em 30 dias com os campos de CBS e IBS em branco ou preenchidos em menos de *86%* delas. O Conselho Federal de Contabilidade vai orientar os contadores. Estar na lista não prova irregularidade.\n\n👉 *Na prática:* confira com o contador se o seu sistema emissor já preenche CBS e IBS em todas as notas.\n\n_Boletim Matinal 42 ADM · 21/11_"
+  },
+  {
+   "id": "04-13-black-friday", "tag": "VENDAS", "kicker": "Black Friday 27/11 · 13º até 30/11",
+   "headline": "Black Friday e <em>13º</em> chegam juntos",
+   "stats": [{"text": "13,7", "label": "R$ bi no e-commerce"}, {"text": "30/11", "label": "1ª parcela do 13º"}],
+   "note": "2ª parcela: pague até 18/12",
+   "takeLabel": "NA PRÁTICA", "take": "Separe o 13º antes de comprar estoque para a Black Friday.",
+   "whatsapp": "*Black Friday e 13º chegam juntos* 🛍️\n\nO e-commerce pode vender até *R$ 13,7 bi* de 26 a 29/11 (Confi/Neotrust), e as famílias com contas em atraso caíram para *29,3%* em outubro (CNC). A 1ª parcela do 13º vence em *30/11*; a 2ª vence em 20/12, um domingo, então pague até *sexta (18/12)*.\n\n👉 *Na prática:* separe o dinheiro da 1ª parcela do 13º antes de comprar estoque para a Black Friday.\n\n_Boletim Matinal 42 ADM · 21/11_"
+  },
+  {
+   "id": "05-soja", "tag": "CAMPO", "kicker": "Canal Rural e Grão Direto · 19/11",
+   "headline": "Dólar leva a <em>soja</em> para cima na semana",
+   "stats": [{"text": "170", "label": "R$/saca Paranaguá"}, {"text": "135,13", "label": "R$/sc N. Xavantina"}],
+   "note": "Nova Xavantina: R$ 132,99 em 13/11",
+   "takeLabel": "PARA O PRODUTOR", "take": "Avalie travar parte da safra nova com o dólar alto.",
+   "whatsapp": "*Dólar leva a soja para cima na semana* 🌱\n\nNa quinta (19/11) a saca chegou a *R$ 170* em Paranaguá, *R$ 152* em Dourados e *R$ 147* em Rondonópolis. No Vale do Araguaia, Nova Xavantina foi de *R$ 132,99* (13/11) para *R$ 135,13* (19/11).\n\n👉 *Para o produtor do Araguaia:* com o dólar alto, avalie travar parte da safra nova e confira com o contador os créditos de PIS/Cofins a receber.\n\n_Boletim Matinal 42 ADM · 21/11_"
+  },
+  {
+   "id": "06-dica", "tag": "DICA DO DIA", "kicker": "Reserva de caixa",
+   "headline": "Guarde <em>3 meses</em> de custo fixo",
+   "stats": [{"text": "R$ 90", "label": "mil de reserva"}, {"text": "18", "label": "meses para chegar lá"}],
+   "note": "Exemplo: custo fixo de R$ 30 mil",
+   "takeLabel": "NA PRÁTICA", "take": "Separe um valor fixo todo mês, como se fosse uma conta.",
+   "whatsapp": "*Dica do dia: reserva de caixa* 🧮\n\nGuarde pelo menos *3 meses* de custo fixo. Se o custo fixo é de *R$ 30 mil*, a reserva é de *R$ 90 mil*. Separando *R$ 5 mil* por mês, você chega lá em *18 meses*.\n\n👉 *Na prática:* trate a reserva como uma conta fixa do mês. Com dólar e juros subindo, quem tem reserva negocia.\n\n_Boletim Matinal 42 ADM · 21/11_"
+  }
+ ]
+}

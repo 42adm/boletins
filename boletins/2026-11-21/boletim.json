@@ -1,0 +1,192 @@
+{
+ "data_extenso": "Sábado, 21 de novembro de 2026",
+ "saudacao": "Bom dia e bom sábado! ☀️ Resumo da semana: dólar a R$ 5,93, bolsa em queda, ajuste fiscal na Câmara, Receita de olho nas notas e soja firme.",
+ "resumo": [
+  "Dólar fechou a semana (19/11) a <b>R$ 5,93</b>, alta de <b>4,87%</b>, maior valor em 19 meses. Ibovespa caiu <b>3,53%</b>.",
+  "Senado aprovou o ajuste fiscal (economia de cerca de <b>R$ 50 bi</b> em 2027); a Câmara vota na <b>segunda (23/11)</b>.",
+  "Receita achou cerca de <b>72 mil empresas</b> com CBS/IBS em branco nas notas; contadores serão orientados.",
+  "Soja subiu na semana: <b>R$ 170</b> em Paranaguá e <b>R$ 135,13</b> em Nova Xavantina (19/11)."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Semana de dólar caro e bolsa em queda",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 19/11)",
+     "valor": "R$ 5,93",
+     "sub": "+4,87% na semana",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,11%",
+     "sub": "Focus 16/11",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Próximo passo",
+     "valor": "23/11",
+     "sub": "Focus e voto na Câmara",
+     "cor": "azul"
+    }
+   ],
+   "texto": "Seis altas seguidas: dólar a <b>R$ 5,935</b>, mesmo com o BC vendendo <b>US$ 1 bi</b>. Juros futuros longos acima de <b>15%</b>. Pesaram o ajuste fiscal fraco, a dúvida sobre a Fazenda e juros em alta nos EUA. A B3 volta na segunda (20/11 foi feriado).",
+   "pratica": "revise preços de itens com insumo importado e evite contrato longo sem cláusula de reajuste."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste fiscal na Câmara e Receita de olho nas notas",
+   "blocos": [
+    {
+     "titulo": "Ajuste fiscal (PLP 299)",
+     "texto": "Senado aprovou em <b>18/11</b> (69 a 2). Câmara vota na <b>segunda (23/11)</b> sem mudanças: corte de cerca de <b>20%</b> nos benefícios fiscais e fim da <b>compensação cruzada</b>."
+    },
+    {
+     "titulo": "CBS/IBS nas notas",
+     "texto": "Receita listou cerca de <b>72 mil empresas</b> que emitiram mais de 150 notas em 30 dias com CBS/IBS em branco ou em menos de <b>86%</b> delas. CFC vai orientar os contadores."
+    }
+   ],
+   "pratica": "confira se o sistema emissor já preenche CBS e IBS em todas as notas e peça ao contador a simulação do imposto de 2027."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday na sexta e 13º até 30/11",
+   "blocos": [
+    {
+     "titulo": "Black Friday (27/11)",
+     "texto": "E-commerce pode vender até <b>R$ 13,7 bi</b> de 26 a 29/11 (Confi/Neotrust). Famílias com contas em atraso: <b>29,3%</b> em outubro (CNC), menor do ano."
+    },
+    {
+     "titulo": "13º salário",
+     "texto": "1ª parcela (metade, sem descontos) até <b>30/11</b>. A 2ª vence em 20/12, um domingo: pague até <b>sexta (18/12)</b>."
+    }
+   ],
+   "pratica": "separe o dinheiro da 1ª parcela do 13º antes de comprar estoque para a Black Friday."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja sobe na semana com o dólar",
+   "texto": "A soja subiu com o dólar e chegou a <b>R$ 170</b> em Paranaguá e <b>R$ 152</b> em Dourados (19/11). Em Nova Xavantina, a saca foi de <b>R$ 132,99</b> (13/11) para <b>R$ 135,13</b> (19/11).",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Preço (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "170,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rondonópolis (MT)",
+      "valores": [
+       "147,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Dourados (MS)",
+      "valores": [
+       "152,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Nova Xavantina (MT)",
+      "valores": [
+       "135,13 /sc",
+       "19/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Soja: saca de 60 kg. Canal Rural (19/11) e Grão Direto (Nova Xavantina, 19/11)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "com o dólar alto, avalie travar parte da safra nova e confira com o contador os créditos de PIS/Cofins a receber."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "23/11",
+   "texto": "Câmara vota"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º (1ª parc.)"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "18/12",
+   "texto": "13º (2ª parc.)"
+  }
+ ],
+ "dica": "reserva de caixa: guarde pelo menos <b>3 meses</b> de custo fixo. Custo fixo de <b>R$ 30 mil</b> = reserva de <b>R$ 90 mil</b>. Separando <b>R$ 5 mil</b> por mês, você chega lá em <b>18 meses</b>.",
+ "promo": {
+  "titulo": "Fim de ano com caixa no azul",
+  "texto": "13º, Black Friday e planejamento 2027 com o fluxo de caixa da 42 ADM."
+ },
+ "chamada": "Empresário, com dólar e juros subindo, quem tem reserva negocia.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Resumo da semana. Mercado: 19/11/2026 (20/11 foi feriado). Focus: 16/11. Agro: 13 e 19/11.",
+ "fontes": [
+  {
+   "titulo": "Brazil Economy: dólar e Ibovespa",
+   "url": "https://brazileconomy.com.br/financas/2026/11/dolar-dispara-a-r-593-e-ibovespa-acumula-queda-de-353-na-semana/"
+  },
+  {
+   "titulo": "ND Mais: ajuste fiscal",
+   "url": "https://ndmais.com.br/politica/ajuste-fiscal-governo-votacao-camara/"
+  },
+  {
+   "titulo": "ac24horas: relator",
+   "url": "https://ac24horas.com/2026/11/19/relator-do-ajuste-fiscal-na-camara-mantem-texto-aprovado-pelo-senado/"
+  },
+  {
+   "titulo": "Tribuna do Sertão: Receita",
+   "url": "https://tribunadosertao.com.br/geral/2026/11/20/1026651-receita-identifica-cerca-de-72-mil-empresas-para-orientacao-sobre-tributos-nas-notas-fiscais"
+  },
+  {
+   "titulo": "DCI: 13º salário",
+   "url": "https://www.dci.com.br/economia/13o-salario-2026-empresas-tem-ate-30-de-novembro-para-pagar-primeira-parcela/"
+  },
+  {
+   "titulo": "Forbes: Black Friday",
+   "url": "https://forbes.com.br/forbes-money/2026/11/black-friday-2026-deve-movimentar-13-bilhoes-ecommerce-queda-inadimplencia/"
+  },
+  {
+   "titulo": "Canal Rural: soja 19/11",
+   "url": "https://www.canalrural.com.br/agricultura/precos-da-soja-tem-mais-um-dia-de-alta-com-dolar-e-chicago-em-direcoes-opostas/"
+  },
+  {
+   "titulo": "Grão Direto: Nova Xavantina",
+   "url": "https://www.graodireto.com.br/ofertas/soja/mt/nova-xavantina/"
+  },
+  {
+   "titulo": "A Crítica: Focus 16/11",
+   "url": "https://acritica.net/economia/focus-16-novembro-selic-13-75-pib-1-72-dolar-5-40-ipca/"
+  }
+ ]
+}
