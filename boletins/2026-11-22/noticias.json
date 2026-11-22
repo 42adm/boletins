@@ -1,0 +1,54 @@
+{
+ "date": "22 · 11 · 2026",
+ "data_curta": "22/11",
+ "noticias": [
+  {
+   "id": "01-ajuste-fiscal", "tag": "IMPOSTOS", "kicker": "Câmara · votação na segunda 23/11",
+   "headline": "Câmara vota o <em>ajuste fiscal</em> na segunda",
+   "stats": [{"text": "R$ 50", "label": "bi de impacto em 2027"}, {"text": "10%", "label": "corte possível nos benefícios"}],
+   "note": "Relator manteve o texto do Senado",
+   "takeLabel": "NA PRÁTICA", "take": "Tem benefício fiscal? Peça ao contador a simulação de 2027.",
+   "whatsapp": "*Câmara vota o ajuste fiscal na segunda (23/11)* 🏛️\n\nO relator Mauro Benevides manteve o texto aprovado pelo Senado, com impacto estimado de *R$ 50 bi* em 2027. O texto prevê possível corte linear de *10%* em benefícios tributários e limite ao uso de *créditos cruzados* para pagar outros tributos. Se houver mudança, volta ao Senado.\n\n👉 *Na prática:* se a empresa tem benefício fiscal ou compensa créditos, peça ao contador uma simulação para 2027 assim que o texto for aprovado.\n\n_Boletim Matinal 42 ADM · 22/11_"
+  },
+  {
+   "id": "02-dolar", "tag": "DÓLAR", "kicker": "Agência Brasil · fechamento 19/11",
+   "headline": "Dólar sobe <em>4,95%</em> na semana",
+   "stats": [{"value": 5.93, "decimals": 2, "label": "R$ por dólar"}, {"text": "+9,01%", "label": "alta em novembro"}],
+   "note": "Maior valor desde abril de 2025",
+   "takeLabel": "NA PRÁTICA", "take": "Peça cotação atualizada antes de fechar pedido importado.",
+   "whatsapp": "*Dólar sobe 4,95% na semana e fecha a R$ 5,93* 💵\n\nNa quinta (19/11), última sessão da semana, o dólar fechou a *R$ 5,93*, maior valor desde abril de 2025, com alta de *9,01%* em novembro. O Ibovespa caiu *3,53%* na semana. A B3 volta na segunda.\n\n👉 *Na prática:* antes de fechar pedidos com insumo importado, peça a cotação atualizada e combine prazo curto de validade do preço.\n\n_Boletim Matinal 42 ADM · 22/11_"
+  },
+  {
+   "id": "03-agenda", "tag": "ECONOMIA", "kicker": "Agenda da semana · Safras",
+   "headline": "Semana tem <em>IPCA-15</em> e IGP-M",
+   "stats": [{"text": "26/11", "label": "IPCA-15"}, {"text": "5,11%", "label": "inflação esperada 2026"}],
+   "note": "Focus sai na segunda (23/11)",
+   "takeLabel": "NA PRÁTICA", "take": "Use o IGP-M de sexta para revisar contratos de aluguel.",
+   "whatsapp": "*Semana tem IPCA-15 e IGP-M* 📅\n\nO Focus sai na *segunda (23/11)*; no último, o mercado previa inflação de *5,11%* em 2026 e Selic de *13,75%* no fim do ano. O *IPCA-15* (prévia da inflação) sai na *quinta (26/11)* e o *IGP-M* na *sexta (27/11)*. O próximo Copom é em 8 e 9/12.\n\n👉 *Na prática:* se você tem aluguel ou contrato corrigido pelo IGP-M, anote a sexta para revisar o reajuste.\n\n_Boletim Matinal 42 ADM · 22/11_"
+  },
+  {
+   "id": "04-black-friday-13", "tag": "VENDAS", "kicker": "Black Friday 27/11 · 13º até 30/11",
+   "headline": "Black Friday e <em>13º</em> na mesma semana",
+   "stats": [{"text": "27/11", "label": "Black Friday"}, {"text": "30/11", "label": "1ª parcela do 13º"}],
+   "note": "Cyber Monday também em 30/11",
+   "takeLabel": "NA PRÁTICA", "take": "Calcule a margem antes do desconto e separe o 13º.",
+   "whatsapp": "*Black Friday e 13º na mesma semana* 🛍️\n\nA Black Friday é na *sexta (27/11)* e a Cyber Monday na segunda (*30/11*). Em 2025, o e-commerce faturou *R$ 4,76 bi* só no dia (Confi Neotrust). A 1ª parcela do 13º vence em *30/11*; a 2ª vence em 20/12, um domingo, então pague até *sexta (18/12)*.\n\n👉 *Na prática:* faça a conta da margem antes de dar desconto e deixe o dinheiro da 1ª parcela do 13º separado já nesta semana.\n\n_Boletim Matinal 42 ADM · 22/11_"
+  },
+  {
+   "id": "05-campo", "tag": "CAMPO", "kicker": "Imea 13/11 · Cepea 13/11",
+   "headline": "Plantio a <em>98%</em> em MT e boi em recorde",
+   "stats": [{"text": "98%", "label": "soja plantada em MT"}, {"text": "395,40", "label": "R$/@ boi Cepea"}],
+   "note": "Rondonópolis: R$ 370 a R$ 375/@",
+   "takeLabel": "PARA O PRODUTOR", "take": "Com o boi em recorde, avalie vender parte do lote pronto.",
+   "whatsapp": "*Plantio a 98% em MT e boi em recorde* 🌱🐂\n\nO Imea apontou *98%* da soja plantada em Mato Grosso até 13/11, acima da média de 5 anos (*96,57%*). O boi gordo bateu recorde: indicador Cepea a *R$ 395,40*/@ em 13/11, alta de *1,41%* no mês. Em Rondonópolis, machos entre *R$ 370 e R$ 375*. A soja fechou a *R$ 143,68* em Sorriso (19/11).\n\n👉 *Para o produtor do Araguaia:* com o boi em recorde, avalie vender parte do lote pronto e confira o preço local da soja antes de travar a safra nova.\n\n_Boletim Matinal 42 ADM · 22/11_"
+  },
+  {
+   "id": "06-dica", "tag": "DICA DO DIA", "kicker": "Provisão do 13º",
+   "headline": "Separe <em>1/12</em> da folha todo mês",
+   "stats": [{"text": "R$ 24", "label": "mil de folha"}, {"text": "R$ 2", "label": "mil por mês"}],
+   "note": "Mais os encargos",
+   "takeLabel": "NA PRÁTICA", "take": "Abra uma conta só para o 13º e deposite todo mês.",
+   "whatsapp": "*Dica do dia: provisão do 13º* 🧮\n\nSepare *1/12* da folha todo mês. Se a folha é de *R$ 24 mil*, guarde *R$ 2 mil* por mês, mais os encargos. Em dezembro o 13º já está pago, sem aperto no caixa.\n\n👉 *Na prática:* abra uma conta ou aplicação só para o 13º e deposite todo mês, como se fosse uma conta fixa.\n\n_Boletim Matinal 42 ADM · 22/11_"
+  }
+ ]
+}

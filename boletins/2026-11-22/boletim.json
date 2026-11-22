@@ -1,0 +1,187 @@
+{
+ "data_extenso": "Domingo, 22 de novembro de 2026",
+ "saudacao": "Bom dia e bom domingo! ☀️ Boletim leve com o que vem na semana: voto do ajuste fiscal, IPCA-15, Black Friday, 13º e o campo em MT.",
+ "resumo": [
+  "Câmara vota o <b>ajuste fiscal</b> na <b>segunda (23/11)</b>, com impacto estimado de <b>R$ 50 bi</b> em 2027.",
+  "Dólar fechou a última sessão (19/11) a <b>R$ 5,93</b>, alta de <b>4,95%</b> na semana. Ibovespa caiu <b>3,53%</b>.",
+  "Semana tem Focus (23/11), <b>IPCA-15</b> (26/11) e IGP-M (27/11). Black Friday na <b>sexta (27/11)</b> e 1ª parcela do 13º até <b>30/11</b>.",
+  "Campo: plantio de soja em MT em <b>98%</b> (13/11) e boi a <b>R$ 395,40</b>/@ no indicador Cepea (13/11)."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Semana de inflação e dólar no radar",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 19/11)",
+     "valor": "R$ 5,93",
+     "sub": "+4,95% na semana",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,11%",
+     "sub": "Focus 16/11",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Indicador da semana",
+     "valor": "26/11",
+     "sub": "IPCA-15 (prévia da inflação)",
+     "cor": "azul"
+    }
+   ],
+   "texto": "Na quinta (19/11) o dólar fechou a <b>R$ 5,93</b>, maior valor desde abril de 2025, e acumula <b>+9,01%</b> em novembro. O Ibovespa fechou a <b>166.376</b> pontos. O Focus de 16/11 prevê Selic de <b>13,75%</b> no fim de 2026 e <b>12,75%</b> em 2027. A B3 volta na segunda.",
+   "pratica": "antes de fechar pedidos com insumo importado, peça a cotação atualizada e combine prazo curto de validade do preço."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste fiscal vai a voto na Câmara",
+   "blocos": [
+    {
+     "titulo": "O que será votado (23/11)",
+     "texto": "Sessão extraordinária na <b>segunda</b>. O relator Mauro Benevides manteve o texto do Senado, com impacto de cerca de <b>R$ 50 bi</b> em 2027."
+    },
+    {
+     "titulo": "Pontos que mexem com a empresa",
+     "texto": "Possível corte linear de <b>10%</b> em benefícios tributários e limite ao uso de <b>créditos cruzados</b> para pagar outros tributos. Se mudar, volta ao Senado."
+    }
+   ],
+   "pratica": "se a empresa tem benefício fiscal ou compensa créditos, peça ao contador uma simulação para 2027 assim que o texto for aprovado."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday na sexta e 13º até 30/11",
+   "blocos": [
+    {
+     "titulo": "Black Friday (27/11)",
+     "texto": "Cai na <b>sexta</b>, com Cyber Monday na segunda (<b>30/11</b>). Em 2025 o e-commerce faturou <b>R$ 4,76 bi</b> só no dia (Confi Neotrust)."
+    },
+    {
+     "titulo": "13º salário",
+     "texto": "1ª parcela (metade, sem descontos) até <b>segunda, 30/11</b>. A 2ª vence em 20/12, um domingo: pague até <b>sexta (18/12)</b>."
+    }
+   ],
+   "pratica": "faça a conta da margem antes do desconto e deixe o dinheiro da 1ª parcela do 13º separado já nesta semana."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Plantio quase no fim e boi em recorde",
+   "texto": "Imea: <b>98%</b> da soja plantada em MT até 13/11 (média: <b>96,57%</b>). Boi em recorde: Cepea a <b>R$ 395,40</b>/@ em 13/11; em Rondonópolis, <b>R$ 370 a R$ 375</b>.",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "167,94 /sc",
+       "18/11"
+      ]
+     },
+     {
+      "regiao": "CENTRO-OESTE",
+      "praca": "Rio Verde (GO)",
+      "valores": [
+       "149,68 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "143,68 /sc",
+       "19/11"
+      ]
+     }
+    ],
+    "nota": "Soja: saca de 60 kg. Cepea (Paranaguá) e FitoApp (Rio Verde e Sorriso). Vale do Araguaia: a confirmar."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "com o boi em recorde, avalie vender parte do lote pronto e confira o preço local da soja antes de travar a safra nova."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "23/11",
+   "texto": "Câmara vota"
+  },
+  {
+   "data": "26/11",
+   "texto": "IPCA-15"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º (1ª parc.)"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "provisão do 13º: separe <b>1/12</b> da folha todo mês. Folha de <b>R$ 24 mil</b> = <b>R$ 2 mil</b> por mês, mais os encargos. Em dezembro o 13º já está pago, sem aperto.",
+ "promo": {
+  "titulo": "Semana decisiva para o caixa",
+  "texto": "13º, Black Friday e impostos de 2027: a 42 ADM organiza o fluxo de caixa da sua empresa."
+ },
+ "chamada": "Empresário, planeje a semana hoje e não se assuste na sexta.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento. Boletim de domingo. Mercado: 19/11/2026 (20/11 foi feriado). Focus: 16/11. Agro: 13 a 19/11.",
+ "fontes": [
+  {
+   "titulo": "Agência Brasil/Acessa: dólar 19/11",
+   "url": "https://www.acessa.com/economia/2026/11/344573-dolar-supera-rs-593-e-fecha-no-maior-valor-desde-abril-de-2025.html"
+  },
+  {
+   "titulo": "A Crítica: Focus 16/11",
+   "url": "https://acritica.net/economia/focus-16-novembro-selic-13-75-pib-1-72-dolar-5-40-ipca/"
+  },
+  {
+   "titulo": "Terra Brasil: ajuste fiscal",
+   "url": "https://terrabrasilnoticias.com/2026/11/camara-vota-nesta-segunda-projeto-de-ajuste-fiscal-que-preve-cortes-e-gatilhos/"
+  },
+  {
+   "titulo": "Safras: agenda da semana",
+   "url": "https://safras.com.br/de-23-a-27-de-novembro-mercado-acompanha-indicadores-do-agro"
+  },
+  {
+   "titulo": "Central do Varejo: Black Friday",
+   "url": "https://centraldovarejo.com.br/black-friday-2026-data-faturamento-e-preparacao-do-varejo/"
+  },
+  {
+   "titulo": "Investing/Reuters: plantio Imea",
+   "url": "https://br.investing.com/news/commodities-news/plantio-de-soja-atinge-98-da-area-de-mt-medionorte-encerra-trabalhos-diz-imea-2127026"
+  },
+  {
+   "titulo": "Canal Rural: boi Cepea",
+   "url": "https://www.florestanoticias.com/2026/11/16/arroba-do-boi-gordo-acumula-alta-de-141-em-novembro-aponta-cepea/"
+  },
+  {
+   "titulo": "Brasil 61: soja Paranaguá",
+   "url": "https://brasil61.com/n/soja-e-trigo-confira-os-precos-dos-graos-para-esta-quinta-feira-19-pagr266659"
+  },
+  {
+   "titulo": "FitoApp: Sorriso",
+   "url": "https://fitoapp.com.br/cotacoes/soja-sorriso-mt/"
+  },
+  {
+   "titulo": "FitoApp: Rio Verde",
+   "url": "https://fitoapp.com.br/cotacoes/rio-verde-go/"
+  }
+ ]
+}
