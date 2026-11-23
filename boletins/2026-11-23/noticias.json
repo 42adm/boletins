@@ -1,0 +1,54 @@
+{
+ "date": "23 · 11 · 2026",
+ "data_curta": "23/11",
+ "noticias": [
+  {
+   "id": "01-ajuste-fiscal", "tag": "IMPOSTOS", "kicker": "Câmara · votação hoje, 23/11",
+   "headline": "Ajuste fiscal pode <em>limitar créditos</em>",
+   "stats": [{"text": "R$ 50", "label": "bi de impacto em 2027"}, {"text": "R$ 200", "label": "bi em créditos usados (jan-set)"}],
+   "note": "Corte linear de 10% nos benefícios",
+   "takeLabel": "NA PRÁTICA", "take": "Compensa créditos? Simule 2027 com o contador.",
+   "whatsapp": "*Câmara vota hoje o ajuste fiscal* 🏛️\n\nO PLP 299/2026 chega com o texto do Senado e impacto de *R$ 50 bi* em 2027. Ele prevê corte linear de *10%* em benefícios e permite ao governo limitar o uso de *créditos cruzados* para pagar tributos federais. De janeiro a setembro, as empresas usaram *R$ 200,1 bi* desses créditos.\n\n👉 *Na prática:* se a empresa compensa créditos ou tem benefício fiscal, peça ao contador uma simulação para 2027.\n\n_Boletim Matinal 42 ADM · 23/11_"
+  },
+  {
+   "id": "02-dolar-bolsa", "tag": "DÓLAR", "kicker": "Fechamento de 19/11 · B3 volta hoje",
+   "headline": "B3 volta com <em>dólar a R$ 5,93</em>",
+   "stats": [{"value": 5.93, "decimals": 2, "label": "R$ por dólar"}, {"text": "-3,53%", "label": "Ibovespa na semana"}],
+   "note": "Bolsas dos EUA caíram forte na sexta",
+   "takeLabel": "NA PRÁTICA", "take": "Peça cotação com validade curta antes de comprar em dólar.",
+   "whatsapp": "*B3 volta do feriado com dólar a R$ 5,93* 💵\n\nNa última sessão (19/11), o dólar fechou a *R$ 5,93* e o Ibovespa a *166.376* pontos, com perda de *3,53%* na semana. Na sexta (20/11), com a B3 fechada, o S&P 500 caiu *3,70%* nos EUA. Hoje saem o Focus e o plano da Petrobras.\n\n👉 *Na prática:* evite fechar compras grandes em dólar no susto; peça cotação com validade curta.\n\n_Boletim Matinal 42 ADM · 23/11_"
+  },
+  {
+   "id": "03-nota-fiscal", "tag": "IMPOSTOS", "kicker": "Ato Conjunto RFB/CGIBS nº 7/2026",
+   "headline": "CBS/IBS na nota fica <em>para 2027</em>",
+   "stats": [{"text": "1º/3", "label": "Simples: NF-e e NFC-e"}, {"text": "15/12", "label": "1ª entrega da DeRE"}],
+   "note": "Datas de 1º/12 foram adiadas",
+   "takeLabel": "NA PRÁTICA", "take": "Confirme com o contador as novas datas do seu sistema.",
+   "whatsapp": "*CBS/IBS na nota fiscal fica para 2027* 🧾\n\nO Ato Conjunto nº 7/2026 adiou para *janeiro ou março de 2027* as obrigações que começariam em *1º/12*. No Simples, NF-e e NFC-e com CBS/IBS só a partir de *1º/3/2027*. A primeira entrega da DeRE passou para *15/12*.\n\n👉 *Na prática:* confirme com o contador e com o fornecedor do sistema de notas as novas datas da sua empresa.\n\n_Boletim Matinal 42 ADM · 23/11_"
+  },
+  {
+   "id": "04-black-friday", "tag": "VENDAS", "kicker": "CNC · projeção 2026",
+   "headline": "Black Friday cresce <em>só 1,8%</em>",
+   "stats": [{"text": "R$ 11,5", "label": "bi em vendas"}, {"text": "61,7%", "label": "juros crédito pessoal/ano"}],
+   "note": "Maior valor desde 2014, mas freado",
+   "takeLabel": "NA PRÁTICA", "take": "Só dê desconto e parcele com margem que aguente.",
+   "whatsapp": "*Black Friday deve crescer só 1,8%* 🛍️\n\nA CNC projeta *R$ 11,52 bi* em vendas na sexta (27/11), maior valor desde 2014, mas com alta de só *1,8%* (em 2025 foi 3,2%). Os juros do crédito pessoal estão em *61,7%* ao ano. E o Feirão Limpa Nome da Serasa vai até *6/12*.\n\n👉 *Na prática:* venda parcelada só com margem que aguente a taxa; e use o feirão para renegociar com o cliente que está devendo.\n\n_Boletim Matinal 42 ADM · 23/11_"
+  },
+  {
+   "id": "05-campo", "tag": "CAMPO", "kicker": "Cepea 19/11 · MilhoSoja 21/11",
+   "headline": "Soja a <em>R$ 168,69</em> no porto",
+   "stats": [{"text": "128,87", "label": "R$/sc em Canarana"}, {"text": "94,9%", "label": "plantio no Nordeste MT"}],
+   "note": "Imea 13/11: MT com 98,30% plantado",
+   "takeLabel": "PARA O PRODUTOR", "take": "Compare frete e prêmio antes de travar a safra nova.",
+   "whatsapp": "*Soja a R$ 168,69 no porto* 🌱\n\nO indicador Cepea de Paranaguá fechou 19/11 a *R$ 168,69*/sc. Em Sorriso, *R$ 143,68* (19/11) e em Canarana, *R$ 128,87* (21/11). O Imea apontou *98,30%* da soja plantada em MT até 13/11; o Nordeste (Araguaia) estava em *94,92%*. Boi Cepea: *R$ 395,50*/@ em SP.\n\n👉 *Para o produtor do Araguaia:* a soja local está cerca de R$ 40/sc abaixo do porto; compare frete e prêmio antes de travar a safra nova.\n\n_Boletim Matinal 42 ADM · 23/11_"
+  },
+  {
+   "id": "06-dica", "tag": "DICA DO DIA", "kicker": "Conta da Black Friday",
+   "headline": "Desconto de 20% pode <em>cortar o lucro</em>",
+   "stats": [{"text": "R$ 30", "label": "lucro sem desconto"}, {"text": "R$ 10", "label": "lucro com 20% off"}],
+   "note": "Produto de R$ 100 com custo de R$ 70",
+   "takeLabel": "NA PRÁTICA", "take": "Faça a conta da margem antes de anunciar o desconto.",
+   "whatsapp": "*Dica do dia: a conta do desconto* 🧮\n\nProduto de *R$ 100* com custo de *R$ 70* dá *R$ 30* de lucro. Com *20%* de desconto, o preço cai para R$ 80 e sobram só *R$ 10*. Para lucrar o mesmo, é preciso vender *3 vezes mais*.\n\n👉 *Na prática:* faça essa conta para cada produto antes de anunciar o desconto da Black Friday.\n\n_Boletim Matinal 42 ADM · 23/11_"
+  }
+ ]
+}

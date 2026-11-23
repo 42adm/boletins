@@ -1,0 +1,201 @@
+{
+ "data_extenso": "Segunda-feira, 23 de novembro de 2026",
+ "saudacao": "Bom dia e boa semana! ☀️ Hoje a Câmara vota o ajuste fiscal, a B3 volta do feriado com o dólar perto de R$ 5,93 e começa a semana da Black Friday.",
+ "resumo": [
+  "Câmara vota hoje o <b>ajuste fiscal</b>: impacto de <b>R$ 50 bi</b> em 2027 e limite ao uso de <b>créditos tributários</b>.",
+  "B3 volta do feriado com o dólar a <b>R$ 5,93</b> e o Ibovespa a <b>166.376</b> pontos (fechamento de 19/11).",
+  "Nota fiscal com CBS/IBS: obrigações de <b>1º/12</b> foram adiadas para <b>janeiro e março de 2027</b>.",
+  "Black Friday na <b>sexta (27/11)</b> deve faturar <b>R$ 11,52 bi</b>, alta de só <b>1,8%</b> (CNC).",
+  "Campo: soja a <b>R$ 168,69</b> em Paranaguá (19/11) e <b>R$ 128,87</b> em Canarana (21/11)."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Bolsa volta do feriado sob pressão",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 19/11)",
+     "valor": "R$ 5,93",
+     "sub": "última sessão antes do feriado",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,11%",
+     "sub": "Focus 16/11",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Hoje",
+     "valor": "8h25",
+     "sub": "Boletim Focus (Banco Central)",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O Ibovespa fechou 19/11 a <b>166.376</b> pontos (<b>-0,69%</b>) e perdeu <b>3,53%</b> na semana. Na sexta (20/11), com a B3 fechada, o S&P 500 caiu <b>3,70%</b> nos EUA. À noite sai o plano da Petrobras.",
+   "pratica": "com o dólar alto e a bolsa nervosa, evite fechar compras grandes em dólar hoje; peça cotação com validade curta."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste fiscal em votação e nota fiscal adiada",
+   "blocos": [
+    {
+     "titulo": "Ajuste fiscal (hoje)",
+     "texto": "A Câmara vota o PLP 299/2026, com texto do Senado. Prevê corte linear de <b>10%</b> em benefícios e permite limitar <b>créditos cruzados</b>: empresas usaram <b>R$ 200,1 bi</b> deles de jan. a set."
+    },
+    {
+     "titulo": "CBS/IBS na nota fiscal",
+     "texto": "Ato Conjunto nº 7/2026 adiou o que valia em <b>1º/12</b> para <b>jan. ou mar. de 2027</b>. No Simples, NF-e e NFC-e com CBS/IBS só em <b>1º/3/2027</b>. A DeRE passa para <b>15/12</b>."
+    }
+   ],
+   "pratica": "quem compensa créditos para pagar tributos deve simular 2027 com o contador; e confirme com ele as novas datas da nota fiscal."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday com freio de juros",
+   "blocos": [
+    {
+     "titulo": "Black Friday (27/11)",
+     "texto": "A CNC projeta <b>R$ 11,52 bi</b>, maior valor desde 2014, mas com alta de só <b>1,8%</b> (foi 3,2% em 2025). Juros do crédito pessoal: <b>61,7%</b> ao ano."
+    },
+    {
+     "titulo": "Feirão Limpa Nome",
+     "texto": "A Serasa vai até <b>6/12</b>, com descontos de até <b>99%</b>. São <b>84,2 milhões</b> de inadimplentes e <b>R$ 597,4 bi</b> em dívidas (set.)."
+    }
+   ],
+   "pratica": "venda parcelada só com margem que aguente a taxa da maquininha; e use o feirão para cobrar e renegociar com o cliente que está devendo."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja firme no porto, plantio no fim",
+   "texto": "Imea: <b>98,30%</b> da soja plantada em MT até 13/11; o Nordeste (Araguaia) estava em <b>94,92%</b>, o mais atrasado. Boi Cepea a <b>R$ 395,50</b>/@ em SP (19/11). Milho em Canarana: <b>R$ 44,69</b>/sc (21/11).",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "168,69 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "SUL",
+      "praca": "Paraná (interior)",
+      "valores": [
+       "160,65 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "143,68 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "128,87 /sc",
+       "21/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Cepea/Esalq (Paranaguá e Paraná), FitoApp (Sorriso) e MilhoSoja (Canarana, preço de referência)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "a soja em Canarana está cerca de R$ 40/sc abaixo do porto; compare frete e prêmio antes de travar a safra nova."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "23/11",
+   "texto": "Câmara vota"
+  },
+  {
+   "data": "26/11",
+   "texto": "IPCA-15"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º (1ª parc.)"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  }
+ ],
+ "dica": "desconto come margem rápido. Produto de <b>R$ 100</b> com custo de <b>R$ 70</b> dá <b>R$ 30</b> de lucro. Com <b>20%</b> de desconto, sobra <b>R$ 10</b>: é preciso vender <b>3 vezes mais</b> para lucrar o mesmo.",
+ "promo": {
+  "titulo": "Black Friday sem sufoco no caixa",
+  "texto": "A 42 ADM calcula sua margem, organiza o fluxo de caixa e separa o dinheiro do 13º."
+ },
+ "chamada": "Empresário, desconto bom é o que deixa lucro no caixa.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento nem parecer jurídico. Mercado: 19/11/2026 (20/11 foi feriado). Focus: 16/11. Agro: 13 a 21/11.",
+ "fontes": [
+  {
+   "titulo": "Exame: Ibovespa hoje 23/11",
+   "url": "https://exame.com/invest/mercados/ibovespa-hoje-23-11-2026/"
+  },
+  {
+   "titulo": "SpaceMoney: dólar a R$ 5,934",
+   "url": "https://www.spacemoney.com.br/investimentos/ibovespa-semana-perda-dolar-5934"
+  },
+  {
+   "titulo": "InfoMoney: Focus 16/11",
+   "url": "https://www.infomoney.com.br/mercados/boletim-focus-projecoes-16112026/"
+  },
+  {
+   "titulo": "TMC: ajuste fiscal na Câmara",
+   "url": "https://tmc.com.br/politica/camara-vota-plp-299-ajuste-fiscal-hugo-motta/"
+  },
+  {
+   "titulo": "Contábeis: prazos CBS/IBS",
+   "url": "https://www.contabeis.com.br/noticias/80858/ibs-e-cbs-receita-e-cgibs-alteram-prazos-dos-documentos-fiscais/"
+  },
+  {
+   "titulo": "InfoMoney: Black Friday CNC",
+   "url": "https://www.infomoney.com.br/economia/vendas-black-friday-2026-juros-inflacao-cnc/"
+  },
+  {
+   "titulo": "Brasil Inovador: Feirão Serasa",
+   "url": "https://brasilinovador.com.br/serasa-inicia-feirao-limpa-nome-com-33-mil-empresas-diante-de-volume-recorde-de-inadimplencia-no-pais/"
+  },
+  {
+   "titulo": "Só Notícias: plantio Imea",
+   "url": "https://www.sonoticias.com.br/agronoticias/plantio-da-soja-chega-a-983-da-area-prevista-em-mato-grosso-e-entra-na-reta-final/"
+  },
+  {
+   "titulo": "Brasil em Destaque: Cepea 19/11",
+   "url": "https://www.brasilemdestaque.com.br/soja-sobe-no-parana-nesta-segunda-feira-23/"
+  },
+  {
+   "titulo": "FitoApp: soja Sorriso",
+   "url": "https://fitoapp.com.br/cotacoes/soja-sorriso-mt/"
+  },
+  {
+   "titulo": "MilhoSoja: Canarana",
+   "url": "https://www.milhosoja.com.br/mato-grosso/preco-do-milho-e-soja-em-canarana-mt-cotacao-do-dia/"
+  }
+ ]
+}
