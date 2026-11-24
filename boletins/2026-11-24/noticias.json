@@ -1,0 +1,147 @@
+{
+ "date": "24 · 11 · 2026",
+ "data_curta": "24/11",
+ "noticias": [
+  {
+   "id": "01-ajuste-fiscal",
+   "tag": "IMPOSTOS",
+   "kicker": "Câmara · aprovado em 23/11",
+   "headline": "Ajuste fiscal aprovado: <em>créditos na mira</em>",
+   "stats": [
+    {
+     "text": "353",
+     "label": "votos a favor (128 contra)"
+    },
+    {
+     "text": "R$ 50",
+     "label": "bi de impacto em 2027"
+    }
+   ],
+   "note": "Faltam os destaques; depois, sanção",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Compensa créditos? Revise o caixa de 2027 com o contador.",
+   "whatsapp": "*Câmara aprova o ajuste fiscal* 🏛️\n\nO texto-base do PLP 299 passou ontem por *353 a 128*. Ele permite à Receita limitar por um tempo a *compensação cruzada* de créditos tributários e prevê corte linear de benefícios fiscais, com impacto de até *R$ 50 bi* em 2027. Faltam os destaques; depois, segue para sanção.\n\n👉 *Na prática:* se a empresa paga tributo com créditos ou tem benefício fiscal, revise o caixa de 2027 com o contador.\n\n_Boletim Matinal 42 ADM · 24/11_"
+  },
+  {
+   "id": "02-dolar",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de 23/11",
+   "headline": "Dólar bate <em>R$ 6</em> e recua",
+   "stats": [
+    {
+     "value": 5.93,
+     "decimals": 2,
+     "label": "R$ por dólar no fechamento"
+    },
+    {
+     "text": "-0,95%",
+     "label": "Ibovespa no dia"
+    }
+   ],
+   "note": "Máxima de R$ 6,01 pela manhã",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Compra em dólar? Peça cotação com validade curta.",
+   "whatsapp": "*Dólar passa de R$ 6 e volta* 💵\n\nOntem (23/11) o dólar chegou a *R$ 6,01* de manhã e fechou a *R$ 5,93* (*-0,15%*). O Ibovespa caiu *0,95%*, a *164.796* pontos, com petróleo em queda e risco fiscal no radar.\n\n👉 *Na prática:* em compras ligadas ao dólar, peça cotação com validade curta e não feche tudo no susto.\n\n_Boletim Matinal 42 ADM · 24/11_"
+  },
+  {
+   "id": "03-focus",
+   "tag": "JUROS",
+   "kicker": "Boletim Focus · 23/11",
+   "headline": "Mercado vê <em>juros altos</em> em 2027",
+   "stats": [
+    {
+     "text": "5,15%",
+     "label": "inflação esperada 2026"
+    },
+    {
+     "text": "13%",
+     "label": "Selic esperada fim 2027"
+    }
+   ],
+   "note": "Selic hoje em 13,75%; Copom 8 e 9/12",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Evite dívida nova de prazo longo e revise preços.",
+   "whatsapp": "*Mercado vê juros altos também em 2027* 📈\n\nO Focus de 23/11 subiu a inflação esperada de 2026 para *5,15%* e a de 2027 para *5,12%*. A Selic do fim de 2027 foi a *13%* (era 12,75%); hoje está em *13,75%*. A Fazenda prevê inflação de *5,3%* em 2026. O Copom decide em *9/12*.\n\n👉 *Na prática:* juro alto por mais tempo: evite dívida nova de prazo longo e revise sua tabela de preços.\n\n_Boletim Matinal 42 ADM · 24/11_"
+  },
+  {
+   "id": "04-simples",
+   "tag": "IMPOSTOS",
+   "kicker": "Fenacon/Sebrae · guia de novembro",
+   "headline": "Guia do Simples <em>muda em dezembro</em>",
+   "stats": [
+    {
+     "text": "12",
+     "label": "meses de folha (FS12)"
+    },
+    {
+     "text": "2027",
+     "label": "só por competência"
+    }
+   ],
+   "note": "Acaba a escolha pelo regime de caixa",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Confira a folha dos 12 meses com o contador antes da guia.",
+   "whatsapp": "*Guia do Simples muda a partir de dezembro* 🧾\n\nNa apuração de novembro (feita em dezembro), ME e EPP do Simples não escolhem mais entre *regime de caixa* e *competência*: a partir de *2027* tudo será por competência. Também passa a ser exigida a *folha dos últimos 12 meses* (FS12) para todas as atividades.\n\n👉 *Na prática:* confira com o contador os dados da folha dos 12 meses antes de gerar a guia.\n\n_Boletim Matinal 42 ADM · 24/11_"
+  },
+  {
+   "id": "05-black-friday",
+   "tag": "VENDAS",
+   "kicker": "Serasa Experian · Black Friday 27/11",
+   "headline": "Frete alto <em>derruba venda</em>",
+   "stats": [
+    {
+     "text": "37,6%",
+     "label": "das PMEs esperam vender mais"
+    },
+    {
+     "text": "30%",
+     "label": "desistem pelo frete"
+    }
+   ],
+   "note": "25% desistem pelo preço final",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Mostre o preço final com frete logo no anúncio.",
+   "whatsapp": "*Black Friday: frete alto derruba venda* 🛍️\n\nPesquisa da Serasa Experian mostra que *37,6%* das PMEs esperam vender mais na sexta (27/11). Mas *30%* dos consumidores desistem da compra por *frete alto* e *25%* pelo preço final acima do esperado.\n\n👉 *Na prática:* mostre o preço final com frete logo no anúncio; frete grátis acima de um valor mínimo pode vender mais que desconto grande.\n\n_Boletim Matinal 42 ADM · 24/11_"
+  },
+  {
+   "id": "06-campo",
+   "tag": "CAMPO",
+   "kicker": "Cepea 23/11 · Imea 20/11",
+   "headline": "Soja no <em>maior preço</em> desde 2023",
+   "stats": [
+    {
+     "text": "170,74",
+     "label": "R$/sc em Paranaguá"
+    },
+    {
+     "text": "128,87",
+     "label": "R$/sc em Canarana"
+    }
+   ],
+   "note": "Imea: 99,86% da soja plantada em MT",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Aproveite a alta para cotar e travar parte da safra.",
+   "whatsapp": "*Soja no maior preço desde 2023* 🌱\n\nCom o dólar alto, o indicador Cepea de Paranaguá subiu para *R$ 170,74*/sc em 23/11, o maior valor nominal desde março de 2023. Em Sorriso, *R$ 148,86* (23/11); em Canarana, *R$ 128,87* (21/11). O Imea aponta *99,86%* da soja plantada em MT até 20/11. Boi Cepea: *R$ 395,20*/@ em SP.\n\n👉 *Para o produtor do Araguaia:* aproveite a alta para pedir nova cotação e travar parte da safra nova.\n\n_Boletim Matinal 42 ADM · 24/11_"
+  },
+  {
+   "id": "07-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Conta do dólar",
+   "headline": "Um dia de dólar <em>custa R$ 700</em>",
+   "stats": [
+    {
+     "text": "59,3",
+     "label": "R$ mil (dólar a 5,93)"
+    },
+    {
+     "text": "60,0",
+     "label": "R$ mil (dólar a 6,00)"
+    }
+   ],
+   "note": "Compra de US$ 10 mil",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Planeje compras em dólar e negocie preço travado.",
+   "whatsapp": "*Dica do dia: a conta do dólar* 🧮\n\nUma compra de *US$ 10 mil* custa *R$ 59.300* com o dólar a R$ 5,93 e *R$ 60.000* com ele a R$ 6,00: são *R$ 700* a mais só pela oscilação de um dia.\n\n👉 *Na prática:* planeje as compras ligadas ao dólar e, quando der, negocie com o fornecedor um preço travado em reais.\n\n_Boletim Matinal 42 ADM · 24/11_"
+  }
+ ]
+}

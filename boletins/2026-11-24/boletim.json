@@ -1,0 +1,205 @@
+{
+ "data_extenso": "Terça-feira, 24 de novembro de 2026",
+ "saudacao": "Bom dia! ☀️ A Câmara aprovou o ajuste fiscal, o dólar chegou a passar de R$ 6 ontem e a soja bateu o maior preço desde 2023 no porto.",
+ "resumo": [
+  "Câmara aprovou o <b>ajuste fiscal</b> por <b>353 a 128</b>: Receita poderá limitar a <b>compensação cruzada</b> de créditos.",
+  "Dólar bateu <b>R$ 6,01</b> de manhã e fechou a <b>R$ 5,93</b>; Ibovespa caiu <b>0,95%</b>, a <b>164.796</b> pontos.",
+  "Focus: inflação de 2026 sobe para <b>5,15%</b> e Selic de 2027 para <b>13%</b>; hoje a Selic está em <b>13,75%</b>.",
+  "Simples: na guia de novembro acaba a escolha pelo <b>regime de caixa</b> e entra a folha de <b>12 meses</b>.",
+  "Campo: soja a <b>R$ 170,74</b> em Paranaguá e <b>R$ 148,86</b> em Sorriso (23/11)."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar passa de R$ 6 e volta",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 23/11)",
+     "valor": "R$ 5,93",
+     "sub": "máxima de R$ 6,01 de manhã",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,15%",
+     "sub": "Focus 23/11 (era 5,11%)",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Selic esperada 2027",
+     "valor": "13,00%",
+     "sub": "Focus 23/11 (era 12,75%)",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O Ibovespa fechou a <b>164.796</b> pontos (<b>-0,95%</b>), pressionado pelo petróleo (Brent <b>-3,46%</b>) e pelo risco fiscal. O dólar caiu <b>0,15%</b> no fim do dia. A Fazenda elevou sua projeção de inflação de 2026 para <b>5,3%</b>, acima do teto de 4,5%.",
+   "pratica": "inflação e juros altos por mais tempo: revise preços de tabela e evite contratar dívida nova de prazo longo agora."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste fiscal aprovado e guia do Simples nova",
+   "blocos": [
+    {
+     "titulo": "Ajuste fiscal (PLP 299)",
+     "texto": "Texto-base aprovado ontem por <b>353 a 128</b>. Permite à Receita limitar por um tempo a <b>compensação cruzada</b> de créditos e prevê corte linear de benefícios. Impacto de até <b>R$ 50 bi</b> em 2027. Faltam os destaques; depois vai à sanção."
+    },
+    {
+     "titulo": "Simples: guia de novembro",
+     "texto": "Na apuração de novembro (paga em dezembro) não há mais escolha entre <b>caixa e competência</b>: a partir de 2027 tudo é por competência. Também passa a ser exigida a <b>folha dos últimos 12 meses</b>."
+    }
+   ],
+   "pratica": "quem paga tributo com crédito deve rever o caixa de 2027 com o contador; no Simples, confira a folha dos 12 meses antes de gerar a guia."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday: PME otimista, cliente cauteloso",
+   "blocos": [
+    {
+     "titulo": "Pesquisa Serasa Experian",
+     "texto": "<b>37,6%</b> das PMEs esperam vender mais na sexta (27/11). Maior desafio: orçamento curto para divulgar (<b>30,8%</b>). Cautela do consumidor preocupa <b>22,6%</b>."
+    },
+    {
+     "titulo": "O que faz o cliente desistir",
+     "texto": "<b>30%</b> dos consumidores desistem da compra pelo <b>frete alto</b> e <b>25%</b> pelo preço final acima do esperado (Serasa, setembro)."
+    }
+   ],
+   "pratica": "mostre o preço final com frete logo no anúncio; frete grátis acima de um valor mínimo costuma vender mais que desconto grande."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja no maior preço desde 2023",
+   "texto": "Com o dólar alto, o indicador Cepea em Paranaguá subiu <b>1,22%</b> em 23/11, maior valor nominal desde março de 2023. Imea: <b>99,86%</b> da soja plantada em MT até 20/11; no Nordeste (Araguaia), <b>99,40%</b>. Boi Cepea a <b>R$ 395,20</b>/@ em SP (23/11). Milho em Canarana: <b>R$ 44,69</b>/sc (21/11).",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Soja (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto)",
+      "valores": [
+       "170,74 /sc",
+       "23/11"
+      ]
+     },
+     {
+      "regiao": "SUL",
+      "praca": "Paraná (interior)",
+      "valores": [
+       "163,79 /sc",
+       "23/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Sorriso (MT)",
+      "valores": [
+       "148,86 /sc",
+       "23/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana (MT)",
+      "valores": [
+       "128,87 /sc",
+       "21/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Cepea/Esalq (Paranaguá e Paraná), FitoApp (Sorriso) e MilhoSoja (Canarana, preço de referência)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "o porto subiu, mas Canarana segue cerca de R$ 40/sc abaixo; aproveite a alta para pedir nova cotação e travar parte da safra nova."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º (1ª parc.)"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "15/12",
+   "texto": "Ata do Copom"
+  },
+  {
+   "data": "20/12",
+   "texto": "13º (2ª parc.)"
+  }
+ ],
+ "dica": "dólar alto pesa na compra importada. Uma compra de <b>US$ 10 mil</b> custa <b>R$ 59.300</b> com o dólar a R$ 5,93 e <b>R$ 60.000</b> a R$ 6,00: <b>R$ 700</b> a mais só pela oscilação de um dia.",
+ "promo": {
+  "titulo": "Caixa protegido do sobe e desce",
+  "texto": "A 42 ADM organiza o fluxo de caixa, prevê compras em dólar e prepara a empresa para as regras de 2027."
+ },
+ "chamada": "Empresário, quem planeja o caixa não fica refém do dólar.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento nem parecer jurídico. Mercado: 23/11/2026. Focus: 23/11. Agro: 20 a 23/11.",
+ "fontes": [
+  {
+   "titulo": "O Repórter: dólar e Ibovespa 23/11",
+   "url": "https://oreporter.com/economia/dolar-recua-ibovespa-cai-23-novembro-2026"
+  },
+  {
+   "titulo": "Exame: Focus 23/11",
+   "url": "https://exame.com/economia/boletim-focus-mercado-eleva-projecao-para-o-ipca-a-515-dolar-sobe-para-r-555/"
+  },
+  {
+   "titulo": "DGABC: Fazenda eleva IPCA",
+   "url": "https://www.dgabc.com.br/Noticia/4370303/fazenda-aumenta-projecao-para-ipca-de-2026-de-4-9-para-5-3-"
+  },
+  {
+   "titulo": "ValorFinal: calendário Copom",
+   "url": "https://valorfinal.com.br/copom"
+  },
+  {
+   "titulo": "JOTA: ajuste fiscal aprovado",
+   "url": "https://www.jota.info/legislativo/ajuste-fiscal-camara-aprova-texto-base-e-avanca-para-a-analise-dos-destaques"
+  },
+  {
+   "titulo": "Fenacon: guia do Simples de novembro",
+   "url": "https://fenacon.org.br/reforma-tributaria/reforma-tributaria-e-simples-nacional-saiba-quais-as-novidades-o-empreendedor-tera-ao-gerar-a-guia-de-novembro/"
+  },
+  {
+   "titulo": "InfoMoney: Serasa PMEs Black Friday",
+   "url": "https://www.infomoney.com.br/minhas-financas/black-friday-38-das-pmes-esperam-vender-mais-aponta-serasa-experian/"
+  },
+  {
+   "titulo": "Brasil em Destaque: Cepea 23/11",
+   "url": "https://www.brasilemdestaque.com.br/soja-e-trigo-confira-os-precos-dos-graos-para-esta-terca-feira-24/"
+  },
+  {
+   "titulo": "Canal Rural: plantio Imea 99,86%",
+   "url": "https://www.canalrural.com.br/agricultura/plantio-de-soja-em-mato-grosso-alcanca-9986-da-area-prevista/"
+  },
+  {
+   "titulo": "SiteBarra: boi Cepea 23/11",
+   "url": "https://sitebarra.com.br/v8/boi-gordo-frango-e-suino-confira-cotacoes-para-esta-terca-feira-24/"
+  },
+  {
+   "titulo": "FitoApp: soja Sorriso",
+   "url": "https://fitoapp.com.br/cotacoes/soja-sorriso-mt/"
+  },
+  {
+   "titulo": "MilhoSoja: Canarana",
+   "url": "https://www.milhosoja.com.br/mato-grosso/preco-do-milho-e-soja-em-canarana-mt-cotacao-do-dia/"
+  }
+ ]
+}
