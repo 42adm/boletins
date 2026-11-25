@@ -1,0 +1,127 @@
+{
+ "date": "25 · 11 · 2026",
+ "data_curta": "25/11",
+ "noticias": [
+  {
+   "id": "01-ajuste-fiscal",
+   "tag": "IMPOSTOS",
+   "kicker": "Sancionado em 24/11",
+   "headline": "Ajuste fiscal vira lei: <em>benefício menor</em>",
+   "stats": [
+    {
+     "text": "20%",
+     "label": "corte nos benefícios fiscais"
+    },
+    {
+     "text": "80%",
+     "label": "do benefício que sobra"
+    }
+   ],
+   "note": "Créditos tributários podem ter limite",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Usa benefício ou crédito? Refaça o caixa de 2027 com o contador.",
+   "whatsapp": "*Ajuste fiscal sancionado* 🏛️\n\nO pacote foi *sancionado sem vetos* ontem. O corte linear de benefícios fiscais federais sobe de *10% para 20%*: quem tem incentivo passa a contar com *80%* dele. O governo também poderá limitar por decreto a *compensação cruzada* de créditos (como usar PIS/Cofins para pagar IRPJ).\n\n👉 *Na prática:* se a empresa usa benefício fiscal ou paga imposto com crédito, refaça o caixa de 2027 com o contador.\n\n_Boletim Matinal 42 ADM · 25/11_"
+  },
+  {
+   "id": "02-dolar",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de 24/11",
+   "headline": "Dólar recua com <em>ajuste aprovado</em>",
+   "stats": [
+    {
+     "value": 5.91,
+     "decimals": 2,
+     "label": "R$ por dólar no fechamento"
+    },
+    {
+     "text": "-0,43%",
+     "label": "Ibovespa no dia"
+    }
+   ],
+   "note": "Mínima do dia: R$ 5,80",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Compra importada? Aproveite a trégua para travar parte do valor.",
+   "whatsapp": "*Dólar dá uma trégua* 💵\n\nO dólar fechou a *R$ 5,91* (*-0,26%*) e chegou a *R$ 5,80* durante o dia, após a sanção do ajuste fiscal. O Ibovespa caiu *0,43%*, a *164.090* pontos, puxado pela Vale (*-5,51%*). A Selic segue em *13,75%*.\n\n👉 *Na prática:* quem tem compra ou dívida em dólar pode travar parte do valor agora, sem apostar tudo num só dia.\n\n_Boletim Matinal 42 ADM · 25/11_"
+  },
+  {
+   "id": "03-inadimplencia",
+   "tag": "COBRANÇA",
+   "kicker": "FecomercioSP · 3º tri",
+   "headline": "Calote bate <em>recorde</em> no Brasil",
+   "stats": [
+    {
+     "text": "R$ 371",
+     "label": "bi em dívidas atrasadas"
+    },
+    {
+     "text": "3,3%",
+     "label": "inadimplência das empresas"
+    }
+   ],
+   "note": "Empresas devem R$ 90,5 bi",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Consulte o CPF antes de vender a prazo e peça entrada.",
+   "whatsapp": "*Inadimplência bate recorde* ⚠️\n\nDívidas vencidas há mais de 90 dias de famílias e empresas somam *R$ 371 bi* (3º trimestre, FecomercioSP com dados do BC), alta de *26,7%* em um ano. As empresas devem *R$ 90,5 bi* e a taxa delas subiu para *3,3%*. A Serasa conta *9,4 milhões* de CNPJs negativados.\n\n👉 *Na prática:* antes de vender a prazo, consulte o CPF/CNPJ do cliente e peça entrada.\n\n_Boletim Matinal 42 ADM · 25/11_"
+  },
+  {
+   "id": "04-black-friday",
+   "tag": "VENDAS",
+   "kicker": "Serasa · Black Friday 27/11",
+   "headline": "Black Friday com <em>cliente endividado</em>",
+   "stats": [
+    {
+     "text": "84,6",
+     "label": "milhões de inadimplentes (out.)"
+    },
+    {
+     "text": "37,6%",
+     "label": "das PMEs esperam vender mais"
+    }
+   ],
+   "note": "Sexta-feira, 27/11",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Prefira Pix e cartão; no crediário, peça entrada.",
+   "whatsapp": "*Black Friday com cliente apertado* 🛒\n\nA Serasa registrou *84,6 milhões* de pessoas inadimplentes em outubro, mais da metade dos adultos. Mesmo assim, *37,6%* das pequenas e médias empresas esperam vender mais na sexta (*27/11*).\n\n👉 *Na prática:* priorize Pix e cartão; no crediário ou boleto parcelado, consulte o CPF e peça entrada.\n\n_Boletim Matinal 42 ADM · 25/11_"
+  },
+  {
+   "id": "05-campo",
+   "tag": "CAMPO",
+   "kicker": "Cepea e praças · 23/11",
+   "headline": "Soja firme no porto, <em>MT abaixo</em>",
+   "stats": [
+    {
+     "text": "170,74",
+     "label": "R$/sc em Paranaguá"
+    },
+    {
+     "text": "138,20",
+     "label": "R$/sc em Sorriso"
+    }
+   ],
+   "note": "Paranaguá +7,46% em novembro",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Peça cotação nova e trave parte da safra 2026/27.",
+   "whatsapp": "*Soja firme no porto* 🌱\n\nO indicador Cepea em Paranaguá ficou em *R$ 170,74*/saca em 23/11, alta de *7,46%* no mês. Em Mato Grosso, Sorriso marcou *R$ 138,20* e a média estadual *R$ 138,14*. Boi Cepea em SP a *R$ 395,50*/@ (19/11). Em Canarana, o bezerro de 12 meses saiu a *R$ 3.920,70*.\n\n👉 *Para o produtor do Araguaia:* peça cotação nova e trave parte da safra 2026/27 enquanto o preço ajuda.\n\n_Boletim Matinal 42 ADM · 25/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Conta rápida",
+   "headline": "O custo escondido do <em>crediário</em>",
+   "stats": [
+    {
+     "text": "R$ 600",
+     "label": "de risco a cada R$ 10 mil"
+    },
+    {
+     "text": "6%",
+     "label": "famílias inadimplentes"
+    }
+   ],
+   "note": "Vendas a prazo sem consulta",
+   "takeLabel": "DICA",
+   "take": "Consulte o CPF e peça entrada antes de parcelar.",
+   "whatsapp": "*O custo escondido do crediário* 💡\n\nCom *6%* das famílias inadimplentes, em *R$ 10.000* vendidos a prazo sem consulta, cerca de *R$ 600* podem não voltar para o caixa.\n\n👉 *Na prática:* consulte o CPF, peça entrada e prefira prazos curtos.\n\n_Boletim Matinal 42 ADM · 25/11_"
+  }
+ ]
+}

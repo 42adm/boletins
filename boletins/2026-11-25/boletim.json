@@ -1,0 +1,213 @@
+{
+ "data_extenso": "Quarta-feira, 25 de novembro de 2026",
+ "saudacao": "Bom dia e boa quarta! ☀️ O ajuste fiscal virou lei, o dólar recuou para R$ 5,91 e a inadimplência de famílias e empresas bateu recorde às vésperas da Black Friday.",
+ "resumo": [
+  "Ajuste fiscal foi <b>sancionado sem vetos</b>: corte de benefícios fiscais sobe para <b>20%</b> e a Receita poderá limitar a <b>compensação de créditos</b>.",
+  "Dólar fechou a <b>R$ 5,91</b> (<b>-0,26%</b>); Ibovespa caiu <b>0,43%</b>, a <b>164.090</b> pontos, puxado pela Vale.",
+  "Dívidas atrasadas de famílias e empresas somam <b>R$ 371 bi</b>, recorde; empresas devem <b>R$ 90,5 bi</b>.",
+  "Amanhã (26/11) sai o <b>IPCA-15</b> de novembro; a Selic segue em <b>13,75%</b>.",
+  "Campo: soja a <b>R$ 170,74</b> em Paranaguá e <b>R$ 138,20</b> em Sorriso (23/11)."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar recua com o fiscal aprovado",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 24/11)",
+     "valor": "R$ 5,91",
+     "sub": "-0,26% · mínima de R$ 5,80",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,15%",
+     "sub": "Focus 23/11",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "IPCA-15 de novembro",
+     "valor": "26/11",
+     "sub": "amanhã · outubro foi 0,32%",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O Ibovespa fechou a <b>164.090</b> pontos (<b>-0,43%</b>), com a Vale caindo <b>5,51%</b>. Os juros futuros recuaram com a sanção do ajuste: janeiro de 2027 fechou em <b>13,68%</b>.",
+   "pratica": "o dólar deu uma trégua: quem tem compra importada ou dívida em dólar pode aproveitar para travar parte do valor, sem apostar tudo num só dia."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Ajuste fiscal sancionado: o que muda",
+   "blocos": [
+    {
+     "titulo": "Benefícios fiscais menores",
+     "texto": "O corte linear de incentivos federais sobe de <b>10% para 20%</b>: quem tem benefício passa a contar com <b>80%</b> dele. Ficam fora TI, semicondutores e a desoneração sobre a receita bruta."
+    },
+    {
+     "titulo": "Créditos com limite",
+     "texto": "O governo poderá limitar por decreto o uso de créditos para pagar outros tributos da Receita (a <b>compensação cruzada</b>, como usar PIS/Cofins para pagar IRPJ). Os créditos não somem, mas podem demorar mais para virar dinheiro."
+    }
+   ],
+   "pratica": "quem usa benefício fiscal ou paga imposto com crédito deve refazer o caixa de 2027 com o contador: pode ser preciso pagar mais em dinheiro."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Calote recorde antes da Black Friday",
+   "blocos": [
+    {
+     "titulo": "R$ 371 bilhões em atraso",
+     "texto": "Dívidas vencidas há mais de 90 dias somam <b>R$ 371 bi</b> (3º tri, FecomercioSP com dados do BC), alta de <b>26,7%</b> em um ano. Empresas devem <b>R$ 90,5 bi</b>; a taxa delas subiu de 2,8% para <b>3,3%</b>."
+    },
+    {
+     "titulo": "Cliente e empresa negativados",
+     "texto": "Serasa: <b>84,6 milhões</b> de pessoas inadimplentes em outubro e <b>9,4 milhões</b> de CNPJs negativados em setembro, recorde. Mesmo assim, <b>37,6%</b> das PMEs esperam vender mais na sexta (27/11)."
+    }
+   ],
+   "pratica": "na Black Friday, prefira Pix e cartão; no crediário e no boleto parcelado, consulte o CPF antes e peça entrada."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja firme no porto, MT bem abaixo",
+   "texto": "Paranaguá subiu <b>7,46%</b> em novembro até 23/11; a média de MT ficou em <b>R$ 138,14</b>/sc. Boi Cepea SP a <b>R$ 395,50</b>/@ (19/11), <b>+1,44%</b> no mês.",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Preço (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · soja",
+      "valores": [
+       "170,74 /sc",
+       "23/11"
+      ]
+     },
+     {
+      "regiao": "MS",
+      "praca": "Dourados · soja",
+      "valores": [
+       "156,50 /sc",
+       "23/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Rondonópolis · soja",
+      "valores": [
+       "144,00 /sc",
+       "23/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Sorriso · soja",
+      "valores": [
+       "138,20 /sc",
+       "23/11"
+      ]
+     },
+     {
+      "regiao": "VALE DO ARAGUAIA",
+      "praca": "Canarana · bezerro 12 meses",
+      "valores": [
+       "3.920,70 /cab",
+       "23/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Cepea/Esalq (Paranaguá), TF Agroeconômica (Dourados, Rondonópolis, Sorriso, média MT) e Agrolink (Canarana)."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "o porto está perto da máxima do ano; peça cotação nova para a safra 2026/27 e trave uma parte enquanto o preço ajuda."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "26/11",
+   "texto": "IPCA-15"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º (1ª parc.)"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "20/12",
+   "texto": "13º (2ª parc.)"
+  }
+ ],
+ "dica": "com <b>6%</b> das famílias inadimplentes, em <b>R$ 10.000</b> vendidos no crediário sem consulta, cerca de <b>R$ 600</b> podem não voltar. Peça entrada.",
+ "promo": {
+  "titulo": "Contas a receber em dia",
+  "texto": "A 42 ADM organiza cobrança e fluxo de caixa e prepara sua empresa para 2027."
+ },
+ "chamada": "Empresário, venda só vira lucro quando o dinheiro entra no caixa.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento nem parecer jurídico. Mercado: 24/11/2026. Focus: 23/11. Agro: 19 a 23/11.",
+ "fontes": [
+  {
+   "titulo": "O Repórter: dólar e Ibovespa 24/11",
+   "url": "https://oreporter.com/economia/dolar-cai-bolsa-recua-vale-24-novembro-2026"
+  },
+  {
+   "titulo": "Money Times: tempo real 24/11",
+   "url": "https://www.moneytimes.com.br/tempo-real-24-11-2026-davs/"
+  },
+  {
+   "titulo": "Exame: Focus 23/11",
+   "url": "https://exame.com/economia/boletim-focus-mercado-eleva-projecao-para-o-ipca-a-515-dolar-sobe-para-r-555/"
+  },
+  {
+   "titulo": "Ulti: IPCA-15 sai em 26/11",
+   "url": "https://ulti.com.br/noticias/ipca-15-novembro-expectativa-inflacao-12-meses-2026"
+  },
+  {
+   "titulo": "Agência Senado: ajuste fiscal",
+   "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/projeto-de-ajuste-fiscal-segue-para-a-sancao-presidencial"
+  },
+  {
+   "titulo": "CNN Brasil: ponto a ponto do ajuste",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/entenda-o-ajuste-fiscal-aprovado-pela-camara-e-as-principais-medidas/"
+  },
+  {
+   "titulo": "TV Sim: inadimplência R$ 371 bi",
+   "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/24/inadimplencia-familias-empresas-bate-recorde-371-bi"
+  },
+  {
+   "titulo": "Consumidor Moderno: Serasa e PMEs",
+   "url": "https://consumidormoderno.com.br/black-friday-2026-pmes-inadimplencia-serasa/"
+  },
+  {
+   "titulo": "Brasil 61: Cepea soja 23/11",
+   "url": "https://www.conexaoitajuba.com.br/noticia/soja-e-trigo-confira-os-precos-dos-graos-para-esta-terca-feira-24-mwucufvh"
+  },
+  {
+   "titulo": "NX1: soja nas praças 23/11",
+   "url": "https://nx1.com.br/2026/11/24/soja-sobe-em-chicago-e-saca-chega-a-r-168-nos-portos-do-sul/"
+  },
+  {
+   "titulo": "Canal Rural: boi +1,44% em novembro",
+   "url": "https://www.canalrural.com.br/pecuaria/boi-gordo-acumula-alta-de-144-em-novembro/"
+  },
+  {
+   "titulo": "Agrolink: cotações MT",
+   "url": "https://www.agrolink.com.br/cotacoes/mt"
+  }
+ ]
+}
