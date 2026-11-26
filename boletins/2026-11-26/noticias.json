@@ -1,0 +1,90 @@
+{
+ "date": "26 · 11 · 2026",
+ "data_curta": "26/11",
+ "noticias": [
+  {
+   "id": "01-dolar",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de 25/11",
+   "headline": "Dólar cai forte e <em>Bolsa sobe</em>",
+   "stats": [
+    {"value": 5.81, "decimals": 2, "label": "R$ por dólar no fechamento"},
+    {"text": "-1,58%", "label": "queda do dólar no dia"}
+   ],
+   "note": "Ibovespa a 166.684 pontos (+1,58%)",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Importa ou deve em dólar? Trave uma parte agora e o resto aos poucos.",
+   "whatsapp": "*Dólar cai forte e Bolsa sobe* 💵\n\nO dólar fechou ontem a *R$ 5,81* (*-1,58%*), depois de bater *R$ 5,95* no começo do dia, com a expectativa de corte de gastos. O Ibovespa subiu *1,58%*, a *166.684* pontos, e interrompeu quatro quedas seguidas. A Selic segue em *13,75%*.\n\n👉 *Na prática:* quem tem importação ou dívida em dólar pode travar uma parte agora e o resto aos poucos.\n\n_Boletim Matinal 42 ADM · 26/11_"
+  },
+  {
+   "id": "02-simples",
+   "tag": "IMPOSTOS",
+   "kicker": "Resolução CGSN 196 · DOU 24/11",
+   "headline": "Simples: prazo para <em>mudar a opção</em>",
+   "stats": [
+    {"text": "30/11", "label": "prazo para cancelar a opção"},
+    {"text": "4,50%", "label": "1ª faixa do comércio em 2027"}
+   ],
+   "note": "Novas tabelas valem em 1º/1/2027",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Optou pelo IBS/CBS fora do Simples? Revise com o contador até 30/11.",
+   "whatsapp": "*Simples Nacional: prazo até 30/11* 🧾\n\nA Resolução CGSN *196/2026* adaptou o Simples ao IBS e à CBS. Até *30/11* dá para cancelar a opção feita em setembro entre o Simples e o recolhimento regular de IBS/CBS. As novas tabelas valem a partir de *1º/1/2027*; no comércio, a 1ª faixa fica em *4,50%*. E o piloto da CBS da Receita agora está aberto a *qualquer empresa com CNPJ*.\n\n👉 *Na prática:* se a empresa fez essa opção em setembro, refaça a conta com o contador até segunda.\n\n_Boletim Matinal 42 ADM · 26/11_"
+  },
+  {
+   "id": "03-ipca15",
+   "tag": "ECONOMIA",
+   "kicker": "IBGE divulga hoje às 9h",
+   "headline": "Prévia da inflação <em>sai hoje</em>",
+   "stats": [
+    {"text": "0,36%", "label": "projeção do Bradesco"},
+    {"text": "0,32%", "label": "IPCA-15 de outubro"}
+   ],
+   "note": "Focus: inflação de 5,15% em 2026",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Vai reajustar preço ou contrato? Use o índice oficial de hoje na conta.",
+   "whatsapp": "*Prévia da inflação sai hoje* 📊\n\nO IBGE divulga às *9h* o IPCA-15 de novembro. O Bradesco espera *0,36%*; em outubro, o índice foi *0,32%* (*4,62%* em 12 meses). O último Focus prevê inflação de *5,15%* em 2026, e a Selic segue em *13,75%* até o Copom de *9/12*.\n\n👉 *Na prática:* se for reajustar preços ou contratos, use o número oficial de hoje na conta.\n\n_Boletim Matinal 42 ADM · 26/11_"
+  },
+  {
+   "id": "04-black-friday",
+   "tag": "VENDAS",
+   "kicker": "Black Friday · sexta, 27/11",
+   "headline": "Mais pedidos, <em>tíquete menor</em>",
+   "stats": [
+    {"text": "+20%", "label": "vendas previstas"},
+    {"text": "-15%", "label": "tíquete médio"}
+   ],
+   "note": "Cerca de 70 milhões de pedidos",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Defina hoje o desconto máximo por produto e prefira Pix ou cartão.",
+   "whatsapp": "*Black Friday: mais pedidos, tíquete menor* 🛒\n\nA Eu Entrego prevê vendas *20% maiores* que em 2025 e cerca de *70 milhões* de pedidos, mas tíquete médio de *14% a 15% menor*. Na Serasa, quase *38%* das PMEs esperam vender mais. Cuidado: com margem de *40%*, um desconto de *20%* corta o lucro pela metade.\n\n👉 *Na prática:* defina hoje o desconto máximo por produto e prefira Pix ou cartão.\n\n_Boletim Matinal 42 ADM · 26/11_"
+  },
+  {
+   "id": "05-campo",
+   "tag": "CAMPO",
+   "kicker": "Soja 19/11 · boi Cepea 24/11",
+   "headline": "Soja no porto na <em>máxima desde 2023</em>",
+   "stats": [
+    {"text": "R$ 170", "label": "saca em Paranaguá"},
+    {"text": "R$ 139", "label": "saca em Sorriso"}
+   ],
+   "note": "Boi Cepea a R$ 395,45/@",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Peça cotação com frete descontado e trave uma parte enquanto o porto paga.",
+   "whatsapp": "*Soja no porto na máxima desde 2023* 🌱\n\nA saca chegou a *R$ 170* em Paranaguá e *R$ 139* em Sorriso (19/11), diferença de *R$ 31*. A semeadura em MT chegou a *98,3%* (Imea). O boi Cepea fechou a *R$ 395,45*/@ (24/11), e um bezerro custa *9,19* arrobas, a menor relação do ano.\n\n👉 *Para o produtor do Araguaia:* bom momento para reposição; na soja, trave uma parte enquanto o porto paga bem.\n\n_Boletim Matinal 42 ADM · 26/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Conta rápida de Black Friday",
+   "headline": "Desconto de 20% pede <em>o dobro de vendas</em>",
+   "stats": [
+    {"text": "R$ 40", "label": "lucro sem desconto"},
+    {"text": "R$ 20", "label": "lucro com 20% off"}
+   ],
+   "note": "Produto de R$ 100 com custo de R$ 60",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Antes de anunciar o desconto, calcule quanto precisa vender a mais.",
+   "whatsapp": "*Dica do dia: a conta do desconto* 💡\n\nProduto de *R$ 100* com custo de *R$ 60* dá *R$ 40* de lucro. Com *20%* de desconto, o lucro cai para *R$ 20*: é preciso vender o *dobro* só para empatar.\n\n👉 *Na prática:* antes de anunciar a promoção, faça essa conta produto a produto.\n\n_Boletim Matinal 42 ADM · 26/11_"
+  }
+ ]
+}

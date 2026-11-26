@@ -1,0 +1,197 @@
+{
+ "data_extenso": "Quinta-feira, 26 de novembro de 2026",
+ "saudacao": "Bom dia e boa quinta! ☀️ O dólar caiu para R$ 5,81 e a Bolsa voltou aos 166 mil pontos; hoje sai a prévia da inflação e o Simples tem prazo no dia 30.",
+ "resumo": [
+  "Dólar fechou a <b>R$ 5,81</b> (<b>-1,58%</b>) e o Ibovespa subiu <b>1,58%</b>, a <b>166.684</b> pontos, com a expectativa de corte de gastos.",
+  "Hoje, às 9h, sai o <b>IPCA-15</b> de novembro; o Bradesco espera <b>0,36%</b>. A Selic segue em <b>13,75%</b>.",
+  "Simples Nacional: até <b>30/11</b> dá para cancelar a opção de IBS/CBS feita em setembro; novas tabelas valem em <b>1º/1/2027</b>.",
+  "Black Friday é amanhã: previsão de vendas <b>20% maiores</b>, mas tíquete médio até <b>15% menor</b>.",
+  "Campo: soja a <b>R$ 170</b> em Paranaguá e <b>R$ 139</b> em Sorriso (19/11); boi Cepea a <b>R$ 395,45</b>/@."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Dólar cai forte e Bolsa sobe",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 25/11)",
+     "valor": "R$ 5,81",
+     "sub": "-1,58% · máxima de R$ 5,95",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,15%",
+     "sub": "último Focus",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "IPCA-15 de novembro",
+     "valor": "hoje",
+     "sub": "9h · projeção 0,36%",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O Ibovespa interrompeu quatro quedas seguidas. O BC fez leilão de linha de <b>US$ 2 bi</b> e os juros futuros recuaram. A Embraer caiu <b>4%</b> com a proposta dos EUA de tarifa de <b>10%</b> sobre aviões brasileiros.",
+   "pratica": "o dólar caiu mais de 1% num dia só: quem tem importação ou dívida em dólar pode travar uma parte agora e o resto aos poucos."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Simples se adapta ao IBS e à CBS",
+   "blocos": [
+    {
+     "titulo": "Prazo até 30/11",
+     "texto": "A Resolução CGSN <b>196/2026</b> (DOU de 24/11) abre até <b>30/11</b> o cancelamento da opção feita em setembro entre o Simples e o recolhimento regular de IBS/CBS. As novas tabelas valem a partir de <b>1º/1/2027</b>; no comércio, a 1ª faixa fica em <b>4,50%</b>."
+    },
+    {
+     "titulo": "Piloto da CBS para todos",
+     "texto": "A Portaria RFB <b>763</b> abriu o ambiente de testes da CBS para <b>qualquer empresa com CNPJ</b>, sem pedido prévio. Basta procuração digital para quem vai operar. É a chance de testar notas e sistemas antes de 2027."
+    }
+   ],
+   "pratica": "quem optou pelo IBS/CBS fora do Simples em setembro deve revisar a conta com o contador até segunda (30/11); depois, a escolha vale para 2027."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday: mais pedidos, tíquete menor",
+   "blocos": [
+    {
+     "titulo": "Previsão para sexta (27/11)",
+     "texto": "A Eu Entrego prevê vendas <b>20% maiores</b> que em 2025, cerca de <b>70 milhões</b> de pedidos e tíquete médio de <b>14% a 15% menor</b>. Na Serasa, quase <b>38%</b> das PMEs esperam vender mais."
+    },
+    {
+     "titulo": "Atenção à margem",
+     "texto": "Com margem de <b>40%</b>, um desconto de <b>20%</b> corta o lucro pela metade. Escolha poucos produtos para a promoção e confira o estoque."
+    }
+   ],
+   "pratica": "defina hoje o desconto máximo por produto e prefira Pix ou cartão; no parcelado, consulte o CPF antes."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja no porto na máxima desde 2023",
+   "texto": "Paranaguá chegou a <b>R$ 170</b>/sc, maior nível desde março de 2023; a diferença para Sorriso é de <b>R$ 31</b>. A semeadura em MT chegou a <b>98,3%</b> (Imea). Um bezerro custa <b>9,19</b> arrobas de boi, menor relação do ano (Cepea).",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Preço (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · soja",
+      "valores": [
+       "170,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Sorriso · soja",
+      "valores": [
+       "139,00 /sc",
+       "19/11"
+      ]
+     },
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Boi gordo Cepea · SP",
+      "valores": [
+       "395,45 /@",
+       "24/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Rondonópolis · boi gordo",
+      "valores": [
+       "375 a 385 /@",
+       "24/11"
+      ],
+      "destaque": true
+     }
+    ],
+    "nota": "Saca de 60 kg. Portal do Agronegócio via NX1 (soja), Cepea/Esalq via Canal Rural (boi). Vale do Araguaia: sem cotação nova publicada até hoje."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "com o bezerro barato em arrobas, é boa hora para reposição; na soja, peça cotação com o frete descontado e trave uma parte enquanto o porto paga bem."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "26/11",
+   "texto": "IPCA-15"
+  },
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º e Simples"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "20/12",
+   "texto": "13º (2ª parc.)"
+  }
+ ],
+ "dica": "produto de <b>R$ 100</b> com custo de <b>R$ 60</b> dá <b>R$ 40</b> de lucro. Com <b>20%</b> de desconto, o lucro cai para <b>R$ 20</b>: é preciso vender o <b>dobro</b> só para empatar.",
+ "promo": {
+  "titulo": "Preço e margem sob controle",
+  "texto": "A 42 ADM calcula margem, organiza o fluxo de caixa e prepara sua empresa para a reforma tributária de 2027."
+ },
+ "chamada": "Empresário, desconto bom é o que cabe na sua margem.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento nem parecer jurídico. Mercado: 25/11/2026. Agro: 19 a 24/11.",
+ "fontes": [
+  {
+   "titulo": "O Tempo: dólar cai para R$ 5,81",
+   "url": "https://www.otempo.com.br/economia/2026/11/25/dolar-cai-para-r-5-81-e-ibovespa-fecha-no-azul"
+  },
+  {
+   "titulo": "Exame: o que move o mercado 26/11",
+   "url": "https://exame.com/invest/mercados/ibovespa-hoje-26-11-2026/"
+  },
+  {
+   "titulo": "Mix Vale: CGSN adapta o Simples",
+   "url": "https://www.mixvale.com.br/2026/11/24/cgsn-publica-resolucao-que-adapta-o-simples-nacional-ao-ibs-e-a-cbs"
+  },
+  {
+   "titulo": "Agência Brasil: piloto da CBS",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/receita-amplia-participacao-em-piloto-da-cbs-para-todas-empresas"
+  },
+  {
+   "titulo": "BP Money: Black Friday 2026",
+   "url": "https://bpmoney.com.br/mercado/black-friday-2026-vendas-crescem-20-ticket-medio-cai-15/"
+  },
+  {
+   "titulo": "Mercado & Consumo: PMEs e Serasa",
+   "url": "https://mercadoeconsumo.com.br/24/11/2026/black-friday/quase-38-das-pmes-esperam-aumentar-vendas-na-black-friday-aponta-serasa/"
+  },
+  {
+   "titulo": "NX1: soja R$ 170 em Paranaguá",
+   "url": "https://nx1.com.br/2026/11/25/soja-chega-a-r-170-em-paranagua-com-dolar-perto-de-r-6-e-diferenca-para-sorriso-e-de-r-31/"
+  },
+  {
+   "titulo": "Canal Rural: boi Cepea",
+   "url": "https://www.canalrural.com.br/pecuaria/boi-gordo-registra-novas-altas-mas-mercado-da-sinais-de-estabilizacao-aponta-cepea/"
+  },
+  {
+   "titulo": "Farmnews: arrobas por bezerro",
+   "url": "https://farmnews.com.br/mercado/arrobas-de-boi-gordo-por-bezerro-em-novembro-na-minima-de-2026-mas-atencao/"
+  },
+  {
+   "titulo": "CNA: semeadura em MT 98,3%",
+   "url": "https://cnabrasil.org.br/noticias/safra-2026-27-semeadura-da-soja-avanca-e-alcanca-98-30-da-area-em-mt-diz-imea"
+  }
+ ]
+}
