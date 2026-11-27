@@ -1,0 +1,201 @@
+{
+ "data_extenso": "Sexta-feira, 27 de novembro de 2026",
+ "saudacao": "Bom dia e boa sexta de Black Friday! ☀️ A Bolsa disparou 6% com Trabuco escolhido para a Fazenda, o dólar caiu para R$ 5,75 e a prévia da inflação veio mais fraca.",
+ "resumo": [
+  "Ibovespa subiu <b>6,07%</b>, a <b>176.800</b> pontos, maior alta desde o 1º turno; dólar caiu <b>1,23%</b>, a <b>R$ 5,75</b>.",
+  "Planalto confirmou à noite: <b>Luiz Carlos Trabuco</b> (Bradesco) aceitou comandar a Fazenda a partir de <b>2027</b>.",
+  "IPCA-15 de novembro ficou em <b>0,22%</b> (outubro: 0,32%), mas soma <b>4,64%</b> em 12 meses, acima do teto da meta.",
+  "Black Friday hoje: shoppings esperam vendas <b>3% maiores</b> e descontos médios de <b>37%</b>.",
+  "Campo: soja a <b>R$ 170</b> em Paranaguá e <b>R$ 139</b> em Sorriso; boi Cepea a <b>R$ 396,95</b>/@."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Trabuco na Fazenda anima a Bolsa",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 26/11)",
+     "valor": "R$ 5,75",
+     "sub": "-1,23% · 4ª queda seguida",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,15%",
+     "sub": "Focus de 23/11",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "IPCA-15 de novembro",
+     "valor": "0,22%",
+     "sub": "4,64% em 12 meses",
+     "cor": "azul"
+    }
+   ],
+   "texto": "O mercado comemorou a escolha de Trabuco, vista como sinal de ajuste nas contas públicas; na segunda, o dólar chegou a <b>R$ 6</b>. Na prévia da inflação, alimentação subiu <b>1,51%</b> e transportes caíram <b>0,71%</b>.",
+   "pratica": "o dólar voltou para perto de R$ 5,75: quem importa ou tem dívida em dólar pode aproveitar para travar uma parte. Juros seguem altos, então evite crédito caro para estoque."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Setores pedem adiar a CBS e o IBS",
+   "blocos": [
+    {
+     "titulo": "Pedido de mais 12 meses",
+     "texto": "A <b>CNA</b> (agro), a <b>CNC</b> (comércio) e a <b>CNT</b> (transporte) pediram adiar em <b>12 meses</b> a cobrança da CBS e do IBS. Por enquanto, nada mudou: as regras de 2027 seguem valendo."
+    },
+    {
+     "titulo": "Simples: prazo na segunda",
+     "texto": "Até <b>30/11</b> dá para cancelar a opção de IBS/CBS fora do Simples feita em setembro. Depois disso, a escolha vale para <b>2027</b>."
+    }
+   ],
+   "pratica": "não conte com adiamento: siga ajustando notas e sistema com o contador, e decida a opção do Simples até segunda."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday é hoje",
+   "blocos": [
+    {
+     "titulo": "O que esperar",
+     "texto": "Shoppings projetam vendas <b>3% maiores</b> que em 2025, descontos médios de <b>37%</b> e tíquete de <b>R$ 237,35</b>. Entre consumidores, <b>32,3%</b> estão decididos a comprar e <b>48,1%</b> não definiram orçamento."
+    },
+    {
+     "titulo": "Cliente pesquisa antes",
+     "texto": "<b>76,1%</b> consultam a reputação da loja e <b>40,2%</b> usam IA para comparar preços. Preço claro e entrega no prazo pesam na venda."
+    }
+   ],
+   "pratica": "acompanhe o caixa do dia hora a hora, confira o estoque dos itens em promoção e lance cada venda já com a taxa da maquininha."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja firme no porto, boi em alta",
+   "texto": "A soja em Paranaguá chegou a <b>R$ 170,74</b> pelo Cepea (23/11), maior preço desde março de 2023. O boi Cepea subiu para <b>R$ 396,95</b>/@. A carne para a China caiu <b>28,8%</b> no ano e para os EUA subiu <b>52,2%</b> (Abiec).",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Preço (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · soja",
+      "valores": [
+       "170,00 /sc",
+       "25/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Sorriso · soja",
+      "valores": [
+       "139,00 /sc",
+       "25/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Média MT (Imea) · soja",
+      "valores": [
+       "139,53 /sc",
+       "25/11"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "MS",
+      "praca": "Dourados · soja",
+      "valores": [
+       "156,00 /sc",
+       "25/11"
+      ]
+     },
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Boi gordo Cepea · SP",
+      "valores": [
+       "396,95 /@",
+       "25/11"
+      ]
+     }
+    ],
+    "nota": "Saca de 60 kg. Portal do Agronegócio via NX1 (soja), Cepea/Esalq via Canal Rural (boi). Vale do Araguaia: sem cotação nova publicada até hoje; use a média MT como referência."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "o porto paga bem, mas a diferença para o interior passa de R$ 30: peça cotação com frete descontado e trave uma parte da safra nova. Na pecuária, a arroba firme favorece vender o boi pronto."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "27/11",
+   "texto": "Black Friday"
+  },
+  {
+   "data": "30/11",
+   "texto": "13º e Simples"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "17/12",
+   "texto": "Orçamento 2027"
+  },
+  {
+   "data": "20/12",
+   "texto": "13º (2ª parc.)"
+  }
+ ],
+ "dica": "a 1ª parcela do 13º vence segunda (30/11). Folha de <b>R$ 20.000</b> pede <b>R$ 10.000</b> no caixa. Se a Black Friday render bem, separe hoje essa parte das vendas no Pix antes de repor estoque.",
+ "promo": {
+  "titulo": "Caixa organizado no fim de ano",
+  "texto": "A 42 ADM organiza o fluxo de caixa, programa o 13º e prepara sua empresa para a reforma tributária de 2027."
+ },
+ "chamada": "Empresário, a venda de hoje precisa pagar a folha de segunda.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento nem parecer jurídico. Mercado: 26/11/2026. Agro: 23 a 25/11.",
+ "fontes": [
+  {
+   "titulo": "O Repórter: Bolsa dispara 6,07%",
+   "url": "https://oreporter.com/economia/ibovespa-dispara-dolar-cai-fechamento-26-novembro-2026"
+  },
+  {
+   "titulo": "Gazeta Mercantil: Trabuco aceita a Fazenda",
+   "url": "https://gazetamercantil.com/lula-trabuco-ministerio-da-fazenda-2027-2"
+  },
+  {
+   "titulo": "IBGE: IPCA-15 de 0,22% em novembro",
+   "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48750-ipca15novrelease"
+  },
+  {
+   "titulo": "InfoMoney: Focus de 23/11",
+   "url": "https://www.infomoney.com.br/mercados/boletim-focus-projecoes-23112026/"
+  },
+  {
+   "titulo": "Mix Vale: adiar CBS/IBS",
+   "url": "https://www.mixvale.com.br/2026/11/26/cna-cnc-e-cnt-pedem-adiar-em-12-meses-cobranca-da-cbs-e-do-ibs/"
+  },
+  {
+   "titulo": "Diário de Notícias: Black Friday",
+   "url": "https://www.diariodenoticias.com.br/materia/black-friday-2026-consumidores-decididos-comprar-323"
+  },
+  {
+   "titulo": "NX1: soja R$ 170 em Paranaguá",
+   "url": "https://nx1.com.br/2026/11/26/soja-sobe-em-chicago-com-alta-do-farelo-e-demanda-chinesa-enquanto-saca-chega-a-r-170-em-paranagua/"
+  },
+  {
+   "titulo": "Canal Rural: boi Cepea",
+   "url": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-volta-a-subir-em-sp-e-avanca-mas-recua-no-mercado-futuro/"
+  },
+  {
+   "titulo": "AgriBrasilis: soja no porto",
+   "url": "https://agribrasilis.com/2026/11/26/soja-atinge-maior-preco-em-paranagua/"
+  }
+ ]
+}

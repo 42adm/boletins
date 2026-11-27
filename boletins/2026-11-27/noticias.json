@@ -1,0 +1,90 @@
+{
+ "date": "27 · 11 · 2026",
+ "data_curta": "27/11",
+ "noticias": [
+  {
+   "id": "01-bolsa-trabuco",
+   "tag": "ECONOMIA",
+   "kicker": "Fechamento de 26/11",
+   "headline": "Trabuco na Fazenda faz <em>Bolsa disparar</em>",
+   "stats": [
+    {"text": "+6,07%", "label": "alta do Ibovespa no dia"},
+    {"value": 5.75, "decimals": 2, "label": "R$ por dólar no fechamento"}
+   ],
+   "note": "Ibovespa a 176.800 pontos",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Importa ou deve em dólar? Aproveite a queda para travar uma parte.",
+   "whatsapp": "*Trabuco na Fazenda faz a Bolsa disparar* 📈\n\nO Ibovespa subiu *6,07%* ontem, a *176.800* pontos, maior alta desde o 1º turno. O dólar caiu *1,23%*, a *R$ 5,75*, na quarta queda seguida. À noite, o Planalto confirmou que *Luiz Carlos Trabuco* (Bradesco) aceitou comandar a Fazenda a partir de *2027*.\n\n👉 *Na prática:* quem importa ou tem dívida em dólar pode aproveitar para travar uma parte agora.\n\n_Boletim Matinal 42 ADM · 27/11_"
+  },
+  {
+   "id": "02-ipca15",
+   "tag": "ECONOMIA",
+   "kicker": "IBGE · IPCA-15 de novembro",
+   "headline": "Prévia da inflação <em>desacelera</em>",
+   "stats": [
+    {"text": "0,22%", "label": "IPCA-15 de novembro"},
+    {"text": "4,64%", "label": "acumulado em 12 meses"}
+   ],
+   "note": "Alimentação subiu 1,51% no mês",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Vai reajustar preço ou contrato? Use o índice oficial e olhe o custo dos alimentos.",
+   "whatsapp": "*Prévia da inflação desacelera* 📊\n\nO IPCA-15 de novembro ficou em *0,22%*, abaixo dos *0,32%* de outubro, com passagem aérea e combustível mais baratos (transportes *-0,71%*). Mas alimentação subiu *1,51%*, e em 12 meses a inflação soma *4,64%*, acima do teto da meta. A Selic segue em *13,75%* até o Copom de *9/12*.\n\n👉 *Na prática:* para reajustar preços ou contratos, use o índice oficial e fique de olho no custo dos alimentos.\n\n_Boletim Matinal 42 ADM · 27/11_"
+  },
+  {
+   "id": "03-black-friday",
+   "tag": "VENDAS",
+   "kicker": "Black Friday · hoje, 27/11",
+   "headline": "Black Friday é <em>hoje</em>",
+   "stats": [
+    {"text": "+3%", "label": "vendas previstas nos shoppings"},
+    {"text": "37%", "label": "desconto médio"}
+   ],
+   "note": "Tíquete médio estimado: R$ 237,35",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Acompanhe o caixa hora a hora e lance cada venda com a taxa da maquininha.",
+   "whatsapp": "*Black Friday é hoje* 🛒\n\nOs shoppings projetam vendas *3% maiores* que em 2025, descontos médios de *37%* e tíquete de *R$ 237,35*. *32,3%* dos consumidores estão decididos a comprar e *76,1%* consultam a reputação da loja antes.\n\n👉 *Na prática:* acompanhe o caixa do dia hora a hora, confira o estoque dos itens em promoção e lance cada venda já com a taxa da maquininha.\n\n_Boletim Matinal 42 ADM · 27/11_"
+  },
+  {
+   "id": "04-cbs-ibs",
+   "tag": "IMPOSTOS",
+   "kicker": "Reforma tributária · 26/11",
+   "headline": "Setores pedem <em>adiar CBS e IBS</em>",
+   "stats": [
+    {"text": "12", "label": "meses de adiamento pedidos"},
+    {"text": "30/11", "label": "prazo da opção no Simples"}
+   ],
+   "note": "Pedido de CNA, CNC e CNT",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Não conte com adiamento: siga ajustando notas e sistema com o contador.",
+   "whatsapp": "*Setores pedem adiar a CBS e o IBS* 🧾\n\nA CNA (agro), a CNC (comércio) e a CNT (transporte) pediram adiar em *12 meses* a cobrança da CBS e do IBS. Por enquanto, nada mudou. E no Simples, até *30/11* dá para cancelar a opção de IBS/CBS feita em setembro; depois, a escolha vale para *2027*.\n\n👉 *Na prática:* não conte com adiamento: siga ajustando notas e sistema com o contador e decida a opção do Simples até segunda.\n\n_Boletim Matinal 42 ADM · 27/11_"
+  },
+  {
+   "id": "05-campo",
+   "tag": "CAMPO",
+   "kicker": "Soja 25/11 · boi Cepea 25/11",
+   "headline": "Soja firme no porto, <em>boi em alta</em>",
+   "stats": [
+    {"text": "R$ 139", "label": "soja em Sorriso (saca)"},
+    {"text": "R$ 397", "label": "boi Cepea (arroba)"}
+   ],
+   "note": "Paranaguá paga R$ 170 a saca",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Peça cotação com frete descontado e trave parte da safra nova.",
+   "whatsapp": "*Soja firme no porto, boi em alta* 🌱🐂\n\nA soja vale *R$ 170* a saca em Paranaguá e *R$ 139* em Sorriso; a média de MT (Imea) é *R$ 139,53*. Pelo Cepea, o porto teve o maior preço desde março de 2023. O boi gordo Cepea subiu para *R$ 396,95*/@.\n\n👉 *Para o produtor do Araguaia:* peça cotação com frete descontado e trave uma parte da safra nova; a arroba firme favorece vender o boi pronto.\n\n_Boletim Matinal 42 ADM · 27/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "13º vence segunda, 30/11",
+   "headline": "Separe o <em>13º</em> antes do estoque",
+   "stats": [
+    {"text": "50%", "label": "da folha na 1ª parcela"},
+    {"text": "30/11", "label": "prazo da 1ª parcela"}
+   ],
+   "note": "Folha de R$ 20 mil pede R$ 10 mil",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Guarde hoje parte das vendas no Pix para pagar a 1ª parcela do 13º.",
+   "whatsapp": "*Separe o 13º antes de repor estoque* 💡\n\nA 1ª parcela do 13º vence segunda (*30/11*) e corresponde a metade da folha. Uma folha de *R$ 20.000* pede *R$ 10.000* no caixa.\n\n👉 *Na prática:* se a Black Friday render bem, separe hoje essa parte das vendas no Pix antes de repor estoque.\n\n_Boletim Matinal 42 ADM · 27/11_"
+  }
+ ]
+}
