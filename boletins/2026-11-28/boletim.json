@@ -1,0 +1,192 @@
+{
+ "data_extenso": "Sábado, 28 de novembro de 2026",
+ "saudacao": "Bom dia e bom sábado! ☀️ Resumo da semana: o dólar teve a maior queda semanal desde 2008 com Trabuco na Fazenda, a Bolsa subiu 6% e o 13º vence segunda.",
+ "resumo": [
+  "Dólar fechou a sexta a <b>R$ 5,52</b>, queda de <b>7%</b> na semana, a maior desde outubro de 2008.",
+  "Ibovespa terminou a semana em <b>176.573</b> pontos, alta de <b>6,13%</b>, melhor semana desde o 1º turno.",
+  "Segunda (<b>30/11</b>): vence a 1ª parcela do 13º e o prazo da opção de IBS/CBS no Simples; desemprego segue em <b>5,1%</b>.",
+  "Campo: soja a <b>R$ 170</b> em Paranaguá e <b>R$ 139,20</b> em Sorriso; plantio em MT chegou a <b>99,86%</b>."
+ ],
+ "secoes": [
+  {
+   "tag": "ECONOMIA",
+   "titulo": "Semana de alívio no dólar",
+   "cards": [
+    {
+     "rotulo": "Juros básicos (Selic)",
+     "valor": "13,75%",
+     "sub": "ao ano · Copom 8 e 9/12",
+     "cor": "escuro"
+    },
+    {
+     "rotulo": "Dólar (fechamento 27/11)",
+     "valor": "R$ 5,52",
+     "sub": "-7,07% na semana",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "Inflação esperada 2026",
+     "valor": "5,15%",
+     "sub": "Focus de 23/11 · novo na 2ª",
+     "cor": "vermelho"
+    },
+    {
+     "rotulo": "Ibovespa na semana",
+     "valor": "+6,13%",
+     "sub": "176.573 pontos",
+     "cor": "azul"
+    }
+   ],
+   "texto": "Com <b>Trabuco</b> escolhido para a Fazenda em 2027, o dólar, que passou de <b>R$ 6</b> na segunda, caiu <b>3,97%</b> só na sexta, e os juros futuros recuaram forte.",
+   "pratica": "o dólar perto de R$ 5,50 é janela para quem importa ou deve em dólar travar uma parte. A Selic segue em 13,75%: evite crédito caro até o Copom."
+  },
+  {
+   "tag": "IMPOSTOS",
+   "titulo": "Reforma: prazo no Simples na segunda",
+   "blocos": [
+    {
+     "titulo": "Simples: decida até 30/11",
+     "texto": "Até segunda (<b>30/11</b>) dá para cancelar a opção de recolher IBS/CBS fora do Simples feita em setembro. Depois, a escolha vale para <b>2027</b>."
+    },
+    {
+     "titulo": "Apuração assistida",
+     "texto": "A Receita anunciou abrir a <b>todas as empresas</b> o sistema que calcula CBS e IBS pelas notas fiscais (antes, <b>500</b> testavam)."
+    }
+   ],
+   "pratica": "confirme com o contador a opção do Simples até segunda e peça para testar a apuração assistida com as notas da empresa."
+  },
+  {
+   "tag": "EMPRESÁRIO",
+   "titulo": "Black Friday e emprego",
+   "blocos": [
+    {
+     "titulo": "Vendas crescem menos",
+     "texto": "A CNC projetou <b>R$ 11,52 bilhões</b> em vendas na Black Friday, alta de <b>1,8%</b> acima da inflação (em 2025 foi <b>3,2%</b>). No Itaú, as transações de segunda a quarta subiram <b>9,5%</b>."
+    },
+    {
+     "titulo": "Emprego firme",
+     "texto": "Desemprego em <b>5,1%</b> no trimestre até outubro, igual à mínima histórica: bom para o consumo, mas mão de obra mais disputada."
+    }
+   ],
+   "pratica": "feche hoje o caixa da Black Friday por Pix, cartão e prazo, e confira se as vendas com desconto deram lucro."
+  },
+  {
+   "tag": "CAMPO",
+   "titulo": "Soja firme e plantio quase no fim",
+   "texto": "O Imea apontou <b>99,86%</b> da soja plantada em MT (20/11); o Nordeste do estado está em <b>99,40%</b>. MT já vendeu <b>52,2%</b> da safra 2026/27 (StoneX). Fertilizantes subiram <b>10% a 11%</b> desde o fim de outubro.",
+   "tabela": {
+    "colunas": [
+     "Região · praça",
+     "",
+     "Preço (R$)",
+     "Data"
+    ],
+    "linhas": [
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Paranaguá (porto) · soja",
+      "valores": [
+       "170,00 /sc",
+       "26/11"
+      ]
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Sorriso · soja",
+      "valores": [
+       "139,20 /sc",
+       "26/11"
+      ],
+      "destaque": true
+     },
+     {
+      "regiao": "MATO GROSSO",
+      "praca": "Rondonópolis · soja",
+      "valores": [
+       "146,15 /sc",
+       "26/11"
+      ]
+     },
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Milho Cepea · Campinas",
+      "valores": [
+       "68,00 /sc",
+       "26/11"
+      ]
+     },
+     {
+      "regiao": "REFERÊNCIA",
+      "praca": "Boi gordo Cepea · SP",
+      "valores": [
+       "396,70 /@",
+       "26/11"
+      ]
+     }
+    ],
+    "nota": "Saca de 60 kg. NX1/Portal do Agronegócio (soja), Cepea via Universo da Notícia (milho e boi). Vale do Araguaia: sem cotação nova nesta semana."
+   },
+   "pratica_rotulo": "Para o produtor do Araguaia:",
+   "pratica": "com o dólar mais baixo, a saca pode perder força: trave uma fatia da safra nova e compre o adubo da safrinha com orçamento em mãos."
+  }
+ ],
+ "prazos": [
+  {
+   "data": "30/11",
+   "texto": "13º (1ª parc.)"
+  },
+  {
+   "data": "30/11",
+   "texto": "Opção Simples"
+  },
+  {
+   "data": "30/11",
+   "texto": "Focus"
+  },
+  {
+   "data": "9/12",
+   "texto": "Copom"
+  },
+  {
+   "data": "20/12",
+   "texto": "13º (2ª parc.)"
+  }
+ ],
+ "dica": "feche a conta da semana: <b>R$ 30.000</b> vendidos no cartão a <b>3%</b> de taxa viram <b>R$ 29.100</b>. Separe primeiro a metade da folha para o 13º de segunda.",
+ "promo": {
+  "titulo": "Fechamento de mês sem susto",
+  "texto": "A 42 ADM concilia vendas, cartões e Pix e organiza o 13º da sua empresa."
+ },
+ "chamada": "Empresário, mercado bom só vira lucro com caixa em dia.",
+ "rodape": "Conteúdo informativo, não é recomendação de investimento nem parecer jurídico. Mercado: fechamento de sexta, 27/11/2026. Agro: 20 a 26/11.",
+ "fontes": [
+  {
+   "titulo": "O POVO+: dólar cai 7% na semana",
+   "url": "https://mais.opovo.com.br/jornal/economia/2026/11/27/dolar-tem-maior-recuo-semanal-desde-2008-bolsa-sobe-6-na-semana-e-juros-futuros-despencam.html"
+  },
+  {
+   "titulo": "Suno: Ibovespa na semana",
+   "url": "https://www.suno.com.br/noticias/ibovespa-hoje-27-novembro-trabuco-dolar-queda/"
+  },
+  {
+   "titulo": "Reforma Tributária: apuração",
+   "url": "https://www.reformatributaria.com/tecnologia/sistema-de-apuracao-assistida-sera-aberto-a-todas-as-empresas-nesta-semana-diz-receita/"
+  },
+  {
+   "titulo": "NC News: Black Friday",
+   "url": "https://ncnews.com.br/2026/11/27/black-friday-deve-movimentar-r-115-bilhoes-mas-crescimento-das-vendas-perde-forca/"
+  },
+  {
+   "titulo": "NX1: soja em Paranaguá",
+   "url": "https://nx1.com.br/2026/11/27/soja-sobe-a-r-15138-em-passo-fundo-e-saca-segue-a-r-170-em-paranagua/"
+  },
+  {
+   "titulo": "CNA/Imea: plantio em MT",
+   "url": "https://cnabrasil.org.br/noticias/semeadura-da-soja-e-concluida-em-quatro-regioes-de-mato-grosso-aponta-imea"
+  },
+  {
+   "titulo": "Universo da Notícia: Cepea",
+   "url": "https://www.universodanoticia.com.br/noticia/mercado-financeiro-e-agropecuario-sexta-feira-27-de-novembro-de-2026"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "date": "28 · 11 · 2026",
+ "data_curta": "28/11",
+ "noticias": [
+  {
+   "id": "01-dolar-semana",
+   "tag": "DÓLAR",
+   "kicker": "Fechamento de sexta · 27/11",
+   "headline": "Dólar tem <em>maior queda semanal</em> desde 2008",
+   "stats": [
+    {
+     "text": "5,52",
+     "label": "R$ por dólar no fechamento"
+    },
+    {
+     "text": "-7%",
+     "label": "queda na semana (7,07%)"
+    }
+   ],
+   "note": "Na segunda, passou de R$ 6",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Importa ou deve em dólar? Aproveite a janela para travar uma parte.",
+   "whatsapp": "*Dólar tem a maior queda semanal desde 2008* 💵\n\nO dólar fechou a sexta a *R$ 5,52*, com queda de *3,97%* no dia e de *7,07%* na semana, a maior desde outubro de 2008. Na segunda, chegou a passar de *R$ 6*. O motivo foi a escolha de *Luiz Carlos Trabuco* para a Fazenda em 2027.\n\n👉 *Na prática:* quem importa ou tem dívida em dólar pode aproveitar a janela para travar uma parte.\n\n_Boletim Matinal 42 ADM · 28/11_"
+  },
+  {
+   "id": "02-bolsa-semana",
+   "tag": "ECONOMIA",
+   "kicker": "Ibovespa · semana até 27/11",
+   "headline": "Bolsa tem a <em>melhor semana</em> desde o 1º turno",
+   "stats": [
+    {
+     "text": "+6,13%",
+     "label": "Ibovespa na semana"
+    },
+    {
+     "text": "5,1%",
+     "label": "desemprego, mínima"
+    }
+   ],
+   "note": "Ibovespa fechou a 176.573 pontos",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Juros futuros caíram, mas a Selic segue em 13,75%: evite crédito caro.",
+   "whatsapp": "*Bolsa tem a melhor semana desde o 1º turno* 📈\n\nO Ibovespa subiu *6,13%* na semana e fechou a sexta em *176.573* pontos. O desemprego ficou em *5,1%*, igual à mínima histórica, e o governo teve superávit de *R$ 52,3 bilhões* em outubro. Os juros futuros caíram forte, mas a Selic segue em *13,75%* até o Copom de *9/12*.\n\n👉 *Na prática:* evite crédito caro agora e renegocie dívidas quando os juros começarem a cair.\n\n_Boletim Matinal 42 ADM · 28/11_"
+  },
+  {
+   "id": "03-simples-prazo",
+   "tag": "IMPOSTOS",
+   "kicker": "Reforma tributária · prazo 30/11",
+   "headline": "Simples: decida a <em>opção de IBS/CBS</em>",
+   "stats": [
+    {
+     "text": "30/11",
+     "label": "último dia para cancelar"
+    },
+    {
+     "text": "2027",
+     "label": "ano em que a escolha vale"
+    }
+   ],
+   "note": "Receita abre apuração assistida",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Confirme a opção com o contador até segunda e teste a apuração assistida.",
+   "whatsapp": "*Simples: decida a opção de IBS/CBS até segunda* 🧾\n\nAté *30/11* dá para cancelar a opção de recolher IBS/CBS fora do Simples feita em setembro; depois, a escolha vale para *2027*. A Receita também anunciou abrir a *todas as empresas* o sistema que calcula CBS e IBS pelas notas fiscais (antes, só *500* testavam).\n\n👉 *Na prática:* confirme a opção com o contador até segunda e peça para testar a apuração assistida com as notas da empresa.\n\n_Boletim Matinal 42 ADM · 28/11_"
+  },
+  {
+   "id": "04-black-friday",
+   "tag": "VENDAS",
+   "kicker": "CNC · projeção Black Friday",
+   "headline": "Black Friday cresce <em>menos que em 2025</em>",
+   "stats": [
+    {
+     "text": "R$ 11,5",
+     "label": "bilhões previstos (CNC)"
+    },
+    {
+     "text": "+1,8%",
+     "label": "acima da inflação"
+    }
+   ],
+   "note": "Em 2025, a alta foi de 3,2%",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Feche o caixa da Black Friday e veja se os descontos deram lucro.",
+   "whatsapp": "*Black Friday cresce menos que em 2025* 🛒\n\nA CNC projetou *R$ 11,52 bilhões* em vendas, alta de *1,8%* acima da inflação (em 2025 foi *3,2%*). Juros altos e famílias endividadas seguram o consumo. No Itaú, as transações de segunda a quarta subiram *9,5%*.\n\n👉 *Na prática:* feche hoje o caixa da Black Friday por Pix, cartão e prazo, e confira se as vendas com desconto deram lucro.\n\n_Boletim Matinal 42 ADM · 28/11_"
+  },
+  {
+   "id": "05-campo",
+   "tag": "CAMPO",
+   "kicker": "Soja 26/11 · Imea 20/11",
+   "headline": "Soja firme e <em>plantio quase no fim</em>",
+   "stats": [
+    {
+     "text": "R$ 139",
+     "label": "soja em Sorriso (saca)"
+    },
+    {
+     "text": "99,9%",
+     "label": "soja plantada em MT"
+    }
+   ],
+   "note": "Paranaguá paga R$ 170 a saca",
+   "takeLabel": "PARA O PRODUTOR",
+   "take": "Trave uma fatia da safra nova e compre o adubo com orçamento em mãos.",
+   "whatsapp": "*Soja firme e plantio quase no fim* 🌱\n\nA soja vale *R$ 170* em Paranaguá, *R$ 146,15* em Rondonópolis e *R$ 139,20* em Sorriso (26/11). O Imea aponta *99,86%* da área plantada em MT, e o estado já vendeu *52,2%* da safra 2026/27 (StoneX). Fertilizantes subiram *10% a 11%* desde o fim de outubro.\n\n👉 *Para o produtor do Araguaia:* com o dólar mais baixo, a saca pode perder força: trave uma fatia da safra nova e compre o adubo da safrinha com orçamento em mãos.\n\n_Boletim Matinal 42 ADM · 28/11_"
+  },
+  {
+   "id": "06-dica",
+   "tag": "DICA DO DIA",
+   "kicker": "Fechamento da semana",
+   "headline": "Taxa do cartão <em>come a venda</em>",
+   "stats": [
+    {
+     "text": "R$ 900",
+     "label": "vão para a taxa do cartão"
+    },
+    {
+     "text": "3%",
+     "label": "taxa média sobre R$ 30 mil"
+    }
+   ],
+   "note": "13º vence segunda, 30/11",
+   "takeLabel": "NA PRÁTICA",
+   "take": "Separe primeiro a metade da folha para pagar o 13º de segunda.",
+   "whatsapp": "*A taxa do cartão come parte da venda* 💡\n\nSe a Black Friday rendeu *R$ 30.000* no cartão e a taxa média é *3%*, entram *R$ 29.100*. É com esse valor, e não com o total vendido, que você paga as contas.\n\n👉 *Na prática:* use o sábado para fechar a conta da semana e separe primeiro a metade da folha para o 13º que vence segunda (*30/11*).\n\n_Boletim Matinal 42 ADM · 28/11_"
+  }
+ ]
+}
